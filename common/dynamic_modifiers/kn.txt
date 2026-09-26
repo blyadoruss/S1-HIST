@@ -1,0 +1,5 @@
+# Compatibility only: remove the retired penalty from existing saves.
+kn_used_factories_modifier = {
+    enable = { always = no }
+    remove_trigger = { always = yes }
+}

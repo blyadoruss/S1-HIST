@@ -1,0 +1,2 @@
+# S1-HIST: intentionally empty army OOB for PAN.
+# Keep this file to override the base-game army; do not delete it.

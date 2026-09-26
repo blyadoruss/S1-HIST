@@ -1,0 +1,84 @@
+scripted_gui = {
+    kn_game = {
+        context_type = player_context
+        window_name = kn_window
+        visible = { has_country_flag = kn_open NOT = { has_country_flag = kn_watch_open } }
+        ai_enabled = { always = no }
+        effects = {
+            kn_close_click = { clr_country_flag = kn_open }
+            kn_accept_button_click = { kn_accept = yes }
+            kn_decline_button_click = { kn_decline = yes }
+            kn_cancel_button_click = { kn_cancel = yes }
+            kn_cell_1_click = { kn_play_1 = yes }
+            kn_cell_2_click = { kn_play_2 = yes }
+            kn_cell_3_click = { kn_play_3 = yes }
+            kn_cell_4_click = { kn_play_4 = yes }
+            kn_cell_5_click = { kn_play_5 = yes }
+            kn_cell_6_click = { kn_play_6 = yes }
+            kn_cell_7_click = { kn_play_7 = yes }
+            kn_cell_8_click = { kn_play_8 = yes }
+            kn_cell_9_click = { kn_play_9 = yes }
+        }
+        triggers = {
+            kn_accept_button_visible = { has_country_flag = kn_incoming }
+            kn_accept_button_click_enabled = { kn_link_valid = yes has_country_flag = kn_invitation_live }
+            kn_decline_button_visible = { has_country_flag = kn_incoming }
+            kn_cancel_button_visible = { OR = { has_country_flag = kn_active has_country_flag = kn_outgoing } }
+            kn_cancel_button_click_enabled = { kn_link_valid = yes }
+            kn_cell_1_click_enabled = { kn_can_move = yes check_variable = { kn_cell_1 = 0 } }
+            kn_x_1_visible = { check_variable = { kn_cell_1 = 1 } }
+            kn_o_1_visible = { check_variable = { kn_cell_1 = 2 } }
+            kn_cell_2_click_enabled = { kn_can_move = yes check_variable = { kn_cell_2 = 0 } }
+            kn_x_2_visible = { check_variable = { kn_cell_2 = 1 } }
+            kn_o_2_visible = { check_variable = { kn_cell_2 = 2 } }
+            kn_cell_3_click_enabled = { kn_can_move = yes check_variable = { kn_cell_3 = 0 } }
+            kn_x_3_visible = { check_variable = { kn_cell_3 = 1 } }
+            kn_o_3_visible = { check_variable = { kn_cell_3 = 2 } }
+            kn_cell_4_click_enabled = { kn_can_move = yes check_variable = { kn_cell_4 = 0 } }
+            kn_x_4_visible = { check_variable = { kn_cell_4 = 1 } }
+            kn_o_4_visible = { check_variable = { kn_cell_4 = 2 } }
+            kn_cell_5_click_enabled = { kn_can_move = yes check_variable = { kn_cell_5 = 0 } }
+            kn_x_5_visible = { check_variable = { kn_cell_5 = 1 } }
+            kn_o_5_visible = { check_variable = { kn_cell_5 = 2 } }
+            kn_cell_6_click_enabled = { kn_can_move = yes check_variable = { kn_cell_6 = 0 } }
+            kn_x_6_visible = { check_variable = { kn_cell_6 = 1 } }
+            kn_o_6_visible = { check_variable = { kn_cell_6 = 2 } }
+            kn_cell_7_click_enabled = { kn_can_move = yes check_variable = { kn_cell_7 = 0 } }
+            kn_x_7_visible = { check_variable = { kn_cell_7 = 1 } }
+            kn_o_7_visible = { check_variable = { kn_cell_7 = 2 } }
+            kn_cell_8_click_enabled = { kn_can_move = yes check_variable = { kn_cell_8 = 0 } }
+            kn_x_8_visible = { check_variable = { kn_cell_8 = 1 } }
+            kn_o_8_visible = { check_variable = { kn_cell_8 = 2 } }
+            kn_cell_9_click_enabled = { kn_can_move = yes check_variable = { kn_cell_9 = 0 } }
+            kn_x_9_visible = { check_variable = { kn_cell_9 = 1 } }
+            kn_o_9_visible = { check_variable = { kn_cell_9 = 2 } }
+        }
+    }
+    kn_spectator = {
+        context_type = player_context
+        window_name = kn_watch_window
+        visible = { has_country_flag = kn_watch_open }
+        ai_enabled = { always = no }
+        effects = { kn_watch_close_click = { clr_country_flag = kn_watch_open } }
+        triggers = {
+            kn_watch_x_1_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_1 = 1 } } }
+            kn_watch_o_1_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_1 = 2 } } }
+            kn_watch_x_2_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_2 = 1 } } }
+            kn_watch_o_2_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_2 = 2 } } }
+            kn_watch_x_3_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_3 = 1 } } }
+            kn_watch_o_3_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_3 = 2 } } }
+            kn_watch_x_4_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_4 = 1 } } }
+            kn_watch_o_4_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_4 = 2 } } }
+            kn_watch_x_5_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_5 = 1 } } }
+            kn_watch_o_5_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_5 = 2 } } }
+            kn_watch_x_6_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_6 = 1 } } }
+            kn_watch_o_6_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_6 = 2 } } }
+            kn_watch_x_7_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_7 = 1 } } }
+            kn_watch_o_7_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_7 = 2 } } }
+            kn_watch_x_8_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_8 = 1 } } }
+            kn_watch_o_8_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_8 = 2 } } }
+            kn_watch_x_9_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_9 = 1 } } }
+            kn_watch_o_9_visible = { kn_watch_valid = yes var:kn_watch_x = { check_variable = { kn_cell_9 = 2 } } }
+        }
+    }
+}

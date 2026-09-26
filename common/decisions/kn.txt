@@ -1,0 +1,68 @@
+kn_category = {
+    kn_invite = {
+        icon = GFX_decision_generic_decision
+        cost = 0
+        fire_only_once = no
+        target_root_trigger = { always = yes }
+        target_trigger = { FROM = { exists = yes NOT = { tag = ROOT } } }
+        visible = { kn_free = yes }
+        available = {
+            kn_free = yes
+            custom_trigger_tooltip = { tooltip = kn_invitation_cooldown_tt kn_invitation_ready = yes }
+            FROM = { kn_free = yes }
+        }
+        complete_effect = {
+            custom_effect_tooltip = kn_invite_tt
+            hidden_effect = { kn_send_invitation = yes }
+        }
+        # AI responds and plays, but does not spam unsolicited invitations.
+        ai_will_do = { base = 0 }
+    }
+    kn_show_board = {
+        icon = GFX_decision_generic_decision
+        cost = 0
+        visible = { has_variable = kn_opponent OR = { NOT = { has_country_flag = kn_open } has_country_flag = kn_watch_open } }
+        complete_effect = { set_country_flag = kn_open clr_country_flag = kn_watch_open }
+        ai_will_do = { base = 0 }
+    }
+}
+kn_watch_category = {
+    kn_watch_match = {
+        icon = GFX_decision_generic_decision
+        cost = 0
+        fire_only_once = no
+        target_root_trigger = { always = yes }
+        # Preselect countries, not matches: target_trigger only updates daily.
+        target_trigger = { FROM = { exists = yes NOT = { tag = ROOT } } }
+        # Match state is checked on UI refresh, including while paused.
+        visible = {
+            FROM = {
+                exists = yes
+                has_country_flag = kn_active
+                check_variable = { kn_mark = 1 }
+                NOT = { tag = ROOT }
+                var:kn_opponent = { exists = yes NOT = { tag = ROOT } }
+            }
+        }
+        available = { FROM = { has_country_flag = kn_active } }
+        complete_effect = { hidden_effect = { kn_start_watching = yes } }
+        ai_will_do = { base = 0 }
+    }
+    kn_watch_empty = {
+        icon = GFX_decision_generic_decision
+        cost = 0
+        visible = {
+            NOT = {
+                any_country = {
+                    exists = yes
+                    has_country_flag = kn_active
+                    check_variable = { kn_mark = 1 }
+                    NOT = { tag = ROOT }
+                    var:kn_opponent = { exists = yes NOT = { tag = ROOT } }
+                }
+            }
+        }
+        available = { always = no }
+        ai_will_do = { base = 0 }
+    }
+}

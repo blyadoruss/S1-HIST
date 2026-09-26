@@ -1,0 +1,29 @@
+defined_text = {
+    name = GetKnStatus
+    text = { trigger = { has_country_flag = kn_incoming } localization_key = kn_status_incoming }
+    text = { trigger = { has_country_flag = kn_outgoing } localization_key = kn_status_outgoing }
+    text = { trigger = { check_variable = { kn_result = 1 } } localization_key = kn_status_win }
+    text = { trigger = { check_variable = { kn_result = 2 } } localization_key = kn_status_loss }
+    text = { trigger = { check_variable = { kn_result = 3 } } localization_key = kn_status_draw }
+    text = { trigger = { check_variable = { kn_result = 4 } } localization_key = kn_status_declined }
+    text = { trigger = { check_variable = { kn_result = 5 } } localization_key = kn_status_cancelled }
+    text = { trigger = { check_variable = { kn_result = 6 } } localization_key = kn_status_expired }
+    text = { trigger = { check_variable = { kn_result = 7 } } localization_key = kn_status_unavailable }
+    text = { trigger = { kn_can_move = yes } localization_key = kn_status_your_turn }
+    text = { localization_key = kn_status_wait }
+}
+defined_text = {
+    name = GetKnMark
+    text = { trigger = { check_variable = { kn_mark = 1 } } localization_key = kn_mark_x }
+    text = { localization_key = kn_mark_o }
+}
+defined_text = {
+    name = GetKnWatchStatus
+    text = { trigger = { NOT = { kn_watch_valid = yes } } localization_key = kn_watch_unavailable }
+    text = { trigger = { var:kn_watch_x = { check_variable = { kn_result = 1 } } } localization_key = kn_watch_x_won }
+    text = { trigger = { var:kn_watch_x = { check_variable = { kn_result = 2 } } } localization_key = kn_watch_o_won }
+    text = { trigger = { var:kn_watch_x = { check_variable = { kn_result = 3 } } } localization_key = kn_watch_draw }
+    text = { trigger = { var:kn_watch_x = { has_country_flag = kn_active check_variable = { kn_turn = 1 } } } localization_key = kn_watch_x_turn }
+    text = { trigger = { var:kn_watch_x = { has_country_flag = kn_active check_variable = { kn_turn = 2 } } } localization_key = kn_watch_o_turn }
+    text = { localization_key = kn_watch_unavailable }
+}

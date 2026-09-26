@@ -1,0 +1,312 @@
+# ROOT is the acting country (decision, player GUI or daily on-action).
+# No global variables/event targets: matches remain independent and save normally.
+kn_unlock = {
+    clr_country_flag = kn_busy
+    clr_country_flag = kn_active
+    clr_country_flag = kn_outgoing
+    clr_country_flag = kn_incoming
+    clr_country_flag = kn_invitation_live
+}
+kn_reset_board = {
+    add_to_variable = { kn_serial = 1 }
+    set_variable = { kn_result = 0 }
+    set_variable = { kn_moves = 0 }
+    set_variable = { kn_turn = 1 }
+    set_variable = { kn_cell_1 = 0 }
+    set_variable = { kn_cell_2 = 0 }
+    set_variable = { kn_cell_3 = 0 }
+    set_variable = { kn_cell_4 = 0 }
+    set_variable = { kn_cell_5 = 0 }
+    set_variable = { kn_cell_6 = 0 }
+    set_variable = { kn_cell_7 = 0 }
+    set_variable = { kn_cell_8 = 0 }
+    set_variable = { kn_cell_9 = 0 }
+}
+kn_start_watching = {
+    if = {
+        limit = {
+            FROM = {
+                exists = yes
+                has_country_flag = kn_active
+                check_variable = { kn_mark = 1 }
+                NOT = { tag = ROOT }
+                var:kn_opponent = { exists = yes NOT = { tag = ROOT } }
+            }
+        }
+        set_variable = { kn_watch_x = FROM }
+        set_variable = { kn_watch_o = FROM.kn_opponent }
+        set_variable = { kn_watch_serial = FROM.kn_serial }
+        set_country_flag = kn_watch_open
+    }
+}
+kn_send_invitation = {
+    if = {
+        limit = { kn_free = yes kn_invitation_ready = yes FROM = { exists = yes kn_free = yes NOT = { tag = ROOT } } }
+        set_country_flag = { flag = kn_invitation_cooldown value = 1 days = 90 }
+        kn_reset_board = yes
+        set_variable = { kn_opponent = FROM }
+        set_variable = { kn_mark = 1 }
+        set_country_flag = kn_busy
+        set_country_flag = kn_outgoing
+        set_country_flag = kn_open
+        set_country_flag = { flag = kn_invitation_live value = 1 days = 7 }
+        FROM = {
+            kn_reset_board = yes
+            set_variable = { kn_opponent = ROOT }
+            set_variable = { kn_mark = 2 }
+            set_country_flag = kn_busy
+            set_country_flag = kn_incoming
+            set_country_flag = kn_open
+            set_country_flag = { flag = kn_invitation_live value = 1 days = 7 }
+        }
+    }
+}
+kn_accept = {
+    if = {
+        limit = {
+            has_country_flag = kn_incoming
+            has_country_flag = kn_invitation_live
+            kn_link_valid = yes
+            var:kn_opponent = { has_country_flag = kn_outgoing has_country_flag = kn_invitation_live }
+        }
+        clr_country_flag = kn_incoming
+        clr_country_flag = kn_invitation_live
+        set_country_flag = kn_active
+        var:kn_opponent = {
+            clr_country_flag = kn_outgoing
+            clr_country_flag = kn_invitation_live
+            set_country_flag = kn_active
+            set_country_flag = kn_open
+        }
+    }
+}
+kn_end_1_2 = {
+    set_variable = { kn_result = 1 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 2 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+kn_end_2_1 = {
+    set_variable = { kn_result = 2 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 1 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+kn_end_3_3 = {
+    set_variable = { kn_result = 3 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 3 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+kn_end_4_4 = {
+    set_variable = { kn_result = 4 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 4 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+kn_end_5_5 = {
+    set_variable = { kn_result = 5 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 5 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+kn_end_6_6 = {
+    set_variable = { kn_result = 6 }
+    kn_unlock = yes
+    set_country_flag = kn_open
+    var:kn_opponent = {
+        set_variable = { kn_result = 6 }
+        kn_unlock = yes
+        set_country_flag = kn_open
+    }
+}
+
+kn_decline = {
+    if = {
+        limit = { has_country_flag = kn_incoming kn_link_valid = yes }
+        kn_end_4_4 = yes
+    }
+}
+kn_cancel = {
+    if = {
+        limit = { kn_link_valid = yes }
+        if = {
+            limit = { has_country_flag = kn_active }
+            kn_end_2_1 = yes
+        }
+        else = { kn_end_5_5 = yes }
+    }
+}
+kn_after_move = {
+    add_to_variable = { kn_moves = 1 }
+    set_variable = { kn_turn = 3 }
+    subtract_from_variable = { kn_turn = kn_mark }
+    var:kn_opponent = {
+        set_variable = { kn_moves = PREV.kn_moves }
+        set_variable = { kn_turn = PREV.kn_turn }
+    }
+    if = {
+        limit = { kn_has_line = yes }
+        kn_end_1_2 = yes
+    }
+    else_if = {
+        limit = { check_variable = { kn_moves = 9 } }
+        kn_end_3_3 = yes
+    }
+}
+kn_play_1 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_1 = 0 } }
+        set_variable = { kn_cell_1 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_1 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_2 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_2 = 0 } }
+        set_variable = { kn_cell_2 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_2 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_3 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_3 = 0 } }
+        set_variable = { kn_cell_3 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_3 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_4 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_4 = 0 } }
+        set_variable = { kn_cell_4 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_4 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_5 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_5 = 0 } }
+        set_variable = { kn_cell_5 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_5 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_6 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_6 = 0 } }
+        set_variable = { kn_cell_6 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_6 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_7 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_7 = 0 } }
+        set_variable = { kn_cell_7 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_7 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_8 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_8 = 0 } }
+        set_variable = { kn_cell_8 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_8 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_play_9 = {
+    if = {
+        limit = { kn_can_move = yes check_variable = { kn_cell_9 = 0 } }
+        set_variable = { kn_cell_9 = kn_mark }
+        var:kn_opponent = { set_variable = { kn_cell_9 = PREV.kn_mark } }
+        kn_after_move = yes
+    }
+}
+kn_ai_move = {
+    set_temp_variable = { kn_ai_choice = 0 }
+    set_temp_variable = { kn_enemy_mark = 3 }
+    subtract_from_temp_variable = { kn_enemy_mark = kn_mark }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_1 = 0 } OR = { AND = { check_variable = { kn_cell_2 = kn_mark } check_variable = { kn_cell_3 = kn_mark } } AND = { check_variable = { kn_cell_4 = kn_mark } check_variable = { kn_cell_7 = kn_mark } } AND = { check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 1 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_2 = 0 } OR = { AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_3 = kn_mark } } AND = { check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_8 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 2 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_3 = 0 } OR = { AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_2 = kn_mark } } AND = { check_variable = { kn_cell_6 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } AND = { check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_7 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 3 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_4 = 0 } OR = { AND = { check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_6 = kn_mark } } AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_7 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 4 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_5 = 0 } OR = { AND = { check_variable = { kn_cell_4 = kn_mark } check_variable = { kn_cell_6 = kn_mark } } AND = { check_variable = { kn_cell_2 = kn_mark } check_variable = { kn_cell_8 = kn_mark } } AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_7 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 5 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_6 = 0 } OR = { AND = { check_variable = { kn_cell_4 = kn_mark } check_variable = { kn_cell_5 = kn_mark } } AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 6 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_7 = 0 } OR = { AND = { check_variable = { kn_cell_8 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_4 = kn_mark } } AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_5 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 7 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_8 = 0 } OR = { AND = { check_variable = { kn_cell_7 = kn_mark } check_variable = { kn_cell_9 = kn_mark } } AND = { check_variable = { kn_cell_2 = kn_mark } check_variable = { kn_cell_5 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 8 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_9 = 0 } OR = { AND = { check_variable = { kn_cell_7 = kn_mark } check_variable = { kn_cell_8 = kn_mark } } AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_6 = kn_mark } } AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_5 = kn_mark } } } } set_temp_variable = { kn_ai_choice = 9 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_1 = 0 } OR = { AND = { check_variable = { kn_cell_2 = kn_enemy_mark } check_variable = { kn_cell_3 = kn_enemy_mark } } AND = { check_variable = { kn_cell_4 = kn_enemy_mark } check_variable = { kn_cell_7 = kn_enemy_mark } } AND = { check_variable = { kn_cell_5 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 1 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_2 = 0 } OR = { AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_3 = kn_enemy_mark } } AND = { check_variable = { kn_cell_5 = kn_enemy_mark } check_variable = { kn_cell_8 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 2 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_3 = 0 } OR = { AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_2 = kn_enemy_mark } } AND = { check_variable = { kn_cell_6 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } AND = { check_variable = { kn_cell_5 = kn_enemy_mark } check_variable = { kn_cell_7 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 3 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_4 = 0 } OR = { AND = { check_variable = { kn_cell_5 = kn_enemy_mark } check_variable = { kn_cell_6 = kn_enemy_mark } } AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_7 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 4 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_5 = 0 } OR = { AND = { check_variable = { kn_cell_4 = kn_enemy_mark } check_variable = { kn_cell_6 = kn_enemy_mark } } AND = { check_variable = { kn_cell_2 = kn_enemy_mark } check_variable = { kn_cell_8 = kn_enemy_mark } } AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } AND = { check_variable = { kn_cell_3 = kn_enemy_mark } check_variable = { kn_cell_7 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 5 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_6 = 0 } OR = { AND = { check_variable = { kn_cell_4 = kn_enemy_mark } check_variable = { kn_cell_5 = kn_enemy_mark } } AND = { check_variable = { kn_cell_3 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 6 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_7 = 0 } OR = { AND = { check_variable = { kn_cell_8 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_4 = kn_enemy_mark } } AND = { check_variable = { kn_cell_3 = kn_enemy_mark } check_variable = { kn_cell_5 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 7 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_8 = 0 } OR = { AND = { check_variable = { kn_cell_7 = kn_enemy_mark } check_variable = { kn_cell_9 = kn_enemy_mark } } AND = { check_variable = { kn_cell_2 = kn_enemy_mark } check_variable = { kn_cell_5 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 8 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_9 = 0 } OR = { AND = { check_variable = { kn_cell_7 = kn_enemy_mark } check_variable = { kn_cell_8 = kn_enemy_mark } } AND = { check_variable = { kn_cell_3 = kn_enemy_mark } check_variable = { kn_cell_6 = kn_enemy_mark } } AND = { check_variable = { kn_cell_1 = kn_enemy_mark } check_variable = { kn_cell_5 = kn_enemy_mark } } } } set_temp_variable = { kn_ai_choice = 9 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_5 = 0 } } set_temp_variable = { kn_ai_choice = 5 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_1 = 0 } } set_temp_variable = { kn_ai_choice = 1 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_3 = 0 } } set_temp_variable = { kn_ai_choice = 3 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_7 = 0 } } set_temp_variable = { kn_ai_choice = 7 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_9 = 0 } } set_temp_variable = { kn_ai_choice = 9 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_2 = 0 } } set_temp_variable = { kn_ai_choice = 2 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_4 = 0 } } set_temp_variable = { kn_ai_choice = 4 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_6 = 0 } } set_temp_variable = { kn_ai_choice = 6 } }
+    if = { limit = { check_variable = { kn_ai_choice = 0 } check_variable = { kn_cell_8 = 0 } } set_temp_variable = { kn_ai_choice = 8 } }
+    if = { limit = { check_variable = { kn_ai_choice = 1 } } kn_play_1 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 2 } } kn_play_2 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 3 } } kn_play_3 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 4 } } kn_play_4 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 5 } } kn_play_5 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 6 } } kn_play_6 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 7 } } kn_play_7 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 8 } } kn_play_8 = yes }
+    if = { limit = { check_variable = { kn_ai_choice = 9 } } kn_play_9 = yes }
+}
+kn_daily_tick = {
+    if = {
+        limit = { has_country_flag = kn_busy }
+        if = {
+            limit = { NOT = { kn_link_valid = yes } }
+            set_variable = { kn_result = 7 }
+            kn_unlock = yes
+            set_country_flag = kn_open
+        }
+        else_if = {
+            limit = { NOT = { has_country_flag = kn_active } NOT = { has_country_flag = kn_invitation_live } }
+            kn_end_6_6 = yes
+        }
+        else_if = {
+            limit = { is_ai = yes has_country_flag = kn_incoming }
+            kn_accept = yes
+        }
+        else_if = {
+            limit = { is_ai = yes kn_can_move = yes }
+            kn_ai_move = yes
+        }
+    }
+}

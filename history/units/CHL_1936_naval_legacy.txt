@@ -1,0 +1,3 @@
+# S1-HIST: intentionally disabled OOB.
+# This file was absent from the mod army roster.
+# Empty override prevents base-game units from loading by this filename.

@@ -1,0 +1,10 @@
+kn_category = {
+    icon = GFX_decision_category_generic
+    allowed = { always = yes }
+    visible = { always = yes }
+}
+kn_watch_category = {
+    icon = GFX_decision_category_generic
+    allowed = { always = yes }
+    visible = { always = yes }
+}

@@ -1,0 +1,37 @@
+# Each country stores its own board; the reciprocal country variable isolates pairs.
+kn_free = { NOT = { has_country_flag = kn_busy } }
+kn_invitation_ready = { NOT = { has_country_flag = kn_invitation_cooldown } }
+kn_watch_valid = {
+    has_variable = kn_watch_x
+    var:kn_watch_x = {
+        exists = yes
+        check_variable = { kn_serial = PREV.kn_watch_serial }
+    }
+}
+kn_link_valid = {
+    has_country_flag = kn_busy
+    has_variable = kn_opponent
+    var:kn_opponent = {
+        exists = yes
+        has_country_flag = kn_busy
+        var:kn_opponent = { tag = ROOT }
+    }
+}
+kn_can_move = {
+    has_country_flag = kn_active
+    kn_link_valid = yes
+    check_variable = { kn_turn = kn_mark }
+    check_variable = { kn_result = 0 }
+}
+kn_has_line = {
+    OR = {
+        AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_2 = kn_mark } check_variable = { kn_cell_3 = kn_mark } }
+        AND = { check_variable = { kn_cell_4 = kn_mark } check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_6 = kn_mark } }
+        AND = { check_variable = { kn_cell_7 = kn_mark } check_variable = { kn_cell_8 = kn_mark } check_variable = { kn_cell_9 = kn_mark } }
+        AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_4 = kn_mark } check_variable = { kn_cell_7 = kn_mark } }
+        AND = { check_variable = { kn_cell_2 = kn_mark } check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_8 = kn_mark } }
+        AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_6 = kn_mark } check_variable = { kn_cell_9 = kn_mark } }
+        AND = { check_variable = { kn_cell_1 = kn_mark } check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_9 = kn_mark } }
+        AND = { check_variable = { kn_cell_3 = kn_mark } check_variable = { kn_cell_5 = kn_mark } check_variable = { kn_cell_7 = kn_mark } }
+    }
+}

@@ -1,0 +1,4 @@
+on_actions = {
+    # The engine invokes on_daily separately in each country's scope.
+    on_daily = { effect = { kn_daily_tick = yes } }
+}
