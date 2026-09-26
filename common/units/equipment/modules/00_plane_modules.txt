@@ -817,6 +817,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+        forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 5
@@ -835,6 +838,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 10
@@ -858,6 +864,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 9
@@ -876,6 +885,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 18
@@ -907,6 +919,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 10
@@ -926,6 +941,9 @@ equipment_modules = {
 		category = fighter_weapon
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 
 		add_stats = {
 			air_attack = 20
@@ -958,6 +976,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_1x
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 		add_stats = {
 			air_attack = 12
 			build_cost_ic = 3
@@ -977,6 +998,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_2x
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 		add_stats = {
 			air_attack = 24
 			build_cost_ic = 6
@@ -1008,6 +1032,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_1x
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 		add_stats = {
 			air_attack = 12
 			build_cost_ic = 3
@@ -1027,6 +1054,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = aircraft_cannon_1_2x
 		add_equipment_type = { fighter heavy_fighter }
+         forbid_module_categories = {
+            cas_weapon
+        }
 		add_stats = {
 			air_attack = 24
 			build_cost_ic = 6
@@ -2261,9 +2291,6 @@ equipment_modules = {
 			}
 		}
 
-		multiply_stats ={
-			maximum_speed = -0.03
-		}
 
 		dismantle_cost_ic = 1
 		can_convert_from = {
@@ -2358,9 +2385,6 @@ equipment_modules = {
 			}
 		}
 
-		multiply_stats ={
-			maximum_speed = -0.035
-		}
 
 		dismantle_cost_ic = 1
 		can_convert_from = {

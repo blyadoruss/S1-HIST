@@ -173,7 +173,7 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.3
 
-		breakthrough = -0.25
+		breakthrough = -0.35
 		ap_attack = 0.15
 		suppression = 1.25
 		

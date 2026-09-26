@@ -1,0 +1,60 @@
+{
+  "bulgaria": [
+    "BUL_oppose_the_royal_dictatorship", "BUL_appoint_right_wing_ministers",
+    "BUL_plot_against_boris", "BUL_strengthen_the_royal_dictatorship",
+    "BUL_join_the_allies", "BUL_the_fate_of_the_balkans", "BUL_total_war",
+    "BUL_the_third_bulgarian_empire", "BUL_dominance_in_the_black_sea",
+    "BUL_cooperate_with_the_zveno", "BUL_condemn_macedonian_organizations",
+    "BUL_restrained_paramilitary_organizations"
+  ],
+  "canada": ["CAN_patriation"],
+  "germany": [
+    "GER_oppose_hitler", "GER_oppose_hitler_ww", "GER_prioritize_economic_growth",
+    "GER_heed_von_neuraths_concerns", "GER_a_strong_successor",
+    "GER_danzig_for_slovakia", "GER_influence_the_benelux", "GER_invade_italy",
+    "GER_influence_the_baltics", "GER_expand_claims_in_baltic",
+    "GER_alliance_with_the_ussr", "GER_anti_soviet_pact", "GER_befriend_china",
+    "GER_alliance_with_spain", "GER_operation_felix", "GER_operation_tannenbaum",
+    "GER_crossing_the_atlantic", "GER_operation_green", "GER_second_ljubljana_award",
+    "GER_befriend_turkey", "GER_reclaim_former_african_colonies",
+    "GER_negotiate_old_colonies_in_the_east"
+  ],
+  "hungary_wuw": [
+    "wuw_HUN_end_the_regency", "wuw_HUN_end_the_white_terror", "wuw_HUN_undermine_the_admiral",
+    "wuw_HUN_renew_the_rome_protocols", "wuw_HUN_demand_burgenland",
+    "wuw_HUN_claim_overlordship_over_slovakia", "wuw_HUN_demand_the_return_of_slovakia",
+    "wuw_HUN_proclaim_greater_hungary"
+  ],
+  "india_goe": [
+    "RAJ_great_depression_price_controls", "RAJ_his_majestys_loyal_government",
+    "RAJ_league_against_gandhism", "RAJ_india_united", "RAJ_united_bengal",
+    "RAJ_i_am_death", "RAJ_sideline_the_conflict"
+  ],
+  "italy": [
+    "ITA_unite_the_opposition", "ITA_undermine_the_duce", "ITA_convene_the_grand_council",
+    "ITA_defy_the_duce", "ITA_liberate_gramsci", "ITA_mare_nostrum_bba",
+    "ITA_guarantee_austrian_independence", "ITA_italy_first", "ITA_balkan_ambition",
+    "ITA_demand_ticino", "ITA_claims_on_turkey_bba", "ITA_befriend_turkey",
+    "ITA_demand_balearic_islands_bba", "ITA_towards_a_greater_italy"
+  ],
+  "romania": [
+    "ROM_balkans_dominance", "ROM_a_deal_with_the_devil", "ROM_the_cordon_sanitaire",
+    "ROM_join_allies", "ROM_appoint_soviet_friendly_government", "ROM_constitutional_guarantees"
+  ],
+  "south_africa": ["SAF_abandon_westminster"],
+  "soviet": [
+    "SOV_the_left_opposition", "SOV_the_right_opposition", "SOV_beaten_but_not_defeated",
+    "SOV_transformation_of_nature_alt", "SOV_adjoined_battle_priests", "SOV_the_glory_of_the_red_army_alt",
+    "SOV_the_faithful_servant_of_lenin", "SOV_policy_of_collective_security",
+    "SOV_recover_alaska", "SOV_respect_baltic_self_determination", "SOV_control_scandinavia",
+    "SOV_offer_poland_protection", "SOV_demand_balkan_submission", "SOV_the_southern_thrust",
+    "SOV_reconcile_japan", "SOV_two_red_flags", "SOV_the_gobi_gambit",
+    "SOV_liberation_of_the_european_proletariat"
+  ],
+  "uk": [
+    "ENG_a_change_in_course", "ENG_revisit_colonial_policy", "ENG_global_defense",
+    "ENG_imperial_federation", "uk_spain_focus", "uk_turkey_focus",
+    "ENG_embargo_ussr", "ENG_swedish_intervention", "ENG_danish_intervention",
+    "ENG_benelux_intervention"
+  ]
+}
