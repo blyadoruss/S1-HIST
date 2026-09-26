@@ -1,0 +1,387 @@
+guiTypes = {
+    containerWindowType = {
+        name = kn_window
+        orientation = upper_right
+        position = { x = -365 y = 155 }
+        size = { width = 350 height = 540 }
+        moveable = yes
+        background = { name = Background quadTextureSprite = GFX_tiled_window }
+        instantTextBoxType = {
+            name = kn_title
+            position = { x = 18 y = 16 }
+            font = hoi_20b
+            text = kn_title
+            maxWidth = 290
+            maxHeight = 28
+            format = center
+        }
+        buttonType = {
+            name = kn_close
+            position = { x = 316 y = 9 }
+            quadTextureSprite = GFX_closebutton
+            clicksound = click_close
+            tooltip = kn_close_tt
+        }
+        instantTextBoxType = {
+            name = kn_opponent_label
+            position = { x = 18 y = 49 }
+            font = hoi_16mbs
+            text = kn_opponent_label
+            maxWidth = 314
+            maxHeight = 44
+            format = center
+        }
+        instantTextBoxType = {
+            name = kn_status_label
+            position = { x = 18 y = 94 }
+            font = hoi_16mbs
+            text = kn_status_label
+            maxWidth = 314
+            maxHeight = 60
+            format = center
+        }
+        iconType = {
+            name = kn_board
+            spriteType = GFX_kn_board
+            position = { x = 63 y = 164 }
+        }
+        buttonType = {
+            name = kn_cell_1
+            position = { x = 73 y = 174 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_1
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 189 }
+        }
+        iconType = {
+            name = kn_o_1
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 189 }
+        }
+        buttonType = {
+            name = kn_cell_2
+            position = { x = 143 y = 174 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_2
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 189 }
+        }
+        iconType = {
+            name = kn_o_2
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 189 }
+        }
+        buttonType = {
+            name = kn_cell_3
+            position = { x = 213 y = 174 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_3
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 189 }
+        }
+        iconType = {
+            name = kn_o_3
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 189 }
+        }
+        buttonType = {
+            name = kn_cell_4
+            position = { x = 73 y = 244 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_4
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 259 }
+        }
+        iconType = {
+            name = kn_o_4
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 259 }
+        }
+        buttonType = {
+            name = kn_cell_5
+            position = { x = 143 y = 244 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_5
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 259 }
+        }
+        iconType = {
+            name = kn_o_5
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 259 }
+        }
+        buttonType = {
+            name = kn_cell_6
+            position = { x = 213 y = 244 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_6
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 259 }
+        }
+        iconType = {
+            name = kn_o_6
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 259 }
+        }
+        buttonType = {
+            name = kn_cell_7
+            position = { x = 73 y = 314 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_7
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 329 }
+        }
+        iconType = {
+            name = kn_o_7
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 329 }
+        }
+        buttonType = {
+            name = kn_cell_8
+            position = { x = 143 y = 314 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_8
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 329 }
+        }
+        iconType = {
+            name = kn_o_8
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 329 }
+        }
+        buttonType = {
+            name = kn_cell_9
+            position = { x = 213 y = 314 }
+            quadTextureSprite = GFX_kn_cell
+            clicksound = click_default
+            tooltip = kn_cell_tt
+        }
+        iconType = {
+            name = kn_x_9
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 329 }
+        }
+        iconType = {
+            name = kn_o_9
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 329 }
+        }
+        instantTextBoxType = {
+            name = kn_rules
+            position = { x = 18 y = 397 }
+            font = hoi_16mbs
+            text = kn_rules
+            maxWidth = 314
+            maxHeight = 44
+            format = center
+        }
+        buttonType = {
+            name = kn_accept_button
+            position = { x = 44 y = 448 }
+            quadTextureSprite = GFX_button_261x34
+            buttonFont = hoi_16mbs
+            buttonText = kn_accept_label
+            format = center
+            clicksound = click_default
+            tooltip = kn_accept_label_tt
+        }
+        buttonType = {
+            name = kn_decline_button
+            position = { x = 44 y = 488 }
+            quadTextureSprite = GFX_button_261x34
+            buttonFont = hoi_16mbs
+            buttonText = kn_decline_label
+            format = center
+            clicksound = click_default
+            tooltip = kn_decline_label_tt
+        }
+        buttonType = {
+            name = kn_cancel_button
+            position = { x = 44 y = 448 }
+            quadTextureSprite = GFX_button_261x34
+            buttonFont = hoi_16mbs
+            buttonText = kn_cancel_label
+            format = center
+            clicksound = click_default
+            tooltip = kn_cancel_label_tt
+        }
+    }
+    containerWindowType = {
+        name = kn_watch_window
+        orientation = upper_right
+        position = { x = -365 y = 155 }
+        size = { width = 350 height = 465 }
+        moveable = yes
+        background = { name = Background quadTextureSprite = GFX_tiled_window }
+        buttonType = {
+            name = kn_watch_close
+            position = { x = 316 y = 9 }
+            quadTextureSprite = GFX_closebutton
+            clicksound = click_close
+            tooltip = kn_watch_close_tt
+        }
+        iconType = {
+            name = kn_watch_board
+            spriteType = GFX_kn_board
+            position = { x = 63 y = 164 }
+        }
+        instantTextBoxType = {
+            name = kn_watch_title
+            position = { x = 18 y = 16 }
+            font = hoi_20b
+            text = kn_watch_title
+            maxWidth = 300
+            maxHeight = 28
+            format = center
+        }
+        instantTextBoxType = {
+            name = kn_watch_players
+            position = { x = 18 y = 49 }
+            font = hoi_16mbs
+            text = kn_watch_players
+            maxWidth = 300
+            maxHeight = 44
+            format = center
+        }
+        instantTextBoxType = {
+            name = kn_watch_status
+            position = { x = 18 y = 100 }
+            font = hoi_16mbs
+            text = kn_watch_status
+            maxWidth = 300
+            maxHeight = 54
+            format = center
+        }
+        instantTextBoxType = {
+            name = kn_watch_hint
+            position = { x = 18 y = 398 }
+            font = hoi_16mbs
+            text = kn_watch_hint
+            maxWidth = 300
+            maxHeight = 54
+            format = center
+        }
+        iconType = {
+            name = kn_watch_x_1
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_o_1
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_x_2
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_o_2
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_x_3
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_o_3
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 189 }
+        }
+        iconType = {
+            name = kn_watch_x_4
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_o_4
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_x_5
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_o_5
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_x_6
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_o_6
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 259 }
+        }
+        iconType = {
+            name = kn_watch_x_7
+            spriteType = GFX_kn_x
+            position = { x = 88 y = 329 }
+        }
+        iconType = {
+            name = kn_watch_o_7
+            spriteType = GFX_kn_o
+            position = { x = 88 y = 329 }
+        }
+        iconType = {
+            name = kn_watch_x_8
+            spriteType = GFX_kn_x
+            position = { x = 158 y = 329 }
+        }
+        iconType = {
+            name = kn_watch_o_8
+            spriteType = GFX_kn_o
+            position = { x = 158 y = 329 }
+        }
+        iconType = {
+            name = kn_watch_x_9
+            spriteType = GFX_kn_x
+            position = { x = 228 y = 329 }
+        }
+        iconType = {
+            name = kn_watch_o_9
+            spriteType = GFX_kn_o
+            position = { x = 228 y = 329 }
+        }
+    }
+}
