@@ -18,7 +18,7 @@ characters={
 						original_tag = ENG
 					}
 					has_government  = neutrality 
-					always = no 
+					has_completed_focus  = ENG_the_kings_party 
 					if  = {
 						limit  = {
 							has_dlc = "Man the Guns"
@@ -106,7 +106,7 @@ characters={
 			idea_token = ENG_oswald_mosley
 			available  = {
 				has_government  = neutrality 
-				always = no 
+				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -239,7 +239,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			traits = {
@@ -252,12 +252,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ career_officer trait_cautious defensive_doctrine }
-			skill=5
-			attack_skill=3
-			defense_skill=5
-			planning_skill=5
-			logistics_skill=3
+			traits = { inflexible_strategist trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
+			skill=6
+			attack_skill=4
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=8
 			legacy_id=997
 		}
 	}
@@ -272,12 +272,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ inspirational_bagpiper }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ inspirational_bagpiper trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter }
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 		}
 	}
 
@@ -301,7 +301,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -498,7 +498,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			traits = {
@@ -631,7 +631,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			traits = {
@@ -792,7 +792,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			traits = {
@@ -1087,10 +1087,10 @@ characters={
 			idea_token = ENG_raymond_briggs
 			ledger = army
 			visible = {
-				always = no
+				has_completed_focus = ENG_eliminate_the_upper_class
 			}
 			available = {
-				always = no
+				has_completed_focus = ENG_eliminate_the_upper_class
 			}
 			allowed = {
 				original_tag = ENG
@@ -1118,7 +1118,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			
@@ -1605,7 +1605,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = ENG_eliminate_the_upper_class
 				}
 			}
 			traits = {
@@ -1694,7 +1694,7 @@ characters={
 						has_dlc = "Man the Guns"
 					}
 					NOT = {
-						always = no 
+						has_completed_focus  = ENG_a_change_in_course 
 					}
 				}
 				if  = {
@@ -1782,7 +1782,7 @@ characters={
 						has_dlc = "Man the Guns"
 					}
 					NOT = {
-						always = no 
+						has_completed_focus  = ENG_no_further_appeasement 
 					}
 					has_government  = democratic 
 				}
@@ -2025,7 +2025,7 @@ characters={
 			idea_token = ENG_david_lloyd_george
 			available  = {
 				has_government  = neutrality 
-				always = no 
+				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -2320,7 +2320,7 @@ characters={
 			idea_token = ENG_corgis_1
 			available  = {
 				has_government  = neutrality 
-				always = no 
+				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2357,7 +2357,7 @@ characters={
 			idea_token = ENG_corgis_2
 			available  = {
 				has_government  = neutrality 
-				always = no 
+				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2394,7 +2394,7 @@ characters={
 			idea_token = ENG_corgis_3
 			available  = {
 				has_government  = neutrality 
-				always = no 
+				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 

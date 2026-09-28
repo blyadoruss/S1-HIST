@@ -110,7 +110,7 @@ characters = {
 				visible = {
 					OR = {
 						has_completed_focus = wuw_HUN_strengthen_horthys_reign
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}		
 			}
@@ -257,8 +257,8 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					always = no
-					always = no
+					has_completed_focus = wuw_HUN_invite_otto_to_the_throne
+					has_completed_focus = wuw_HUN_the_old_habsburg_king
 				}
 			}
 		}
@@ -296,9 +296,9 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
+						has_completed_focus = wuw_HUN_end_the_white_terror
+						has_completed_focus = wuw_HUN_undermine_the_admiral
 					}
 				}
 			}
@@ -848,12 +848,12 @@ characters = {
 			}
 
 			corps_commander = {
-				traits = { armor_officer }
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 2
+			traits = { trickster media_personality war_hero brilliant_strategist trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox }
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 				legacy_id = -1
 			}
 
@@ -873,12 +873,12 @@ characters = {
 			}
 			
 			corps_commander = {
-				traits = { armor_officer cavalry_leader }
-				skill = 2
-				attack_skill = 2
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 2
+			traits = { trickster media_personality war_hero brilliant_strategist trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox swamp_fox }
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 				legacy_id = -1
 				visible = {
 					NOT = {
@@ -1282,12 +1282,12 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { cavalry_leader trickster trait_HUN_vitez }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
+			traits = { media_personality war_hero trickster brilliant_strategist trickster panzer_leader trickster trait_engineer organizer adaptable cavalry_leader ranger }
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 			legacy_id = -1
 			visible = {
 			}
@@ -1342,8 +1342,8 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					always = no
-					always = no
+					has_completed_focus = wuw_HUN_invite_otto_to_the_throne
+					has_completed_focus = wuw_HUN_the_old_habsburg_king
 				}
 			}
 		}
@@ -1374,8 +1374,8 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					always = no
-					always = no
+					has_completed_focus = wuw_HUN_reenlist_the_sich_riflemen
+					has_completed_focus = wuw_HUN_revenge_for_the_brusilov_offensive
 				}
 			}
 		}
@@ -1404,7 +1404,7 @@ characters = {
 			visible = {
 				OR = {
 					has_completed_focus = wuw_HUN_reestablish_the_rongyos_garda
-					always = no
+					has_completed_focus = wuw_HUN_stage_an_uprising_in_leitha
 				}
 			}
 		}
@@ -1433,7 +1433,7 @@ characters = {
 			visible = {
 				OR = {
 					has_completed_focus = wuw_HUN_reestablish_the_rongyos_garda
-					always = no
+					has_completed_focus = wuw_HUN_stage_an_uprising_in_leitha
 				}
 			}
 		}
@@ -2029,10 +2029,10 @@ characters = {
 				}
 
 				traits = {
-					army_armored_1
+					army_armored_2
 				}
 
-				cost =  50
+				cost =  100
 
 				ai_will_do = {
 					factor = 1.000
@@ -2056,12 +2056,12 @@ characters = {
 			}
 
 			corps_commander = {
-				traits = { trait_HUN_vitez infantry_leader armor_officer }
-				skill = 2
-				attack_skill = 3
-				defense_skill = 1
-				planning_skill = 2
-				logistics_skill = 1
+			traits = { media_personality war_hero trickster brilliant_strategist trickster panzer_leader trickster trait_engineer organizer adaptable cavalry_leader hill_fighter}
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 				legacy_id = -1
 				#visible = {
 				#}
@@ -2084,10 +2084,10 @@ characters = {
 				}
 
 				traits = {
-					army_armored_1
+					army_armored_2
 				}
 
-				cost =  50
+				cost =  100
 
 				ai_will_do = {
 					base = 2
@@ -2358,9 +2358,9 @@ characters = {
 				legacy_id = -1
 				visible = {
 					OR = {
-						always = no
+						has_completed_focus = wuw_HUN_integrate_the_volksbund
 						has_completed_focus = wuw_HUN_invite_german_investors
-						always = no
+						has_completed_focus = wuw_HUN_volksbund_der_deutschen_in_ungarn
 					}
 				}
 			}
@@ -2455,7 +2455,7 @@ characters = {
 							ruling_only = yes
 							character = HUN_franz_anton_bach
 						}	
-						always = no
+						has_completed_focus = wuw_HUN_volksbund_der_deutschen_in_ungarn
 					}
 				}
 			}
@@ -2728,7 +2728,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_white_terror
 					}
 				}
 				NOT = {
@@ -2749,7 +2749,7 @@ characters = {
 					limit = {
 						has_dlc = "Gotterdammerung"
 					}
-					always = no
+					has_completed_focus = wuw_HUN_end_the_regency
 				}
 			}
 
@@ -2828,9 +2828,9 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							always = no
-							always = no
-							always = no
+							has_completed_focus = wuw_HUN_end_the_regency
+							has_completed_focus = wuw_HUN_end_the_white_terror
+							has_completed_focus = wuw_HUN_undermine_the_admiral
 						}
 					}
 				}
@@ -2881,9 +2881,9 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
+						has_completed_focus = wuw_HUN_elect_a_fascist_king
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
 					}
 				}
 			}
@@ -2902,8 +2902,8 @@ characters = {
 						has_dlc = "Gotterdammerung"
 					}
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_elect_a_democratic_king
+						has_completed_focus = wuw_HUN_elections_in_the_revolutionary_council
 					}
 				}
 				else = {
@@ -3006,7 +3006,7 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							always = no
+							has_completed_focus = wuw_HUN_end_the_regency
 							has_completed_focus = wuw_HUN_continue_the_regency
 						}
 					}
@@ -3021,7 +3021,7 @@ characters = {
 							has_autonomy_state = autonomy_supervised_state
 						}
 					}
-					always = no
+					has_completed_focus = wuw_HUN_elections_in_the_revolutionary_council
 				}
 
 				traits = {
@@ -3199,7 +3199,7 @@ characters = {
 
 			visible = {
 				NOT = {
-					always = no
+					has_completed_focus = wuw_HUN_undermine_the_admiral
 				}
 			}
 
@@ -3245,17 +3245,17 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
+						has_completed_focus = wuw_HUN_establish_the_second_republic
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}
 			}
 
 			available = {
 				has_government = communism 
-				always = no
+				has_completed_focus = wuw_HUN_join_the_comintern
 			}
 
 			traits = {
@@ -3293,8 +3293,8 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
+						has_completed_focus = wuw_HUN_join_the_comintern
 					}
 				}
 			}
@@ -3382,9 +3382,9 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
+						has_completed_focus = wuw_HUN_end_the_white_terror
+						has_completed_focus = wuw_HUN_undermine_the_admiral
 					}
 				}
 			}
@@ -3509,7 +3509,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}
 			}
@@ -3554,7 +3554,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}
 			}
@@ -3643,8 +3643,8 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
+						has_completed_focus = wuw_HUN_join_the_comintern
 					}
 				}
 			}
@@ -3692,7 +3692,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}
 			}
@@ -3818,17 +3818,17 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
+						has_completed_focus = wuw_HUN_establish_the_second_republic
 						has_completed_focus = wuw_HUN_continue_the_regency
-						always = no
+						has_completed_focus = wuw_HUN_end_the_regency
 					}
 				}
 			}
 
 			available = {
 				OR = {
-					always = no
-					always = no
+					has_completed_focus = wuw_HUN_goulash_communism
+					has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
 				}
 				has_government = communism
 			}
@@ -3867,13 +3867,13 @@ characters = {
 
 			visible = {
 				NOT = {
-					always = no
+					has_completed_focus = wuw_HUN_end_the_white_terror
 				}
 			}
 
 			available = {
 				OR = {
-					always = no
+					has_completed_focus = wuw_HUN_end_the_regency
 					has_completed_focus = wuw_HUN_continue_the_regency
 				}
 			}
@@ -3913,15 +3913,15 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_reinstate_the_pragmatic_sanction
+						has_completed_focus = wuw_HUN_end_the_white_terror
 						has_completed_focus = wuw_HUN_continue_the_regency
 					}
 				}
 			}
 
 			available = {
-				always = no
+				has_completed_focus = wuw_HUN_a_responsible_government
 				OR = {
 					has_government = democratic
 					has_government = neutrality
@@ -4156,8 +4156,8 @@ characters = {
 			visible = {
 				owner = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_guarantee_religious_liberties
+						has_completed_focus = wuw_HUN_reverse_the_brain_drain
 					}
 				}
 			}
@@ -4181,8 +4181,8 @@ characters = {
 			visible = {
 				owner = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_guarantee_religious_liberties
+						has_completed_focus = wuw_HUN_reverse_the_brain_drain
 					}
 				}
 			}
@@ -4206,8 +4206,8 @@ characters = {
 			visible = {
 				owner = {
 					OR = {
-						always = no
-						always = no
+						has_completed_focus = wuw_HUN_guarantee_religious_liberties
+						has_completed_focus = wuw_HUN_reverse_the_brain_drain
 					}
 				}
 			}

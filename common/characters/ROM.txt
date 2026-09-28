@@ -112,12 +112,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			traits={ trickster infantry_leader war_hero brilliant_strategist panzer_leader organizer adaptable cavalry_leader trait_engineer  hill_fighter ranger }
+			skill=7
+			attack_skill=7
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -130,13 +130,28 @@ characters={
 				small="GFX_idea_ROM_ioan_mihail_racovita"
 			}
 		}
+		advisor = {
+			slot = high_command
+			idea_token = ioan_mihail_racovita
+			ledger = army
+			allowed = {
+				original_tag = ROM
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+			traits = { trickster inflexible_strategist infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -529,7 +544,7 @@ characters={
 					limit = {
 						has_dlc = "Death or Dishonor"
 					}
-					always = no 
+					has_completed_focus = ROM_appoint_soviet_friendly_government 
 				}
 				if = {
 					limit = {

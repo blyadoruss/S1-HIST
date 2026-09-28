@@ -267,12 +267,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_reckless cavalry_leader }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			traits = { trickster media_personality war_hero brilliant_strategist trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox swamp_fox }
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 			legacy_id = 1205
 		}
 	}
@@ -286,12 +286,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard infantry_leader }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 2
+			traits = { trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
+			skill=6
+			attack_skill=7
+			defense_skill=6
+			planning_skill=7
+			logistics_skill=5
 			legacy_id = 1206
 		}
 	}
@@ -443,7 +443,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					always = no
+					has_completed_focus = BUL_oppose_the_royal_dictatorship
 				}
 				NOT = {
 					has_government = communism
@@ -1653,7 +1653,7 @@ characters = {
 					original_tag = BUL
 				}
 				available = {
-					always = no 
+					has_completed_focus = BUL_democratic_principles 
 				}
 				traits = {
 					compassionate_gentleman 
@@ -1707,7 +1707,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				always = no 
+				has_completed_focus = BUL_democratic_principles 
 			}
 			traits = {
 				industry_reformer 
@@ -1742,7 +1742,7 @@ characters = {
 			available = {
 				OR = {
 					has_completed_focus = BUL_limited_womens_suffrage 
-					always = no 
+					has_completed_focus = BUL_full_voting_rights_for_women 
 				}
 			}
 			traits = {
@@ -1828,7 +1828,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				always = no 
+				has_completed_focus = BUL_appoint_communist_ministers 
 			}
 			traits = {
 				captain_of_industry 
@@ -1889,7 +1889,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					always = no 
+					has_completed_focus = BUL_oppose_the_royal_dictatorship 
 				}
 			}
 			traits = {
@@ -1968,7 +1968,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				always = no 
+				has_completed_focus = BUL_appoint_right_wing_ministers 
 				NOT = {
 					has_government = democratic 
 				}
@@ -2009,7 +2009,7 @@ characters = {
 				}
 				available = {
 					NOT = {
-						always = no 
+						has_completed_focus = BUL_oppose_the_royal_dictatorship 
 					}
 				}
 				traits = {
