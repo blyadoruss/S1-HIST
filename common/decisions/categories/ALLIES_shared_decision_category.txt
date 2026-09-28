@@ -1,0 +1,9 @@
+ALLIES_africa = {
+	scripted_gui = africa_front_gui_axis
+	icon = GFX_decision_category_border_conflicts
+	visible = { 
+		has_country_flag = we_are_allies
+	}
+	visible_when_empty = yes
+	priority = 9
+}

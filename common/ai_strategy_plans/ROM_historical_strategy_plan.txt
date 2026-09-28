@@ -52,7 +52,7 @@ ROM_historical = {
 		
 		# 1939
 		ROM_iar_80 										# 1939.1.25
-		ROM_appoint_allied_friendly_government 			# 1939.4.5
+		 			# 1939.4.5
 		ROM_cas 										# 1939.6.14
 		ROM_royal_guards_divisions 						# 1939.8.23
 		ROM_the_zb_53 									# 1939.11.1

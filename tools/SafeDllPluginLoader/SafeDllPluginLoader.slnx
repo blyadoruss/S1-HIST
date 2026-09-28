@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/PluginContract/PluginContract.csproj" />
+  <Project Path="src/PluginLoader/PluginLoader.csproj" />
+  <Project Path="src/DemoHost/DemoHost.csproj" />
+  <Project Path="samples/HelloPlugin/HelloPlugin.csproj" />
+</Solution>

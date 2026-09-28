@@ -1,0 +1,13 @@
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\bin\Release\net8.0\HelloPlugin.deps.json
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\bin\Release\net8.0\HelloPlugin.dll
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\bin\Release\net8.0\HelloPlugin.pdb
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.csproj.AssemblyReference.cache
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.AssemblyInfoInputs.cache
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.AssemblyInfo.cs
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.csproj.CoreCompileInputs.cache
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.sourcelink.json
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.dll
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\refint\HelloPlugin.dll
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\HelloPlugin.pdb
+C:\Users\fwckn\OneDrive\Dokumenti\Paradox Interactive\Hearts of Iron IV\mod\S1HIST\tools\SafeDllPluginLoader\samples\HelloPlugin\obj\Release\net8.0\ref\HelloPlugin.dll

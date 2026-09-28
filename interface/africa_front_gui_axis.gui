@@ -1,0 +1,84 @@
+guiTypes = {
+    containerWindowType = {
+        name = africa_front_gui_axis
+        orientation = upper_right
+        position = { x = -550 y = 100 }
+        size = { width = 500 height = 450 }
+        moveable = no
+		instantTextBoxType = {
+            name = "abt_mechanic"
+            text = abt_text_mechanic_africa
+            position = { x = 30 y = 330 }	
+            font = hoi_16mbs
+            maxWidth = 300
+            maxHeight = 170
+        }
+		containerWindowType = {
+			name = africa_front_gui_axis_ramochka
+			orientation = upper_right
+			position = { x = -482 y = 20 }
+			size = { width = 460 height = 300 }
+			moveable = no
+			background = { 
+				name = Background 
+				quadTextureSprite = GFX_tiled_window 
+			}
+		
+			iconType = {
+				name = "state_458"
+				spritetype = "GFX_africa_front_state_458"
+				position = { x = 50 y = 5 }
+				tooltip = "abt458"
+			}
+			iconType = {
+				name = "state_665"
+				spritetype = "GFX_africa_front_state_665"
+				position = { x = 32 y = 63 }
+				tooltip = "abt665"
+			}
+			iconType = {
+				name = "state_661"
+				spritetype = "GFX_africa_front_state_661"
+				position = { x = 87 y = 135 }
+				tooltip = "abt661"
+			}
+			iconType = {
+				name = "state_448"
+				spritetype = "GFX_africa_front_state_448"
+				position = { x = 123 y = 120 }
+				tooltip = "abt448"
+			}
+			iconType = {
+				name = "state_449"
+				spritetype = "GFX_africa_front_state_449"
+				position = { x = 212 y = 170 }
+				tooltip = "abt449"
+			}
+			iconType = {
+				name = "state_662"
+				spritetype = "GFX_africa_front_state_662"
+				position = { x = 220 y = 187 }
+				tooltip = "abt662"
+			}
+			iconType = {
+				name = "state_450"
+				spritetype = "GFX_africa_front_state_450"
+				position = { x = 308 y = 112 }
+				tooltip = "abt450"
+			}
+			iconType = {
+				name = "state_451"
+				spritetype = "GFX_africa_front_state_451"
+				position = { x = 342 y = 110 }
+				tooltip = "abt451"
+			}
+			iconType = {
+				name = "state_663"
+				spritetype = "GFX_africa_front_state_663"
+				position = { x = 330 y = 119 }
+				tooltip = "abt663"
+			}
+		}
+	}
+}
+			

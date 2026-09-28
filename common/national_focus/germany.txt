@@ -61,10 +61,7 @@ focus_tree = {
 		name = GER_historical_path_shortcut
 		target = GER_remilitarize_the_rhineland
 		scroll_wheel_factor = 0.469 #Optional parameter, if left unset will use existing zoomlevel. Warning: there's no good way for this to respect client resolution.
-		trigger = {
-			always = yes
-			# If FALSE, this will not display. If true, it will not supercede allow conditions of target focus.
-		}
+		trigger = { always = yes }
 	}
 
 	shortcut = {
@@ -14184,15 +14181,7 @@ focus_tree = {
 								is_in_faction_with = GER
 								is_in_faction = no
 							}
-							NOT = { #Oh no! Bulgaria might go to war with Greece in the near future - give me nothing!
-								OR = {
-									has_completed_focus = BUL_the_return_of_ferdinand_i
-									focus_progress = {
-										focus = BUL_the_return_of_ferdinand_i
-										progress > 0
-									}
-								}
-							}
+							always = yes
 						}
 					}
 				}
@@ -14244,15 +14233,7 @@ focus_tree = {
 								is_in_faction_with = GER
 								is_in_faction = no
 							}
-							NOT = { #Oh no! Bulgaria might go to war with Greece in the near future - give them nothing!
-								OR = {
-									has_completed_focus = BUL_the_return_of_ferdinand_i
-									focus_progress = {
-										focus = BUL_the_return_of_ferdinand_i
-										progress > 0
-									}
-								}
-							}
+							always = yes
 						}
 					}
 					set_global_flag = GER_second_ljubljana_award_BUL_event

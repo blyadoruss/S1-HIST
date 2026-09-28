@@ -89,7 +89,7 @@ country_event = {
 				}
 				modifier = {
 					add = -10
-					has_completed_focus = BUL_dissolve_the_military_union
+					always = no
 				}
 				modifier = {
 					add = -10
@@ -174,11 +174,7 @@ country_event = {
 				}
 				modifier = {
 					add = -10
-					OR = {
-						always = no
-						always = no
-						has_completed_focus = BUL_freedom_of_press
-					}
+					always = no
 				}
 				modifier = {
 					add = -10
@@ -259,11 +255,7 @@ country_event = {
 				}
 				modifier = {
 					add = -10
-					OR = {
-						always = no
-						always = no
-						has_completed_focus = BUL_freedom_of_press
-					}
+					always = no
 				}
 				modifier = {
 					add = -10
@@ -413,7 +405,7 @@ country_event = {
 				}
 				modifier = {
 					add = 20
-					has_completed_focus = BUL_dissolve_the_military_union
+					always = no
 				}
 				modifier = {
 					add = 20
@@ -2837,17 +2829,13 @@ country_event = {
 	# Desc when formed by the player
 	desc = {
 		text = bftb_bulgaria_fatherland_front.1.desc_positive
-		trigger = {
-			always = no
-		}
+		trigger = { always = no }
 	}
 
 	# Desc when NOT formed by the player
 	desc = {
 		text = bftb_bulgaria_fatherland_front.1.desc_negative
-		trigger = {
-			NOT = { always = no }
-		}
+		trigger = { always = yes }
 	}
 
 	picture = GFX_report_event_bul_partisans_plovdiv
@@ -2859,9 +2847,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			if = {
-				limit = { 
-					NOT = { always = no }
-				}
+				limit = { always = yes }
 				add_popularity = {
 					ideology = communism
 					popularity = 0.2
@@ -2874,9 +2860,7 @@ country_event = {
 	option = { #When formed by the player
 		name = bftb_bulgaria_fatherland_front.1.a
 
-		trigger = {
-			always = no
-		}
+		trigger = { always = no }
 		add_political_power = 70
 		add_ideas = BUL_fatherland_front_positive
 	}
@@ -2884,9 +2868,7 @@ country_event = {
 	option = { #When NOT formed by the player
 		name = bftb_bulgaria_fatherland_front.1.b
 
-		trigger = {
-			NOT = { always = no }
-		}
+		trigger = { always = yes }
 		effect_tooltip = {
 			add_popularity = {
 				ideology = communism
@@ -3006,7 +2988,7 @@ country_event = {
 			}
 			modifier = { #Support IMRO is not cool bro
 				factor = 10
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 10
@@ -3082,15 +3064,12 @@ country_event = {
 			modifier = { #You have good relations with your neighbors, we like that
 				factor = 1.5
 				BUL = {
-					OR = {
-						always = no
-						always = no
-					}
+					always = no
 				}
 			}
 			modifier = { #You approached us, we like that
 				factor = 1.5
-				BUL = {	has_completed_focus = BUL_approach_the_united_kingdom }
+				BUL = {	always = no }
 			}
 			modifier = { #You are becoming yet another capitalist country, we like that
 				factor = 1.5
@@ -3291,7 +3270,7 @@ country_event = {
 			}
 			modifier = { #Support IMRO is not cool bro
 				factor = 10
-				BUL = {	has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = {	always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 15
@@ -3373,15 +3352,12 @@ country_event = {
 			modifier = { #You have good relations with your neighbors, we like that
 				factor = 1.5
 				BUL = {
-					OR = {
-						always = no
-						always = no
-					}
+					always = no
 				}
 			}
 			modifier = { #You approached us, we like that
 				factor = 1.5
-				BUL = {	has_completed_focus = BUL_approach_the_united_kingdom }
+				BUL = {	always = no }
 			}
 			modifier = { #You are becoming yet another capitalist country, we like that
 				factor = 1.5
@@ -3468,15 +3444,12 @@ country_event = {
 			modifier = { #You have good relations with your neighbors, we like that
 				factor = 1.5
 				BUL = {
-					OR = {
-						always = no
-						always = no
-					}
+					always = no
 				}
 			}
 			modifier = { #You approached us, we like that
 				factor = 1.5
-				BUL = {	has_completed_focus = BUL_approach_the_united_kingdom }
+				BUL = {	always = no }
 			}
 			modifier = { #You are becoming yet another capitalist country, we like that
 				factor = 1.5
@@ -4110,7 +4083,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				BUL = { has_completed_focus = BUL_approach_the_united_kingdom }
+				BUL = { always = no }
 			}
 			modifier = {
 				factor = 0
@@ -6940,7 +6913,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = {
 				factor = 2
@@ -7181,7 +7154,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 10
@@ -8947,7 +8920,7 @@ country_event = {
 			}
 			modifier = { #Support IMRO is not cool bro
 				factor = 2
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 2
@@ -9236,7 +9209,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 5
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 10
@@ -9501,7 +9474,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 5
@@ -9843,7 +9816,7 @@ country_event = {
 			}
 			modifier = { #Support IMRO is not cool bro
 				factor = 10
-				BUL = { has_completed_focus = BUL_support_macedonian_organizations }
+				BUL = { always = no }
 			}
 			modifier = { #Your coop with IMRO is just too much
 				factor = 10

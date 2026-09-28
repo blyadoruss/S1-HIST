@@ -1,0 +1,68 @@
+guiTypes = {
+    containerWindowType = {
+        name = africa_front_gui_allies
+        orientation = upper_right
+        position = { x = -450 y = 100 }
+        size = { width = 500 height = 540 }
+        moveable = no
+		
+		containerWindowType = {
+			name = africa_front_gui_axis_ramochka
+			orientation = upper_right
+			position = { x = -440 y = 60 }
+			size = { width = 400 height = 340 }
+			moveable = no
+			background = { 
+				name = Background 
+				quadTextureSprite = GFX_tiled_window 
+			}
+			iconType = {
+				name = "state_452"
+				spritetype = "GFX_africa_front_state_452"
+				position = { x = 70 y = 60 }
+				tooltip = "abt452"	
+			}
+			iconType = {
+				name = "state_907"
+				spritetype = "GFX_africa_front_state_907"
+				position = { x = 150 y = 62 }
+				tooltip = "abt907"	
+			}
+			iconType = {
+				name = "state_447"
+				spritetype = "GFX_africa_front_state_447"
+				position = { x = 160 y = 61 }
+				tooltip = "abt447"	
+			}
+			iconType = {
+				name = "state_446"
+				spritetype = "GFX_africa_front_state_446"
+				position = { x = 235 y = 62 }
+				tooltip = "abt446"	
+			}
+			iconType = {
+				name = "state_456"
+				spritetype = "GFX_africa_front_state_456"
+				position = { x = 205 y = 140 }
+				tooltip = "abt456"	
+			}
+			iconType = {
+				name = "state_457"
+				spritetype = "GFX_africa_front_state_457"
+				position = { x = 227 y = 110 }
+				tooltip = "abt457"	
+			}
+		}
+	
+        instantTextBoxType = {
+            name = "abt_mechanic"
+            text = abt_text_mechanic_africa_egypt
+            position = { x = 25 y = 405 }
+            font = hoi_16mbs
+            maxWidth = 450
+            maxHeight = 150
+            format = left
+        }
+    }
+}
+			

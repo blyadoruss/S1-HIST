@@ -1,0 +1,41 @@
+scripted_gui = {
+    africa_front_gui_axis = {
+        context_type = decision_category
+        window_name = africa_front_gui_axis
+        visible = { 
+		}		
+        effects = {
+        }
+        triggers = {
+        }
+        properties = {
+            state_458 = { frame = state_458_frame }
+            state_665 = { frame = state_665_frame }
+            state_661 = { frame = state_661_frame }
+            state_448 = { frame = state_448_frame }
+            state_449 = { frame = state_449_frame }
+            state_662 = { frame = state_662_frame }
+            state_450 = { frame = state_450_frame }
+            state_451 = { frame = state_451_frame }
+            state_663 = { frame = state_663_frame }
+        }
+    }
+    africa_front_gui_allies = {
+        context_type = decision_category
+        window_name = africa_front_gui_allies
+        visible = { 
+		}		
+        effects = {
+        }
+        triggers = {
+        }
+		properties = {
+            state_452 = { frame = state_452_frame }
+            state_907 = { frame = state_907_frame }
+            state_447 = { frame = state_447_frame }
+            state_446 = { frame = state_446_frame }
+            state_456 = { frame = state_456_frame }
+            state_457 = { frame = state_457_frame }
+        }
+    }
+}

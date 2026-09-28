@@ -1,0 +1,389 @@
+african_front_calculate_sum = {
+    set_variable = { am_factor_axis = 0 }
+    set_variable = { am_factor_allies = 0 }
+    if = {
+        limit = { has_global_flag = state_273_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_446_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_447_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_448_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_449_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_450_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_451_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_452_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_453_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_456_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_457_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_552_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_661_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_662_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_663_allies }
+        add_to_variable = { am_factor_axis = -0.01 }
+        add_to_variable = { am_factor_allies = 0.01 }
+    }
+    if = {
+        limit = { has_global_flag = state_907_axis }
+        add_to_variable = { am_factor_axis = 0.01 }
+        add_to_variable = { am_factor_allies = -0.01 }
+    }
+}
+
+african_front_update_control_flags = {
+    clr_global_flag = state_273_axis
+    clr_global_flag = state_273_allies
+    if = {
+        limit = { 273 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_273_axis
+    }
+    else_if = {
+        limit = { 273 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_273_allies
+    }
+    clr_global_flag = state_446_axis
+    clr_global_flag = state_446_allies
+    if = {
+        limit = { 446 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_446_axis
+    }
+    else_if = {
+        limit = { 446 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_446_allies
+    }
+    clr_global_flag = state_447_axis
+    clr_global_flag = state_447_allies
+    if = {
+        limit = { 447 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_447_axis
+    }
+    else_if = {
+        limit = { 447 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_447_allies
+    }
+    clr_global_flag = state_448_axis
+    clr_global_flag = state_448_allies
+    if = {
+        limit = { 448 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_448_axis
+    }
+    else_if = {
+        limit = { 448 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_448_allies
+    }
+    clr_global_flag = state_449_axis
+    clr_global_flag = state_449_allies
+    if = {
+        limit = { 449 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_449_axis
+    }
+    else_if = {
+        limit = { 449 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_449_allies
+    }
+    clr_global_flag = state_450_axis
+    clr_global_flag = state_450_allies
+    if = {
+        limit = { 450 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_450_axis
+    }
+    else_if = {
+        limit = { 450 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_450_allies
+    }
+    clr_global_flag = state_451_axis
+    clr_global_flag = state_451_allies
+    if = {
+        limit = { 451 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_451_axis
+    }
+    else_if = {
+        limit = { 451 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_451_allies
+    }
+    clr_global_flag = state_452_axis
+    clr_global_flag = state_452_allies
+    if = {
+        limit = { 452 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_452_axis
+    }
+    else_if = {
+        limit = { 452 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_452_allies
+    }
+    clr_global_flag = state_453_axis
+    clr_global_flag = state_453_allies
+    if = {
+        limit = { 453 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_453_axis
+    }
+    else_if = {
+        limit = { 453 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_453_allies
+    }
+    clr_global_flag = state_456_axis
+    clr_global_flag = state_456_allies
+    if = {
+        limit = { 456 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_456_axis
+    }
+    else_if = {
+        limit = { 456 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_456_allies
+    }
+    clr_global_flag = state_457_axis
+    clr_global_flag = state_457_allies
+    if = {
+        limit = { 457 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_457_axis
+    }
+    else_if = {
+        limit = { 457 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_457_allies
+    }
+    clr_global_flag = state_458_axis
+    clr_global_flag = state_458_allies
+    if = {
+        limit = { 458 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_458_axis
+    }
+    else_if = {
+        limit = { 458 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_458_allies
+    }
+    clr_global_flag = state_552_axis
+    clr_global_flag = state_552_allies
+    if = {
+        limit = { 552 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_552_axis
+    }
+    else_if = {
+        limit = { 552 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_552_allies
+    }
+    clr_global_flag = state_661_axis
+    clr_global_flag = state_661_allies
+    if = {
+        limit = { 661 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_661_axis
+    }
+    else_if = {
+        limit = { 661 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_661_allies
+    }
+    clr_global_flag = state_662_axis
+    clr_global_flag = state_662_allies
+    if = {
+        limit = { 662 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_662_axis
+    }
+    else_if = {
+        limit = { 662 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_662_allies
+    }
+    clr_global_flag = state_663_axis
+    clr_global_flag = state_663_allies
+    if = {
+        limit = { 663 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_663_axis
+    }
+    else_if = {
+        limit = { 663 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_663_allies
+    }
+    clr_global_flag = state_665_axis
+    clr_global_flag = state_665_allies
+    if = {
+        limit = { 665 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_665_axis
+    }
+    else_if = {
+        limit = { 665 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_665_allies
+    }
+    clr_global_flag = state_907_axis
+    clr_global_flag = state_907_allies
+    if = {
+        limit = { 907 = { controller = { african_front_is_axis = yes } } }
+        set_global_flag = state_907_axis
+    }
+    else_if = {
+        limit = { 907 = { controller = { african_front_is_allies = yes } } }
+        set_global_flag = state_907_allies
+    }
+    every_country = { african_front_refresh_country = yes }
+}
+
+african_front_update_frames = {
+    set_variable = { state_273_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_273_allies }
+        set_variable = { state_273_frame = 1 }
+    }
+    set_variable = { state_446_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_446_axis }
+        set_variable = { state_446_frame = 1 }
+    }
+    set_variable = { state_447_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_447_axis }
+        set_variable = { state_447_frame = 1 }
+    }
+    set_variable = { state_448_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_448_allies }
+        set_variable = { state_448_frame = 1 }
+    }
+    set_variable = { state_449_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_449_allies }
+        set_variable = { state_449_frame = 1 }
+    }
+    set_variable = { state_450_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_450_allies }
+        set_variable = { state_450_frame = 1 }
+    }
+    set_variable = { state_451_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_451_allies }
+        set_variable = { state_451_frame = 1 }
+    }
+    set_variable = { state_452_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_452_axis }
+        set_variable = { state_452_frame = 1 }
+    }
+    set_variable = { state_453_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_453_axis }
+        set_variable = { state_453_frame = 1 }
+    }
+    set_variable = { state_456_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_456_axis }
+        set_variable = { state_456_frame = 1 }
+    }
+    set_variable = { state_457_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_457_axis }
+        set_variable = { state_457_frame = 1 }
+    }
+    set_variable = { state_458_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_458_allies }
+        set_variable = { state_458_frame = 1 }
+    }
+    set_variable = { state_552_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_552_axis }
+        set_variable = { state_552_frame = 1 }
+    }
+    set_variable = { state_661_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_661_allies }
+        set_variable = { state_661_frame = 1 }
+    }
+    set_variable = { state_662_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_662_allies }
+        set_variable = { state_662_frame = 1 }
+    }
+    set_variable = { state_663_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_663_allies }
+        set_variable = { state_663_frame = 1 }
+    }
+    set_variable = { state_665_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_665_allies }
+        set_variable = { state_665_frame = 1 }
+    }
+    set_variable = { state_907_frame = 2 }
+    if = {
+        limit = { has_global_flag = state_907_axis }
+        set_variable = { state_907_frame = 1 }
+    }
+}
+
+african_front_refresh_country = {
+    african_front_calculate_sum = yes
+    african_front_update_frames = yes
+    if = {
+        limit = { african_front_is_axis = yes }
+        if = {
+            limit = { NOT = { has_dynamic_modifier = { modifier = african_gui_modifier_axis } } }
+            add_dynamic_modifier = { modifier = african_gui_modifier_axis }
+        }
+    }
+    else_if = {
+        limit = { has_dynamic_modifier = { modifier = african_gui_modifier_axis } }
+        remove_dynamic_modifier = { modifier = african_gui_modifier_axis }
+    }
+    if = {
+        limit = { african_front_is_allies = yes }
+        if = {
+            limit = { NOT = { has_dynamic_modifier = { modifier = african_gui_modifier_allies } } }
+            add_dynamic_modifier = { modifier = african_gui_modifier_allies }
+        }
+    }
+    else_if = {
+        limit = { has_dynamic_modifier = { modifier = african_gui_modifier_allies } }
+        remove_dynamic_modifier = { modifier = african_gui_modifier_allies }
+    }
+}
+

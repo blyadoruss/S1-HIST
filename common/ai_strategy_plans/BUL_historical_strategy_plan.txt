@@ -33,14 +33,14 @@ BUL_historical_plan = {
 		
 		#1936
 		BUL_power_to_the_tsar
-		BUL_dissolve_the_military_union #Short focus
+		 #Short focus
 		BUL_acquire_modern_tools #Short focus
 		BUL_negotiate_bulgarian_rearmament #Short focus
-		BUL_the_tsars_regime
+		
 		BUL_improve_the_road_system
 		#1937
-		BUL_restore_the_tarnovo_constitution
-		BUL_freedom_of_press
+		
+		
 		BUL_invigorate_national_industry
 		BUL_promote_bulgarian_nationalism
 		BUL_limited_womens_suffrage
@@ -55,15 +55,15 @@ BUL_historical_plan = {
 		BUL_georgi_benkovski_aircraft_repair_facilities
 		BUL_national_railway_lines #Short focus
 		BUL_light_metal_exploitation #Short focus
-		BUL_ban_far_right_organizations #Short focus
+		 #Short focus
 		BUL_cooperation_with_italy
-		BUL_found_the_brannik
+		
 		#1940
 		BUL_crush_the_communists #Short focus
 		BUL_steel_plant_in_pernik
-		BUL_liberalization_of_trade_policies
+		
 		BUL_increase_industry_investments
-		BUL_support_macedonian_organizations #Short focus
+		 #Short focus
 		BUL_join_the_tripartite_pact #Short focus
 		#1941
 		#BUL_reorganize_the_military_industry -> ASAP
@@ -76,7 +76,7 @@ BUL_historical_plan = {
 		#1942
 		BUL_darzhavna_voenna_fabrika
 		BUL_found_dvf_sopot
-		BUL_form_a_regency_council
+		
 		BUL_military_secrets_sharing
 		#1943
 		BUL_pilot_training_program

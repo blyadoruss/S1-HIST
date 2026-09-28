@@ -1,0 +1,3281 @@
+{
+  "region": "Tunisia, Libya, Egypt including Sinai",
+  "source": "map/provinces.bmp + history/states",
+  "canvas_size": [
+    1371,
+    1017
+  ],
+  "map_crop_top_left": [
+    2924,
+    773
+  ],
+  "map_crop_size": [
+    441,
+    323
+  ],
+  "scale": 3,
+  "padding": 24,
+  "order": "north_to_south",
+  "grouping": "six latitude rows balanced by province count; whole province assigned by pixel centroid",
+  "palette": {
+    "neutral": [
+      "#a99977",
+      "#574e3e"
+    ],
+    "green": [
+      "#579b64",
+      "#284f35"
+    ],
+    "red": [
+      "#c15b52",
+      "#683832"
+    ]
+  },
+  "bands": [
+    {
+      "id": "band_01",
+      "province_ids": [
+        1037,
+        1046,
+        1105,
+        1149,
+        1204,
+        3987,
+        4061,
+        4129,
+        4151,
+        4163,
+        7005,
+        7077,
+        7082,
+        7162,
+        7180,
+        7209,
+        9983,
+        9994,
+        10026,
+        10082,
+        10091,
+        11921,
+        11935,
+        11957,
+        11969,
+        12000,
+        12039,
+        12094
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_01_neutral.png",
+        "green": "bands/band_01_green.png",
+        "red": "bands/band_01_red.png"
+      }
+    },
+    {
+      "id": "band_02",
+      "province_ids": [
+        1062,
+        1118,
+        1130,
+        1174,
+        1189,
+        4051,
+        4063,
+        4120,
+        4136,
+        4194,
+        4992,
+        7066,
+        7079,
+        7091,
+        7139,
+        7154,
+        9980,
+        9989,
+        9992,
+        10049,
+        10067,
+        10120,
+        10123,
+        11954,
+        11964,
+        12025,
+        13078
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_02_neutral.png",
+        "green": "bands/band_02_green.png",
+        "red": "bands/band_02_red.png"
+      }
+    },
+    {
+      "id": "band_03",
+      "province_ids": [
+        1041,
+        1071,
+        1155,
+        1186,
+        4047,
+        4060,
+        4076,
+        4145,
+        4161,
+        4176,
+        5078,
+        7063,
+        7164,
+        7206,
+        9977,
+        10005,
+        10037,
+        10046,
+        10061,
+        10073,
+        11910,
+        11940,
+        11967,
+        11979,
+        12009,
+        12049,
+        12079
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_03_neutral.png",
+        "green": "bands/band_03_green.png",
+        "red": "bands/band_03_red.png"
+      }
+    },
+    {
+      "id": "band_04",
+      "province_ids": [
+        992,
+        1060,
+        1127,
+        1198,
+        1994,
+        3996,
+        4055,
+        4057,
+        4073,
+        4117,
+        4133,
+        4200,
+        7011,
+        7136,
+        7148,
+        7194,
+        9947,
+        10002,
+        10117,
+        10127,
+        10754,
+        11922,
+        11951,
+        12004,
+        12033,
+        12088,
+        12091,
+        12764
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_04_neutral.png",
+        "green": "bands/band_04_green.png",
+        "red": "bands/band_04_red.png"
+      }
+    },
+    {
+      "id": "band_05",
+      "province_ids": [
+        1057,
+        1068,
+        1080,
+        1112,
+        1140,
+        1143,
+        4143,
+        4962,
+        7076,
+        7117,
+        7188,
+        7216,
+        7985,
+        8069,
+        9957,
+        10031,
+        10099,
+        10104,
+        10126,
+        10785,
+        10869,
+        10884,
+        12073,
+        12099,
+        12733,
+        12816,
+        13073
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_05_neutral.png",
+        "green": "bands/band_05_green.png",
+        "red": "bands/band_05_red.png"
+      }
+    },
+    {
+      "id": "band_06",
+      "province_ids": [
+        1028,
+        1064,
+        1151,
+        1206,
+        2064,
+        4068,
+        4191,
+        4910,
+        5004,
+        5069,
+        7030,
+        7073,
+        7144,
+        7156,
+        10028,
+        10097,
+        10844,
+        10907,
+        11974,
+        11999,
+        12002,
+        12022,
+        12044,
+        12071,
+        12082,
+        12771,
+        12866,
+        12889
+      ],
+      "position": [
+        0,
+        0
+      ],
+      "size": [
+        1371,
+        1017
+      ],
+      "files": {
+        "neutral": "bands/band_06_neutral.png",
+        "green": "bands/band_06_green.png",
+        "red": "bands/band_06_red.png"
+      }
+    }
+  ],
+  "provinces": [
+    {
+      "id": 992,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_992_neutral.png",
+        "green": "provinces/province_992_green.png",
+        "red": "provinces/province_992_red.png"
+      },
+      "position": [
+        1038,
+        393
+      ],
+      "size": [
+        60,
+        60
+      ]
+    },
+    {
+      "id": 1028,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_1028_neutral.png",
+        "green": "provinces/province_1028_green.png",
+        "red": "provinces/province_1028_red.png"
+      },
+      "position": [
+        1170,
+        669
+      ],
+      "size": [
+        42,
+        63
+      ]
+    },
+    {
+      "id": 1037,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_1037_neutral.png",
+        "green": "provinces/province_1037_green.png",
+        "red": "provinces/province_1037_red.png"
+      },
+      "position": [
+        99,
+        129
+      ],
+      "size": [
+        39,
+        45
+      ]
+    },
+    {
+      "id": 1041,
+      "state_id": 449,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_1041_neutral.png",
+        "green": "provinces/province_1041_green.png",
+        "red": "provinces/province_1041_red.png"
+      },
+      "position": [
+        393,
+        348
+      ],
+      "size": [
+        51,
+        48
+      ]
+    },
+    {
+      "id": 1046,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_1046_neutral.png",
+        "green": "provinces/province_1046_green.png",
+        "red": "provinces/province_1046_red.png"
+      },
+      "position": [
+        60,
+        66
+      ],
+      "size": [
+        57,
+        42
+      ]
+    },
+    {
+      "id": 1057,
+      "state_id": 663,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1057_neutral.png",
+        "green": "provinces/province_1057_green.png",
+        "red": "provinces/province_1057_red.png"
+      },
+      "position": [
+        780,
+        417
+      ],
+      "size": [
+        54,
+        36
+      ]
+    },
+    {
+      "id": 1060,
+      "state_id": 663,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_1060_neutral.png",
+        "green": "provinces/province_1060_green.png",
+        "red": "provinces/province_1060_red.png"
+      },
+      "position": [
+        780,
+        378
+      ],
+      "size": [
+        60,
+        39
+      ]
+    },
+    {
+      "id": 1062,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_1062_neutral.png",
+        "green": "provinces/province_1062_green.png",
+        "red": "provinces/province_1062_red.png"
+      },
+      "position": [
+        627,
+        306
+      ],
+      "size": [
+        39,
+        54
+      ]
+    },
+    {
+      "id": 1064,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_1064_neutral.png",
+        "green": "provinces/province_1064_green.png",
+        "red": "provinces/province_1064_red.png"
+      },
+      "position": [
+        1203,
+        654
+      ],
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "id": 1068,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1068_neutral.png",
+        "green": "provinces/province_1068_green.png",
+        "red": "provinces/province_1068_red.png"
+      },
+      "position": [
+        1086,
+        444
+      ],
+      "size": [
+        51,
+        33
+      ]
+    },
+    {
+      "id": 1071,
+      "state_id": 447,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_1071_neutral.png",
+        "green": "provinces/province_1071_green.png",
+        "red": "provinces/province_1071_red.png"
+      },
+      "position": [
+        1008,
+        369
+      ],
+      "size": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": 1080,
+      "state_id": 457,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1080_neutral.png",
+        "green": "provinces/province_1080_green.png",
+        "red": "provinces/province_1080_red.png"
+      },
+      "position": [
+        1146,
+        492
+      ],
+      "size": [
+        57,
+        75
+      ]
+    },
+    {
+      "id": 1105,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_1105_neutral.png",
+        "green": "provinces/province_1105_green.png",
+        "red": "provinces/province_1105_red.png"
+      },
+      "position": [
+        150,
+        267
+      ],
+      "size": [
+        63,
+        45
+      ]
+    },
+    {
+      "id": 1112,
+      "state_id": 453,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1112_neutral.png",
+        "green": "provinces/province_1112_green.png",
+        "red": "provinces/province_1112_red.png"
+      },
+      "position": [
+        1203,
+        432
+      ],
+      "size": [
+        57,
+        54
+      ]
+    },
+    {
+      "id": 1118,
+      "state_id": 448,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_1118_neutral.png",
+        "green": "provinces/province_1118_green.png",
+        "red": "provinces/province_1118_red.png"
+      },
+      "position": [
+        375,
+        321
+      ],
+      "size": [
+        36,
+        54
+      ]
+    },
+    {
+      "id": 1127,
+      "state_id": 450,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_1127_neutral.png",
+        "green": "provinces/province_1127_green.png",
+        "red": "provinces/province_1127_red.png"
+      },
+      "position": [
+        591,
+        366
+      ],
+      "size": [
+        39,
+        48
+      ]
+    },
+    {
+      "id": 1130,
+      "state_id": 451,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_1130_neutral.png",
+        "green": "provinces/province_1130_green.png",
+        "red": "provinces/province_1130_red.png"
+      },
+      "position": [
+        765,
+        306
+      ],
+      "size": [
+        33,
+        33
+      ]
+    },
+    {
+      "id": 1140,
+      "state_id": 273,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1140_neutral.png",
+        "green": "provinces/province_1140_green.png",
+        "red": "provinces/province_1140_red.png"
+      },
+      "position": [
+        678,
+        450
+      ],
+      "size": [
+        162,
+        90
+      ]
+    },
+    {
+      "id": 1143,
+      "state_id": 452,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_1143_neutral.png",
+        "green": "provinces/province_1143_green.png",
+        "red": "provinces/province_1143_red.png"
+      },
+      "position": [
+        897,
+        426
+      ],
+      "size": [
+        54,
+        45
+      ]
+    },
+    {
+      "id": 1149,
+      "state_id": 448,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_1149_neutral.png",
+        "green": "provinces/province_1149_green.png",
+        "red": "provinces/province_1149_red.png"
+      },
+      "position": [
+        270,
+        264
+      ],
+      "size": [
+        33,
+        57
+      ]
+    },
+    {
+      "id": 1151,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_1151_neutral.png",
+        "green": "provinces/province_1151_green.png",
+        "red": "provinces/province_1151_red.png"
+      },
+      "position": [
+        1155,
+        576
+      ],
+      "size": [
+        57,
+        48
+      ]
+    },
+    {
+      "id": 1155,
+      "state_id": 446,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_1155_neutral.png",
+        "green": "provinces/province_1155_green.png",
+        "red": "provinces/province_1155_red.png"
+      },
+      "position": [
+        1182,
+        357
+      ],
+      "size": [
+        51,
+        39
+      ]
+    },
+    {
+      "id": 1174,
+      "state_id": 661,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_1174_neutral.png",
+        "green": "provinces/province_1174_green.png",
+        "red": "provinces/province_1174_red.png"
+      },
+      "position": [
+        297,
+        321
+      ],
+      "size": [
+        39,
+        45
+      ]
+    },
+    {
+      "id": 1186,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_1186_neutral.png",
+        "green": "provinces/province_1186_green.png",
+        "red": "provinces/province_1186_red.png"
+      },
+      "position": [
+        702,
+        327
+      ],
+      "size": [
+        51,
+        54
+      ]
+    },
+    {
+      "id": 1189,
+      "state_id": 448,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_1189_neutral.png",
+        "green": "provinces/province_1189_green.png",
+        "red": "provinces/province_1189_red.png"
+      },
+      "position": [
+        237,
+        270
+      ],
+      "size": [
+        39,
+        51
+      ]
+    },
+    {
+      "id": 1198,
+      "state_id": 449,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_1198_neutral.png",
+        "green": "provinces/province_1198_green.png",
+        "red": "provinces/province_1198_red.png"
+      },
+      "position": [
+        573,
+        399
+      ],
+      "size": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": 1204,
+      "state_id": 451,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_1204_neutral.png",
+        "green": "provinces/province_1204_green.png",
+        "red": "provinces/province_1204_red.png"
+      },
+      "position": [
+        693,
+        264
+      ],
+      "size": [
+        36,
+        36
+      ]
+    },
+    {
+      "id": 1206,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_1206_neutral.png",
+        "green": "provinces/province_1206_green.png",
+        "red": "provinces/province_1206_red.png"
+      },
+      "position": [
+        1149,
+        717
+      ],
+      "size": [
+        63,
+        63
+      ]
+    },
+    {
+      "id": 1994,
+      "state_id": 663,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_1994_neutral.png",
+        "green": "provinces/province_1994_green.png",
+        "red": "provinces/province_1994_red.png"
+      },
+      "position": [
+        687,
+        414
+      ],
+      "size": [
+        45,
+        54
+      ]
+    },
+    {
+      "id": 2064,
+      "state_id": 552,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_2064_neutral.png",
+        "green": "provinces/province_2064_green.png",
+        "red": "provinces/province_2064_red.png"
+      },
+      "position": [
+        840,
+        501
+      ],
+      "size": [
+        318,
+        327
+      ]
+    },
+    {
+      "id": 3987,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_3987_neutral.png",
+        "green": "provinces/province_3987_green.png",
+        "red": "provinces/province_3987_red.png"
+      },
+      "position": [
+        24,
+        207
+      ],
+      "size": [
+        57,
+        63
+      ]
+    },
+    {
+      "id": 3996,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_3996_neutral.png",
+        "green": "provinces/province_3996_green.png",
+        "red": "provinces/province_3996_red.png"
+      },
+      "position": [
+        1092,
+        390
+      ],
+      "size": [
+        39,
+        33
+      ]
+    },
+    {
+      "id": 4047,
+      "state_id": 449,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4047_neutral.png",
+        "green": "provinces/province_4047_green.png",
+        "red": "provinces/province_4047_red.png"
+      },
+      "position": [
+        429,
+        354
+      ],
+      "size": [
+        42,
+        54
+      ]
+    },
+    {
+      "id": 4051,
+      "state_id": 661,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4051_neutral.png",
+        "green": "provinces/province_4051_green.png",
+        "red": "provinces/province_4051_red.png"
+      },
+      "position": [
+        234,
+        315
+      ],
+      "size": [
+        69,
+        42
+      ]
+    },
+    {
+      "id": 4055,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4055_neutral.png",
+        "green": "provinces/province_4055_green.png",
+        "red": "provinces/province_4055_red.png"
+      },
+      "position": [
+        1098,
+        420
+      ],
+      "size": [
+        39,
+        27
+      ]
+    },
+    {
+      "id": 4057,
+      "state_id": 449,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4057_neutral.png",
+        "green": "provinces/province_4057_green.png",
+        "red": "provinces/province_4057_red.png"
+      },
+      "position": [
+        543,
+        405
+      ],
+      "size": [
+        42,
+        48
+      ]
+    },
+    {
+      "id": 4060,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4060_neutral.png",
+        "green": "provinces/province_4060_green.png",
+        "red": "provinces/province_4060_red.png"
+      },
+      "position": [
+        801,
+        339
+      ],
+      "size": [
+        39,
+        48
+      ]
+    },
+    {
+      "id": 4061,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_4061_neutral.png",
+        "green": "provinces/province_4061_green.png",
+        "red": "provinces/province_4061_red.png"
+      },
+      "position": [
+        57,
+        102
+      ],
+      "size": [
+        54,
+        54
+      ]
+    },
+    {
+      "id": 4063,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4063_neutral.png",
+        "green": "provinces/province_4063_green.png",
+        "red": "provinces/province_4063_red.png"
+      },
+      "position": [
+        657,
+        288
+      ],
+      "size": [
+        45,
+        39
+      ]
+    },
+    {
+      "id": 4068,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_4068_neutral.png",
+        "green": "provinces/province_4068_green.png",
+        "red": "provinces/province_4068_red.png"
+      },
+      "position": [
+        1245,
+        633
+      ],
+      "size": [
+        63,
+        72
+      ]
+    },
+    {
+      "id": 4073,
+      "state_id": 446,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4073_neutral.png",
+        "green": "provinces/province_4073_green.png",
+        "red": "provinces/province_4073_red.png"
+      },
+      "position": [
+        1164,
+        399
+      ],
+      "size": [
+        27,
+        45
+      ]
+    },
+    {
+      "id": 4076,
+      "state_id": 447,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4076_neutral.png",
+        "green": "provinces/province_4076_green.png",
+        "red": "provinces/province_4076_red.png"
+      },
+      "position": [
+        1062,
+        342
+      ],
+      "size": [
+        45,
+        39
+      ]
+    },
+    {
+      "id": 4117,
+      "state_id": 661,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4117_neutral.png",
+        "green": "provinces/province_4117_green.png",
+        "red": "provinces/province_4117_red.png"
+      },
+      "position": [
+        318,
+        375
+      ],
+      "size": [
+        78,
+        63
+      ]
+    },
+    {
+      "id": 4120,
+      "state_id": 450,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4120_neutral.png",
+        "green": "provinces/province_4120_green.png",
+        "red": "provinces/province_4120_red.png"
+      },
+      "position": [
+        606,
+        333
+      ],
+      "size": [
+        36,
+        33
+      ]
+    },
+    {
+      "id": 4129,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_4129_neutral.png",
+        "green": "provinces/province_4129_green.png",
+        "red": "provinces/province_4129_red.png"
+      },
+      "position": [
+        132,
+        126
+      ],
+      "size": [
+        36,
+        36
+      ]
+    },
+    {
+      "id": 4133,
+      "state_id": 663,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4133_neutral.png",
+        "green": "provinces/province_4133_green.png",
+        "red": "provinces/province_4133_red.png"
+      },
+      "position": [
+        648,
+        378
+      ],
+      "size": [
+        48,
+        48
+      ]
+    },
+    {
+      "id": 4136,
+      "state_id": 451,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4136_neutral.png",
+        "green": "provinces/province_4136_green.png",
+        "red": "provinces/province_4136_red.png"
+      },
+      "position": [
+        789,
+        315
+      ],
+      "size": [
+        33,
+        27
+      ]
+    },
+    {
+      "id": 4143,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_4143_neutral.png",
+        "green": "provinces/province_4143_green.png",
+        "red": "provinces/province_4143_red.png"
+      },
+      "position": [
+        1131,
+        444
+      ],
+      "size": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": 4145,
+      "state_id": 447,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4145_neutral.png",
+        "green": "provinces/province_4145_green.png",
+        "red": "provinces/province_4145_red.png"
+      },
+      "position": [
+        1041,
+        363
+      ],
+      "size": [
+        39,
+        39
+      ]
+    },
+    {
+      "id": 4151,
+      "state_id": 451,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_4151_neutral.png",
+        "green": "provinces/province_4151_green.png",
+        "red": "provinces/province_4151_red.png"
+      },
+      "position": [
+        672,
+        264
+      ],
+      "size": [
+        27,
+        27
+      ]
+    },
+    {
+      "id": 4161,
+      "state_id": 453,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4161_neutral.png",
+        "green": "provinces/province_4161_green.png",
+        "red": "provinces/province_4161_red.png"
+      },
+      "position": [
+        1254,
+        351
+      ],
+      "size": [
+        30,
+        51
+      ]
+    },
+    {
+      "id": 4163,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_4163_neutral.png",
+        "green": "provinces/province_4163_green.png",
+        "red": "provinces/province_4163_red.png"
+      },
+      "position": [
+        57,
+        45
+      ],
+      "size": [
+        39,
+        39
+      ]
+    },
+    {
+      "id": 4176,
+      "state_id": 661,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_4176_neutral.png",
+        "green": "provinces/province_4176_green.png",
+        "red": "provinces/province_4176_red.png"
+      },
+      "position": [
+        348,
+        336
+      ],
+      "size": [
+        39,
+        60
+      ]
+    },
+    {
+      "id": 4191,
+      "state_id": 273,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_4191_neutral.png",
+        "green": "provinces/province_4191_green.png",
+        "red": "provinces/province_4191_red.png"
+      },
+      "position": [
+        588,
+        657
+      ],
+      "size": [
+        252,
+        336
+      ]
+    },
+    {
+      "id": 4194,
+      "state_id": 448,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4194_neutral.png",
+        "green": "provinces/province_4194_green.png",
+        "red": "provinces/province_4194_red.png"
+      },
+      "position": [
+        297,
+        273
+      ],
+      "size": [
+        30,
+        48
+      ]
+    },
+    {
+      "id": 4200,
+      "state_id": 662,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_4200_neutral.png",
+        "green": "provinces/province_4200_green.png",
+        "red": "provinces/province_4200_red.png"
+      },
+      "position": [
+        603,
+        393
+      ],
+      "size": [
+        63,
+        63
+      ]
+    },
+    {
+      "id": 4910,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_4910_neutral.png",
+        "green": "provinces/province_4910_green.png",
+        "red": "provinces/province_4910_red.png"
+      },
+      "position": [
+        1221,
+        756
+      ],
+      "size": [
+        87,
+        87
+      ]
+    },
+    {
+      "id": 4962,
+      "state_id": 273,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_4962_neutral.png",
+        "green": "provinces/province_4962_green.png",
+        "red": "provinces/province_4962_red.png"
+      },
+      "position": [
+        252,
+        402
+      ],
+      "size": [
+        129,
+        99
+      ]
+    },
+    {
+      "id": 4992,
+      "state_id": 665,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_4992_neutral.png",
+        "green": "provinces/province_4992_green.png",
+        "red": "provinces/province_4992_red.png"
+      },
+      "position": [
+        99,
+        291
+      ],
+      "size": [
+        78,
+        114
+      ]
+    },
+    {
+      "id": 5004,
+      "state_id": 273,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_5004_neutral.png",
+        "green": "provinces/province_5004_green.png",
+        "red": "provinces/province_5004_red.png"
+      },
+      "position": [
+        105,
+        522
+      ],
+      "size": [
+        219,
+        243
+      ]
+    },
+    {
+      "id": 5069,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_5069_neutral.png",
+        "green": "provinces/province_5069_green.png",
+        "red": "provinces/province_5069_red.png"
+      },
+      "position": [
+        1269,
+        681
+      ],
+      "size": [
+        78,
+        105
+      ]
+    },
+    {
+      "id": 5078,
+      "state_id": 452,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_5078_neutral.png",
+        "green": "provinces/province_5078_green.png",
+        "red": "provinces/province_5078_red.png"
+      },
+      "position": [
+        834,
+        360
+      ],
+      "size": [
+        48,
+        48
+      ]
+    },
+    {
+      "id": 7005,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7005_neutral.png",
+        "green": "provinces/province_7005_green.png",
+        "red": "provinces/province_7005_red.png"
+      },
+      "position": [
+        99,
+        201
+      ],
+      "size": [
+        63,
+        51
+      ]
+    },
+    {
+      "id": 7011,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_7011_neutral.png",
+        "green": "provinces/province_7011_green.png",
+        "red": "provinces/province_7011_red.png"
+      },
+      "position": [
+        1125,
+        384
+      ],
+      "size": [
+        39,
+        36
+      ]
+    },
+    {
+      "id": 7030,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_7030_neutral.png",
+        "green": "provinces/province_7030_green.png",
+        "red": "provinces/province_7030_red.png"
+      },
+      "position": [
+        1116,
+        519
+      ],
+      "size": [
+        48,
+        48
+      ]
+    },
+    {
+      "id": 7063,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_7063_neutral.png",
+        "green": "provinces/province_7063_green.png",
+        "red": "provinces/province_7063_red.png"
+      },
+      "position": [
+        624,
+        360
+      ],
+      "size": [
+        48,
+        39
+      ]
+    },
+    {
+      "id": 7066,
+      "state_id": 448,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_7066_neutral.png",
+        "green": "provinces/province_7066_green.png",
+        "red": "provinces/province_7066_red.png"
+      },
+      "position": [
+        315,
+        309
+      ],
+      "size": [
+        45,
+        33
+      ]
+    },
+    {
+      "id": 7073,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_7073_neutral.png",
+        "green": "provinces/province_7073_green.png",
+        "red": "provinces/province_7073_red.png"
+      },
+      "position": [
+        1152,
+        612
+      ],
+      "size": [
+        54,
+        66
+      ]
+    },
+    {
+      "id": 7076,
+      "state_id": 662,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_7076_neutral.png",
+        "green": "provinces/province_7076_green.png",
+        "red": "provinces/province_7076_red.png"
+      },
+      "position": [
+        570,
+        441
+      ],
+      "size": [
+        78,
+        48
+      ]
+    },
+    {
+      "id": 7077,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7077_neutral.png",
+        "green": "provinces/province_7077_green.png",
+        "red": "provinces/province_7077_red.png"
+      },
+      "position": [
+        90,
+        96
+      ],
+      "size": [
+        63,
+        39
+      ]
+    },
+    {
+      "id": 7079,
+      "state_id": 452,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_7079_neutral.png",
+        "green": "provinces/province_7079_green.png",
+        "red": "provinces/province_7079_red.png"
+      },
+      "position": [
+        834,
+        330
+      ],
+      "size": [
+        45,
+        39
+      ]
+    },
+    {
+      "id": 7082,
+      "state_id": 451,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7082_neutral.png",
+        "green": "provinces/province_7082_green.png",
+        "red": "provinces/province_7082_red.png"
+      },
+      "position": [
+        711,
+        273
+      ],
+      "size": [
+        42,
+        36
+      ]
+    },
+    {
+      "id": 7091,
+      "state_id": 447,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_7091_neutral.png",
+        "green": "provinces/province_7091_green.png",
+        "red": "provinces/province_7091_red.png"
+      },
+      "position": [
+        1101,
+        342
+      ],
+      "size": [
+        30,
+        27
+      ]
+    },
+    {
+      "id": 7117,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_7117_neutral.png",
+        "green": "provinces/province_7117_green.png",
+        "red": "provinces/province_7117_red.png"
+      },
+      "position": [
+        1041,
+        432
+      ],
+      "size": [
+        60,
+        72
+      ]
+    },
+    {
+      "id": 7136,
+      "state_id": 662,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_7136_neutral.png",
+        "green": "provinces/province_7136_green.png",
+        "red": "provinces/province_7136_red.png"
+      },
+      "position": [
+        420,
+        399
+      ],
+      "size": [
+        66,
+        45
+      ]
+    },
+    {
+      "id": 7139,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_7139_neutral.png",
+        "green": "provinces/province_7139_green.png",
+        "red": "provinces/province_7139_red.png"
+      },
+      "position": [
+        654,
+        312
+      ],
+      "size": [
+        33,
+        45
+      ]
+    },
+    {
+      "id": 7144,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_7144_neutral.png",
+        "green": "provinces/province_7144_green.png",
+        "red": "provinces/province_7144_red.png"
+      },
+      "position": [
+        1089,
+        504
+      ],
+      "size": [
+        30,
+        48
+      ]
+    },
+    {
+      "id": 7148,
+      "state_id": 452,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_7148_neutral.png",
+        "green": "provinces/province_7148_green.png",
+        "red": "provinces/province_7148_red.png"
+      },
+      "position": [
+        936,
+        393
+      ],
+      "size": [
+        69,
+        45
+      ]
+    },
+    {
+      "id": 7154,
+      "state_id": 661,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_7154_neutral.png",
+        "green": "provinces/province_7154_green.png",
+        "red": "provinces/province_7154_red.png"
+      },
+      "position": [
+        141,
+        309
+      ],
+      "size": [
+        96,
+        87
+      ]
+    },
+    {
+      "id": 7156,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_7156_neutral.png",
+        "green": "provinces/province_7156_green.png",
+        "red": "provinces/province_7156_red.png"
+      },
+      "position": [
+        1233,
+        681
+      ],
+      "size": [
+        51,
+        96
+      ]
+    },
+    {
+      "id": 7162,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7162_neutral.png",
+        "green": "provinces/province_7162_green.png",
+        "red": "provinces/province_7162_red.png"
+      },
+      "position": [
+        147,
+        90
+      ],
+      "size": [
+        42,
+        48
+      ]
+    },
+    {
+      "id": 7164,
+      "state_id": 447,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_7164_neutral.png",
+        "green": "provinces/province_7164_green.png",
+        "red": "provinces/province_7164_red.png"
+      },
+      "position": [
+        1077,
+        360
+      ],
+      "size": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": 7180,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7180_neutral.png",
+        "green": "provinces/province_7180_green.png",
+        "red": "provinces/province_7180_red.png"
+      },
+      "position": [
+        114,
+        51
+      ],
+      "size": [
+        39,
+        48
+      ]
+    },
+    {
+      "id": 7188,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_7188_neutral.png",
+        "green": "provinces/province_7188_green.png",
+        "red": "provinces/province_7188_red.png"
+      },
+      "position": [
+        1113,
+        474
+      ],
+      "size": [
+        45,
+        51
+      ]
+    },
+    {
+      "id": 7194,
+      "state_id": 661,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_7194_neutral.png",
+        "green": "provinces/province_7194_green.png",
+        "red": "provinces/province_7194_red.png"
+      },
+      "position": [
+        384,
+        375
+      ],
+      "size": [
+        51,
+        63
+      ]
+    },
+    {
+      "id": 7206,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_7206_neutral.png",
+        "green": "provinces/province_7206_green.png",
+        "red": "provinces/province_7206_red.png"
+      },
+      "position": [
+        771,
+        333
+      ],
+      "size": [
+        39,
+        45
+      ]
+    },
+    {
+      "id": 7209,
+      "state_id": 448,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_7209_neutral.png",
+        "green": "provinces/province_7209_green.png",
+        "red": "provinces/province_7209_red.png"
+      },
+      "position": [
+        324,
+        276
+      ],
+      "size": [
+        45,
+        36
+      ]
+    },
+    {
+      "id": 7216,
+      "state_id": 552,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_7216_neutral.png",
+        "green": "provinces/province_7216_green.png",
+        "red": "provinces/province_7216_red.png"
+      },
+      "position": [
+        966,
+        471
+      ],
+      "size": [
+        129,
+        78
+      ]
+    },
+    {
+      "id": 7985,
+      "state_id": 663,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_7985_neutral.png",
+        "green": "provinces/province_7985_green.png",
+        "red": "provinces/province_7985_red.png"
+      },
+      "position": [
+        657,
+        423
+      ],
+      "size": [
+        57,
+        66
+      ]
+    },
+    {
+      "id": 8069,
+      "state_id": 662,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_8069_neutral.png",
+        "green": "provinces/province_8069_green.png",
+        "red": "provinces/province_8069_red.png"
+      },
+      "position": [
+        510,
+        447
+      ],
+      "size": [
+        72,
+        48
+      ]
+    },
+    {
+      "id": 9947,
+      "state_id": 446,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_9947_neutral.png",
+        "green": "provinces/province_9947_green.png",
+        "red": "provinces/province_9947_red.png"
+      },
+      "position": [
+        1182,
+        387
+      ],
+      "size": [
+        39,
+        57
+      ]
+    },
+    {
+      "id": 9957,
+      "state_id": 457,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_9957_neutral.png",
+        "green": "provinces/province_9957_green.png",
+        "red": "provinces/province_9957_red.png"
+      },
+      "position": [
+        1188,
+        492
+      ],
+      "size": [
+        57,
+        54
+      ]
+    },
+    {
+      "id": 9977,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_9977_neutral.png",
+        "green": "provinces/province_9977_green.png",
+        "red": "provinces/province_9977_red.png"
+      },
+      "position": [
+        693,
+        369
+      ],
+      "size": [
+        42,
+        45
+      ]
+    },
+    {
+      "id": 9980,
+      "state_id": 448,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_9980_neutral.png",
+        "green": "provinces/province_9980_green.png",
+        "red": "provinces/province_9980_red.png"
+      },
+      "position": [
+        354,
+        291
+      ],
+      "size": [
+        36,
+        45
+      ]
+    },
+    {
+      "id": 9983,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_9983_neutral.png",
+        "green": "provinces/province_9983_green.png",
+        "red": "provinces/province_9983_red.png"
+      },
+      "position": [
+        60,
+        255
+      ],
+      "size": [
+        54,
+        63
+      ]
+    },
+    {
+      "id": 9989,
+      "state_id": 452,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_9989_neutral.png",
+        "green": "provinces/province_9989_green.png",
+        "red": "provinces/province_9989_red.png"
+      },
+      "position": [
+        876,
+        336
+      ],
+      "size": [
+        42,
+        36
+      ]
+    },
+    {
+      "id": 9992,
+      "state_id": 451,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_9992_neutral.png",
+        "green": "provinces/province_9992_green.png",
+        "red": "provinces/province_9992_red.png"
+      },
+      "position": [
+        744,
+        282
+      ],
+      "size": [
+        27,
+        45
+      ]
+    },
+    {
+      "id": 9994,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_9994_neutral.png",
+        "green": "provinces/province_9994_green.png",
+        "red": "provinces/province_9994_red.png"
+      },
+      "position": [
+        87,
+        24
+      ],
+      "size": [
+        45,
+        48
+      ]
+    },
+    {
+      "id": 10002,
+      "state_id": 453,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_10002_neutral.png",
+        "green": "provinces/province_10002_green.png",
+        "red": "provinces/province_10002_red.png"
+      },
+      "position": [
+        1254,
+        390
+      ],
+      "size": [
+        48,
+        45
+      ]
+    },
+    {
+      "id": 10005,
+      "state_id": 907,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_10005_neutral.png",
+        "green": "provinces/province_10005_green.png",
+        "red": "provinces/province_10005_red.png"
+      },
+      "position": [
+        1137,
+        348
+      ],
+      "size": [
+        33,
+        45
+      ]
+    },
+    {
+      "id": 10026,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_10026_neutral.png",
+        "green": "provinces/province_10026_green.png",
+        "red": "provinces/province_10026_red.png"
+      },
+      "position": [
+        105,
+        162
+      ],
+      "size": [
+        51,
+        45
+      ]
+    },
+    {
+      "id": 10028,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_10028_neutral.png",
+        "green": "provinces/province_10028_green.png",
+        "red": "provinces/province_10028_red.png"
+      },
+      "position": [
+        1128,
+        546
+      ],
+      "size": [
+        48,
+        54
+      ]
+    },
+    {
+      "id": 10031,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10031_neutral.png",
+        "green": "provinces/province_10031_green.png",
+        "red": "provinces/province_10031_red.png"
+      },
+      "position": [
+        1089,
+        471
+      ],
+      "size": [
+        33,
+        39
+      ]
+    },
+    {
+      "id": 10037,
+      "state_id": 661,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_10037_neutral.png",
+        "green": "provinces/province_10037_green.png",
+        "red": "provinces/province_10037_red.png"
+      },
+      "position": [
+        195,
+        345
+      ],
+      "size": [
+        81,
+        84
+      ]
+    },
+    {
+      "id": 10046,
+      "state_id": 449,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_10046_neutral.png",
+        "green": "provinces/province_10046_green.png",
+        "red": "provinces/province_10046_red.png"
+      },
+      "position": [
+        465,
+        360
+      ],
+      "size": [
+        39,
+        48
+      ]
+    },
+    {
+      "id": 10049,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_10049_neutral.png",
+        "green": "provinces/province_10049_green.png",
+        "red": "provinces/province_10049_red.png"
+      },
+      "position": [
+        681,
+        300
+      ],
+      "size": [
+        39,
+        48
+      ]
+    },
+    {
+      "id": 10061,
+      "state_id": 452,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_10061_neutral.png",
+        "green": "provinces/province_10061_green.png",
+        "red": "provinces/province_10061_red.png"
+      },
+      "position": [
+        930,
+        354
+      ],
+      "size": [
+        60,
+        42
+      ]
+    },
+    {
+      "id": 10067,
+      "state_id": 661,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_10067_neutral.png",
+        "green": "provinces/province_10067_green.png",
+        "red": "provinces/province_10067_red.png"
+      },
+      "position": [
+        186,
+        291
+      ],
+      "size": [
+        66,
+        45
+      ]
+    },
+    {
+      "id": 10073,
+      "state_id": 447,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_10073_neutral.png",
+        "green": "provinces/province_10073_green.png",
+        "red": "provinces/province_10073_red.png"
+      },
+      "position": [
+        1116,
+        366
+      ],
+      "size": [
+        24,
+        45
+      ]
+    },
+    {
+      "id": 10082,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_10082_neutral.png",
+        "green": "provinces/province_10082_green.png",
+        "red": "provinces/province_10082_red.png"
+      },
+      "position": [
+        69,
+        207
+      ],
+      "size": [
+        51,
+        57
+      ]
+    },
+    {
+      "id": 10091,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_10091_neutral.png",
+        "green": "provinces/province_10091_green.png",
+        "red": "provinces/province_10091_red.png"
+      },
+      "position": [
+        150,
+        39
+      ],
+      "size": [
+        42,
+        51
+      ]
+    },
+    {
+      "id": 10097,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_10097_neutral.png",
+        "green": "provinces/province_10097_green.png",
+        "red": "provinces/province_10097_red.png"
+      },
+      "position": [
+        1110,
+        624
+      ],
+      "size": [
+        72,
+        99
+      ]
+    },
+    {
+      "id": 10099,
+      "state_id": 453,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10099_neutral.png",
+        "green": "provinces/province_10099_green.png",
+        "red": "provinces/province_10099_red.png"
+      },
+      "position": [
+        1224,
+        474
+      ],
+      "size": [
+        63,
+        63
+      ]
+    },
+    {
+      "id": 10104,
+      "state_id": 452,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10104_neutral.png",
+        "green": "provinces/province_10104_green.png",
+        "red": "provinces/province_10104_red.png"
+      },
+      "position": [
+        834,
+        429
+      ],
+      "size": [
+        39,
+        42
+      ]
+    },
+    {
+      "id": 10117,
+      "state_id": 449,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_10117_neutral.png",
+        "green": "provinces/province_10117_green.png",
+        "red": "provinces/province_10117_red.png"
+      },
+      "position": [
+        492,
+        372
+      ],
+      "size": [
+        45,
+        51
+      ]
+    },
+    {
+      "id": 10120,
+      "state_id": 451,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_10120_neutral.png",
+        "green": "provinces/province_10120_green.png",
+        "red": "provinces/province_10120_red.png"
+      },
+      "position": [
+        816,
+        312
+      ],
+      "size": [
+        30,
+        33
+      ]
+    },
+    {
+      "id": 10123,
+      "state_id": 450,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_10123_neutral.png",
+        "green": "provinces/province_10123_green.png",
+        "red": "provinces/province_10123_red.png"
+      },
+      "position": [
+        618,
+        282
+      ],
+      "size": [
+        33,
+        33
+      ]
+    },
+    {
+      "id": 10126,
+      "state_id": 457,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10126_neutral.png",
+        "green": "provinces/province_10126_green.png",
+        "red": "provinces/province_10126_red.png"
+      },
+      "position": [
+        1155,
+        444
+      ],
+      "size": [
+        54,
+        57
+      ]
+    },
+    {
+      "id": 10127,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_10127_neutral.png",
+        "green": "provinces/province_10127_green.png",
+        "red": "provinces/province_10127_red.png"
+      },
+      "position": [
+        987,
+        405
+      ],
+      "size": [
+        54,
+        51
+      ]
+    },
+    {
+      "id": 10754,
+      "state_id": 663,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_10754_neutral.png",
+        "green": "provinces/province_10754_green.png",
+        "red": "provinces/province_10754_red.png"
+      },
+      "position": [
+        729,
+        408
+      ],
+      "size": [
+        57,
+        42
+      ]
+    },
+    {
+      "id": 10785,
+      "state_id": 663,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10785_neutral.png",
+        "green": "provinces/province_10785_green.png",
+        "red": "provinces/province_10785_red.png"
+      },
+      "position": [
+        639,
+        444
+      ],
+      "size": [
+        48,
+        54
+      ]
+    },
+    {
+      "id": 10844,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_10844_neutral.png",
+        "green": "provinces/province_10844_green.png",
+        "red": "provinces/province_10844_red.png"
+      },
+      "position": [
+        1137,
+        753
+      ],
+      "size": [
+        108,
+        75
+      ]
+    },
+    {
+      "id": 10869,
+      "state_id": 552,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10869_neutral.png",
+        "green": "provinces/province_10869_green.png",
+        "red": "provinces/province_10869_red.png"
+      },
+      "position": [
+        840,
+        471
+      ],
+      "size": [
+        126,
+        33
+      ]
+    },
+    {
+      "id": 10884,
+      "state_id": 273,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_10884_neutral.png",
+        "green": "provinces/province_10884_green.png",
+        "red": "provinces/province_10884_red.png"
+      },
+      "position": [
+        114,
+        378
+      ],
+      "size": [
+        198,
+        168
+      ]
+    },
+    {
+      "id": 10907,
+      "state_id": 552,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_10907_neutral.png",
+        "green": "provinces/province_10907_green.png",
+        "red": "provinces/province_10907_red.png"
+      },
+      "position": [
+        840,
+        672
+      ],
+      "size": [
+        159,
+        156
+      ]
+    },
+    {
+      "id": 11910,
+      "state_id": 452,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_11910_neutral.png",
+        "green": "provinces/province_11910_green.png",
+        "red": "provinces/province_11910_red.png"
+      },
+      "position": [
+        969,
+        363
+      ],
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "id": 11921,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_11921_neutral.png",
+        "green": "provinces/province_11921_green.png",
+        "red": "provinces/province_11921_red.png"
+      },
+      "position": [
+        141,
+        135
+      ],
+      "size": [
+        60,
+        48
+      ]
+    },
+    {
+      "id": 11922,
+      "state_id": 453,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_11922_neutral.png",
+        "green": "provinces/province_11922_green.png",
+        "red": "provinces/province_11922_red.png"
+      },
+      "position": [
+        1218,
+        393
+      ],
+      "size": [
+        48,
+        54
+      ]
+    },
+    {
+      "id": 11935,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_11935_neutral.png",
+        "green": "provinces/province_11935_green.png",
+        "red": "provinces/province_11935_red.png"
+      },
+      "position": [
+        48,
+        147
+      ],
+      "size": [
+        66,
+        60
+      ]
+    },
+    {
+      "id": 11940,
+      "state_id": 661,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_11940_neutral.png",
+        "green": "provinces/province_11940_green.png",
+        "red": "provinces/province_11940_red.png"
+      },
+      "position": [
+        270,
+        354
+      ],
+      "size": [
+        66,
+        54
+      ]
+    },
+    {
+      "id": 11951,
+      "state_id": 663,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_11951_neutral.png",
+        "green": "provinces/province_11951_green.png",
+        "red": "provinces/province_11951_red.png"
+      },
+      "position": [
+        726,
+        372
+      ],
+      "size": [
+        57,
+        51
+      ]
+    },
+    {
+      "id": 11954,
+      "state_id": 450,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_11954_neutral.png",
+        "green": "provinces/province_11954_green.png",
+        "red": "provinces/province_11954_red.png"
+      },
+      "position": [
+        603,
+        300
+      ],
+      "size": [
+        30,
+        39
+      ]
+    },
+    {
+      "id": 11957,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_11957_neutral.png",
+        "green": "provinces/province_11957_green.png",
+        "red": "provinces/province_11957_red.png"
+      },
+      "position": [
+        147,
+        213
+      ],
+      "size": [
+        60,
+        60
+      ]
+    },
+    {
+      "id": 11964,
+      "state_id": 447,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_11964_neutral.png",
+        "green": "provinces/province_11964_green.png",
+        "red": "provinces/province_11964_red.png"
+      },
+      "position": [
+        1122,
+        336
+      ],
+      "size": [
+        39,
+        33
+      ]
+    },
+    {
+      "id": 11967,
+      "state_id": 452,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_11967_neutral.png",
+        "green": "provinces/province_11967_green.png",
+        "red": "provinces/province_11967_red.png"
+      },
+      "position": [
+        906,
+        342
+      ],
+      "size": [
+        48,
+        54
+      ]
+    },
+    {
+      "id": 11969,
+      "state_id": 458,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_11969_neutral.png",
+        "green": "provinces/province_11969_green.png",
+        "red": "provinces/province_11969_red.png"
+      },
+      "position": [
+        129,
+        30
+      ],
+      "size": [
+        27,
+        51
+      ]
+    },
+    {
+      "id": 11974,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_11974_neutral.png",
+        "green": "provinces/province_11974_green.png",
+        "red": "provinces/province_11974_red.png"
+      },
+      "position": [
+        1095,
+        552
+      ],
+      "size": [
+        42,
+        39
+      ]
+    },
+    {
+      "id": 11979,
+      "state_id": 453,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_11979_neutral.png",
+        "green": "provinces/province_11979_green.png",
+        "red": "provinces/province_11979_red.png"
+      },
+      "position": [
+        1227,
+        360
+      ],
+      "size": [
+        30,
+        36
+      ]
+    },
+    {
+      "id": 11999,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_11999_neutral.png",
+        "green": "provinces/province_11999_green.png",
+        "red": "provinces/province_11999_red.png"
+      },
+      "position": [
+        1206,
+        690
+      ],
+      "size": [
+        36,
+        69
+      ]
+    },
+    {
+      "id": 12000,
+      "state_id": 665,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_12000_neutral.png",
+        "green": "provinces/province_12000_green.png",
+        "red": "provinces/province_12000_red.png"
+      },
+      "position": [
+        105,
+        246
+      ],
+      "size": [
+        54,
+        54
+      ]
+    },
+    {
+      "id": 12002,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12002_neutral.png",
+        "green": "provinces/province_12002_green.png",
+        "red": "provinces/province_12002_red.png"
+      },
+      "position": [
+        1176,
+        540
+      ],
+      "size": [
+        81,
+        63
+      ]
+    },
+    {
+      "id": 12004,
+      "state_id": 907,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_12004_neutral.png",
+        "green": "provinces/province_12004_green.png",
+        "red": "provinces/province_12004_red.png"
+      },
+      "position": [
+        1137,
+        402
+      ],
+      "size": [
+        45,
+        48
+      ]
+    },
+    {
+      "id": 12009,
+      "state_id": 661,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_12009_neutral.png",
+        "green": "provinces/province_12009_green.png",
+        "red": "provinces/province_12009_red.png"
+      },
+      "position": [
+        333,
+        333
+      ],
+      "size": [
+        33,
+        45
+      ]
+    },
+    {
+      "id": 12022,
+      "state_id": 273,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12022_neutral.png",
+        "green": "provinces/province_12022_green.png",
+        "red": "provinces/province_12022_red.png"
+      },
+      "position": [
+        240,
+        579
+      ],
+      "size": [
+        198,
+        240
+      ]
+    },
+    {
+      "id": 12025,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_12025_neutral.png",
+        "green": "provinces/province_12025_green.png",
+        "red": "provinces/province_12025_red.png"
+      },
+      "position": [
+        714,
+        300
+      ],
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "id": 12033,
+      "state_id": 452,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_12033_neutral.png",
+        "green": "provinces/province_12033_green.png",
+        "red": "provinces/province_12033_red.png"
+      },
+      "position": [
+        858,
+        369
+      ],
+      "size": [
+        48,
+        45
+      ]
+    },
+    {
+      "id": 12039,
+      "state_id": 448,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_12039_neutral.png",
+        "green": "provinces/province_12039_green.png",
+        "red": "provinces/province_12039_red.png"
+      },
+      "position": [
+        204,
+        249
+      ],
+      "size": [
+        45,
+        51
+      ]
+    },
+    {
+      "id": 12044,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12044_neutral.png",
+        "green": "provinces/province_12044_green.png",
+        "red": "provinces/province_12044_red.png"
+      },
+      "position": [
+        1116,
+        579
+      ],
+      "size": [
+        48,
+        51
+      ]
+    },
+    {
+      "id": 12049,
+      "state_id": 446,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_12049_neutral.png",
+        "green": "provinces/province_12049_green.png",
+        "red": "provinces/province_12049_red.png"
+      },
+      "position": [
+        1164,
+        354
+      ],
+      "size": [
+        24,
+        45
+      ]
+    },
+    {
+      "id": 12071,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12071_neutral.png",
+        "green": "provinces/province_12071_green.png",
+        "red": "provinces/province_12071_red.png"
+      },
+      "position": [
+        1194,
+        603
+      ],
+      "size": [
+        42,
+        66
+      ]
+    },
+    {
+      "id": 12073,
+      "state_id": 453,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_12073_neutral.png",
+        "green": "provinces/province_12073_green.png",
+        "red": "provinces/province_12073_red.png"
+      },
+      "position": [
+        1248,
+        432
+      ],
+      "size": [
+        57,
+        63
+      ]
+    },
+    {
+      "id": 12079,
+      "state_id": 663,
+      "band": 3,
+      "files": {
+        "neutral": "provinces/province_12079_neutral.png",
+        "green": "provinces/province_12079_green.png",
+        "red": "provinces/province_12079_red.png"
+      },
+      "position": [
+        666,
+        339
+      ],
+      "size": [
+        42,
+        45
+      ]
+    },
+    {
+      "id": 12082,
+      "state_id": 273,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12082_neutral.png",
+        "green": "provinces/province_12082_green.png",
+        "red": "provinces/province_12082_red.png"
+      },
+      "position": [
+        282,
+        480
+      ],
+      "size": [
+        192,
+        144
+      ]
+    },
+    {
+      "id": 12088,
+      "state_id": 449,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_12088_neutral.png",
+        "green": "provinces/province_12088_green.png",
+        "red": "provinces/province_12088_red.png"
+      },
+      "position": [
+        516,
+        393
+      ],
+      "size": [
+        42,
+        51
+      ]
+    },
+    {
+      "id": 12091,
+      "state_id": 452,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_12091_neutral.png",
+        "green": "provinces/province_12091_green.png",
+        "red": "provinces/province_12091_red.png"
+      },
+      "position": [
+        891,
+        390
+      ],
+      "size": [
+        51,
+        42
+      ]
+    },
+    {
+      "id": 12094,
+      "state_id": 451,
+      "band": 1,
+      "files": {
+        "neutral": "provinces/province_12094_neutral.png",
+        "green": "provinces/province_12094_green.png",
+        "red": "provinces/province_12094_red.png"
+      },
+      "position": [
+        642,
+        273
+      ],
+      "size": [
+        30,
+        36
+      ]
+    },
+    {
+      "id": 12099,
+      "state_id": 907,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_12099_neutral.png",
+        "green": "provinces/province_12099_green.png",
+        "red": "provinces/province_12099_red.png"
+      },
+      "position": [
+        990,
+        447
+      ],
+      "size": [
+        51,
+        42
+      ]
+    },
+    {
+      "id": 12733,
+      "state_id": 452,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_12733_neutral.png",
+        "green": "provinces/province_12733_green.png",
+        "red": "provinces/province_12733_red.png"
+      },
+      "position": [
+        861,
+        414
+      ],
+      "size": [
+        36,
+        57
+      ]
+    },
+    {
+      "id": 12764,
+      "state_id": 452,
+      "band": 4,
+      "files": {
+        "neutral": "provinces/province_12764_neutral.png",
+        "green": "provinces/province_12764_green.png",
+        "red": "provinces/province_12764_red.png"
+      },
+      "position": [
+        825,
+        399
+      ],
+      "size": [
+        51,
+        36
+      ]
+    },
+    {
+      "id": 12771,
+      "state_id": 456,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12771_neutral.png",
+        "green": "provinces/province_12771_green.png",
+        "red": "provinces/province_12771_red.png"
+      },
+      "position": [
+        1104,
+        759
+      ],
+      "size": [
+        90,
+        69
+      ]
+    },
+    {
+      "id": 12816,
+      "state_id": 452,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_12816_neutral.png",
+        "green": "provinces/province_12816_green.png",
+        "red": "provinces/province_12816_red.png"
+      },
+      "position": [
+        942,
+        435
+      ],
+      "size": [
+        51,
+        42
+      ]
+    },
+    {
+      "id": 12866,
+      "state_id": 273,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12866_neutral.png",
+        "green": "provinces/province_12866_green.png",
+        "red": "provinces/province_12866_red.png"
+      },
+      "position": [
+        372,
+        432
+      ],
+      "size": [
+        468,
+        468
+      ]
+    },
+    {
+      "id": 12889,
+      "state_id": 457,
+      "band": 6,
+      "files": {
+        "neutral": "provinces/province_12889_neutral.png",
+        "green": "provinces/province_12889_green.png",
+        "red": "provinces/province_12889_red.png"
+      },
+      "position": [
+        1224,
+        576
+      ],
+      "size": [
+        57,
+        81
+      ]
+    },
+    {
+      "id": 13073,
+      "state_id": 662,
+      "band": 5,
+      "files": {
+        "neutral": "provinces/province_13073_neutral.png",
+        "green": "provinces/province_13073_green.png",
+        "red": "provinces/province_13073_red.png"
+      },
+      "position": [
+        480,
+        408
+      ],
+      "size": [
+        63,
+        69
+      ]
+    },
+    {
+      "id": 13078,
+      "state_id": 663,
+      "band": 2,
+      "files": {
+        "neutral": "provinces/province_13078_neutral.png",
+        "green": "provinces/province_13078_green.png",
+        "red": "provinces/province_13078_red.png"
+      },
+      "position": [
+        738,
+        327
+      ],
+      "size": [
+        42,
+        45
+      ]
+    }
+  ]
+}

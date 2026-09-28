@@ -16383,6 +16383,94 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
+			ITA = { 
+				set_country_flag = we_are_axis
+			}
+			GER = { 
+				set_country_flag = we_are_axis
+			}
+			HUN = { 
+				set_country_flag = we_are_axis
+			}
+			ROM = { 
+				set_country_flag = we_are_axis
+			}
+			BUL = { 
+				set_country_flag = we_are_axis
+			}
+			ENG = { 
+				set_country_flag = we_are_allies
+			}
+			CAN = { 
+				set_country_flag = we_are_allies
+			}
+			SAF = { 
+				set_country_flag = we_are_allies
+			}
+			RAJ = { 
+				set_country_flag = we_are_allies
+			}
+			AST = { 
+				set_country_flag = we_are_allies
+			}
+			NZL = { 
+				set_country_flag = we_are_allies
+			}
+			ENG = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			CAN = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			SAF = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			RAJ = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			AST = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			NZL = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_allies
+				}
+			}
+			ITA = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_axis
+				}
+			}
+			GER = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_axis
+				}
+			}
+			HuN = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_axis
+				}
+			}
+			BUL = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_axis
+				}
+			}
+			ROM = { 
+				add_dynamic_modifier = { 
+					modifier = african_gui_modifier_axis
+				}
+			}
 			custom_effect_tooltip = ITA_war_with_the_uk_claims_tt
 			every_state = {
 				limit = {
@@ -16411,10 +16499,9 @@ focus_tree = {
 				custom_effect_tooltip = generic_ROOT_gains_claim_tt
 			}
 
-			create_wargoal = {
-				type = take_state_focus
+			declare_war_on = {
+				type = annex_everything
 				target = ENG
-				generator = { 116 183 452 446 447 457 453 456 551 269 }
 			}
 		}
 	}

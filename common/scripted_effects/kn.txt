@@ -1,5 +1,4 @@
-# ROOT is the acting country (decision, player GUI or daily on-action).
-# No global variables/event targets: matches remain independent and save normally.
+
 kn_unlock = {
     clr_country_flag = kn_busy
     clr_country_flag = kn_active

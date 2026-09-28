@@ -1,0 +1,22 @@
+african_front_is_axis = {
+    OR = {
+        has_country_flag = we_are_axis
+        AND = {
+            NOT = { has_country_flag = we_are_allies }
+            OR = {
+                tag = ITA
+                tag = GER
+                is_in_faction_with = ITA
+                is_in_faction_with = GER
+            }
+        }
+    }
+}
+african_front_is_allies = {
+    NOT = { african_front_is_axis = yes }
+    OR = {
+        has_country_flag = we_are_allies
+        tag = ENG
+        is_in_faction_with = ENG
+    }
+}

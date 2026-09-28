@@ -1,0 +1,109 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_africa_front_state_273"
+		texturefile = "gfx/interface/north_africa_state_frames/state_273_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_446"
+		texturefile = "gfx/interface/north_africa_state_frames/state_446_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_447"
+		texturefile = "gfx/interface/north_africa_state_frames/state_447_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_448"
+		texturefile = "gfx/interface/north_africa_state_frames/state_448_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_449"
+		texturefile = "gfx/interface/north_africa_state_frames/state_449_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_450"
+		texturefile = "gfx/interface/north_africa_state_frames/state_450_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_451"
+		texturefile = "gfx/interface/north_africa_state_frames/state_451_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_452"
+		texturefile = "gfx/interface/north_africa_state_frames/state_452_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_453"
+		texturefile = "gfx/interface/north_africa_state_frames/state_453_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_456"
+		texturefile = "gfx/interface/north_africa_state_frames/state_456_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_457"
+		texturefile = "gfx/interface/north_africa_state_frames/state_457_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_458"	
+		texturefile = "gfx/interface/north_africa_state_frames/state_458_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_552"
+		texturefile = "gfx/interface/north_africa_state_frames/state_552_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_661"
+		texturefile = "gfx/interface/north_africa_state_frames/state_661_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_662"
+		texturefile = "gfx/interface/north_africa_state_frames/state_662_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_663"
+		texturefile = "gfx/interface/north_africa_state_frames/state_663_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_665"
+		texturefile = "gfx/interface/north_africa_state_frames/state_665_green_red.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_africa_front_state_907"
+		texturefile = "gfx/interface/north_africa_state_frames/state_907_green_red.png"
+		noOfFrames = 2
+	}
+}

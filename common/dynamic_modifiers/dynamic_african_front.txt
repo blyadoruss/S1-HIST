@@ -1,0 +1,14 @@
+african_gui_modifier_axis = {
+	icon = generic_acquire_tanks
+    enable = { african_front_is_axis = yes }
+    remove_trigger = { NOT = { african_front_is_axis = yes } }
+    production_factory_max_efficiency_factor = am_factor_axis
+    industrial_capacity_factory = am_factor_axis
+}
+african_gui_modifier_allies = {
+	icon = generic_acquire_tanks
+    enable = { african_front_is_allies = yes }
+    remove_trigger = { NOT = { african_front_is_allies = yes } }
+    production_factory_max_efficiency_factor = am_factor_allies
+    industrial_capacity_factory = am_factor_allies
+}
