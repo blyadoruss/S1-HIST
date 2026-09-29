@@ -608,6 +608,9 @@
 		y = 0
 
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		ai_will_do = {
 			factor = 0.5

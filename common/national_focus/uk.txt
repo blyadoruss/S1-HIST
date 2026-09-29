@@ -2378,6 +2378,9 @@ focus_tree = {
 		relative_position_id = uk_mediterranean_focus
 
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		ai_will_do = {
 			factor = 1
@@ -2598,6 +2601,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = uk_protect_suez
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2734,7 +2740,9 @@ focus_tree = {
 		relative_position_id = uk_protect_suez
 
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 1
 		}	
@@ -2931,6 +2939,7 @@ focus_tree = {
 		mutually_exclusive = { focus = uk_empire_focus }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -5834,6 +5843,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = uk_colonial_focus
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		available_if_capitulated = yes
 
@@ -7654,6 +7666,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = uk_commonwealth_focus
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		available_if_capitulated = yes
 
@@ -7865,7 +7880,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = uk_commonwealth_focus
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available_if_capitulated = yes
 
 		complete_tooltip = {
@@ -8468,6 +8485,7 @@ focus_tree = {
 		mutually_exclusive = { focus = uk_free_india_focus }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -9113,6 +9131,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_imperial_conference
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 1
 			#modifier = {
@@ -9774,6 +9795,9 @@ focus_tree = {
 		relative_position_id = ENG_kickstart_the_war_industry
 
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		ai_will_do = {
 			factor = 1
@@ -9855,6 +9879,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_no_further_appeasement
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 10
 		}
@@ -9967,6 +9994,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_no_further_appeasement
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 10
 		}
@@ -10095,6 +10125,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+            date > 1956.1.1
 			if = {
 				limit = {
 					has_game_rule = {
@@ -10364,6 +10395,7 @@ focus_tree = {
 		prerequisite = { focus = uk_iran_focus focus = ENG_no_further_appeasement }
 
 		allow_branch = {
+            date > 1956.1.1
 			if = {
 				limit = {
 					has_game_rule = {
@@ -10958,6 +10990,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ENG_steady_as_she_goes }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -11194,6 +11227,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ENG_organize_the_blackshirts focus = ENG_concessions_to_the_trade_unions }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -11495,6 +11529,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ENG_the_kings_party focus = ENG_concessions_to_the_trade_unions }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -12842,6 +12877,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ENG_the_kings_party focus = ENG_organize_the_blackshirts }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {

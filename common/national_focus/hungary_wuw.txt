@@ -48,6 +48,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+            date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -269,6 +270,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -512,6 +514,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -653,6 +656,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+            date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -800,6 +804,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "La Resistance"
 			IF = {
 				limit = {
@@ -934,6 +939,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -1027,6 +1033,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -5517,6 +5524,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -5609,6 +5617,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -5832,6 +5841,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -10848,7 +10858,9 @@ focus_tree = {
 		}
 
 		cost = 5
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 5
 		}
@@ -12207,6 +12219,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -12317,6 +12330,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -12422,6 +12436,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+        date > 1956.1.1
 			IF = {
 				limit = {
 					has_game_rule = {

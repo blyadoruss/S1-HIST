@@ -8242,8 +8242,8 @@ focus_tree = {
 		y = 0
 		relative_position_id = ITA_naval_power_projection
 		cost = 5
-
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -8314,18 +8314,7 @@ focus_tree = {
 		}
 
 		relative_position_id = ITA_the_abyssinian_fiasco
-		cost = 5
-
-		bypass = {
-			ITA_has_peaced_out_eth_on_startup = yes
-		}
-
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = ITA_solid_progress_completion_tt
-				always = no
-			}
-		}
+		cost = 1
 
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
 
@@ -8348,6 +8337,9 @@ focus_tree = {
 		y = 0
 		relative_position_id = ITA_solid_progress
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = ITA_the_abyssinian_fiasco_completion_tt
@@ -8379,6 +8371,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -8618,6 +8611,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_culto_del_duce focus = ITA_defy_the_duce }
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -10648,6 +10642,7 @@ focus_tree = {
 		relative_position_id = ITA_convene_the_grand_council
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -13748,6 +13743,9 @@ focus_tree = {
 		#relative_position_id = ITA_setting_course #Better to use the other one for hiding branches
 		relative_position_id = ITA_towards_a_greater_italy
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			any_owned_state = {
 				is_controlled_by = ROOT
@@ -15024,6 +15022,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_foreign_affairs
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 		}
 
@@ -15367,6 +15368,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_potential_allies_in_the_balkans
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			country_exists = AUS
 			NOT = { has_war_with = AUS }
@@ -16016,7 +16020,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_potential_allies_in_the_balkans
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		bypass = {
 			is_faction_leader = yes
 			NOT = { is_in_faction_with = GER }
@@ -16116,7 +16122,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_pact_of_steel
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			country_exists = JAP
 			JAP = { 
@@ -16256,7 +16264,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_italian_irredentism
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		bypass = {
 			is_subject = no
 			OR = {
@@ -16371,6 +16381,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = ITA_italy_first
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			is_subject = no
 			NOT = { is_in_faction_with = ENG }
@@ -16582,7 +16595,9 @@ focus_tree = {
 		y = 3
 		relative_position_id = ITA_italy_first
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		bypass = {
 			NOT = { country_exists = GRE }
 		}
@@ -16632,6 +16647,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_war_with_greece
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			TUR = {
 				owns_state = 342
@@ -16674,6 +16692,9 @@ focus_tree = {
 		y = 0
 		relative_position_id = ITA_claims_on_turkey_bba
 		cost = 10
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			country_exists = TUR
 			NOT = {
@@ -18698,6 +18719,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -18768,6 +18790,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {
@@ -18885,6 +18908,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "By Blood Alone"
 			if = {
 				limit = {

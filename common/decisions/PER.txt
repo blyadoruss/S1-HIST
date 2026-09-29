@@ -1122,23 +1122,7 @@ PER_gulf_decisions_cat = {
 				}
 			}
 		}
-		state_target = yes
-
-		targets = { 765 658 656 294 859 678 }
-	    target_trigger = {
-	        FROM = {
-	        	OWNER = {
-	        		NOT = {
-	        			OR = { 
-	        				tag = ROOT
-	        				is_in_faction_with = ROOT
-	        				is_subject_of = ROOT
-	        			}
-	        			PREV = { is_core_of = PREV }
-	        		}
-	        	}
-	        }
-	    }
+		
 	    on_map_mode = map_and_decisions_view 
 		custom_cost_trigger = {
 			command_power > 24.9
