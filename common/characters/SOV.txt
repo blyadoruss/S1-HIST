@@ -162,6 +162,7 @@ characters = {
 
 	SOV_georgy_zhukov = {
 		name = SOV_georgy_zhukov
+        set_character_flag = SOV_never_purge
 
 		portraits = {
 			army = {
@@ -209,7 +210,7 @@ characters = {
 
 	SOV_konstantin_rokossovsky = {
 		name = SOV_konstantin_rokossovsky
-
+        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_konstantin_rokossovsky"
@@ -265,6 +266,7 @@ characters = {
 
 	SOV_aleksandr_vasilevsky = {
 		name = SOV_aleksandr_vasilevsky
+        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_aleksandr_vasilevsky"
@@ -318,6 +320,7 @@ characters = {
 
 	SOV_boris_shaposhnikov = {
 		name = SOV_boris_shaposhnikov
+        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_boris_shaposhnikov"
@@ -354,6 +357,7 @@ characters = {
 
 	SOV_nikolay_vatutin = {
 		name = SOV_nikolay_vatutin
+        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				large = GFX_portrait_SOV_nikolay_vatutin
@@ -2228,7 +2232,7 @@ characters = {
 
 	SOV_nikolay_voznesensky = {
 		name = SOV_nikolay_voznesensky
-
+        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_nikolay_voznesensky"

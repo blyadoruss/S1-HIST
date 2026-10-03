@@ -1745,7 +1745,7 @@ generic_tank_refurbishment_plant_organization = {
 		limit_to_equipment_type = { armor }
 
 		production_bonus = {
-			production_capacity_factor = 0.06
+			production_capacity_factor = 0.03
 		}
 	}
 
@@ -1783,8 +1783,8 @@ generic_tank_refurbishment_plant_organization = {
 		}
 
 		production_bonus = {
-			production_efficiency_gain_factor = 0.05
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_gain_factor = 0.02
+			production_efficiency_cap_factor = 0.02
 		}
 	}
 
@@ -1801,7 +1801,7 @@ generic_tank_refurbishment_plant_organization = {
 		limit_to_equipment_type = { armor }
 
 		production_bonus = {
-			production_efficiency_gain_factor = 0.08
+			production_efficiency_gain_factor = 0.05
 		}
 	}
 
@@ -1846,7 +1846,7 @@ generic_tank_refurbishment_plant_organization = {
 		relative_position_id = generic_mio_trait_standardized_secondary_armament
 
 		organization_modifier = {
-			military_industrial_organization_research_bonus = 0.06
+			military_industrial_organization_research_bonus = 0.03
 		}
 	}
 

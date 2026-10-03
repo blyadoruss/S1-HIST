@@ -1506,10 +1506,13 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			add_ideas = british_fighter_discount
-		}
-	}
+            completion_reward = {
+                    add_offsite_building = {
+                    type = arms_factory
+                    level = 8
+                    }
+                }
+            }
 	focus = {
 		id = uk_jet_focus
 		prerequisite = { focus = aircraft_production_focus }
@@ -2085,7 +2088,7 @@ focus_tree = {
 		}
 
 		icon = GFX_goal_generic_national_unity
-		x = 29
+		x = 20
 		y = 0
 		offset = {
 			x = -2
@@ -2139,7 +2142,7 @@ focus_tree = {
 			
 		} 
 		icon = GFX_goal_generic_position_armies
-		x = -2
+		x = 0
 		y = 1
 		offset = {
 			x = 2
@@ -2185,7 +2188,7 @@ focus_tree = {
 			}
 		} 
 		icon = GFX_goal_generic_construct_military
-		x = 5
+		x = 3
 		y = 1
 		relative_position_id = uk_service_focus
 		cost = 10
@@ -2273,7 +2276,7 @@ focus_tree = {
 			118 = { is_owned_and_controlled_by = ENG }
 		} 
 		icon = GFX_goal_generic_construct_military
-		x = -3
+		x = -1
 		y = 1
 		relative_position_id = uk_mediterranean_focus
 		cost = 10
@@ -2826,6 +2829,9 @@ focus_tree = {
 		relative_position_id = uk_protect_suez
 
 		cost = 10
+        allow_branch = {
+                date > 1956.1.1 
+            }
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -2888,8 +2894,8 @@ focus_tree = {
 			116 = { is_owned_and_controlled_by = ENG }
 		}		
 		icon = GFX_focus_generic_coastal_fort
-		x = 2
-		y = 2
+		x = 1
+		y = 1
 		relative_position_id = uk_mediterranean_focus
 		cost = 10
 
@@ -5795,7 +5801,7 @@ focus_tree = {
 		id = uk_colonial_focus 
 		prerequisite = { focus = uk_service_focus }
 		icon = GFX_focus_research2
-		x = -5
+		x = -1
 		y = 1
 		relative_position_id = uk_service_focus
 		cost = 10
@@ -7504,7 +7510,7 @@ focus_tree = {
 
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 
-		x = 4
+		x = 0
 		y = 1
 		relative_position_id = uk_colonial_focus
 
@@ -9290,9 +9296,8 @@ focus_tree = {
 			}
 		}
 
-		x = 14
+		x = 30
 		y = 0
-		relative_position_id = ENG_revisit_colonial_policy
 
 		offset = {
 			x = -7
@@ -9419,7 +9424,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		icon = GFX_focus_eng_global_defense
-		x = -4
+		x = 0
 		y = 1
 		relative_position_id = ENG_steady_as_she_goes
 
@@ -9707,7 +9712,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		icon = GFX_goal_generic_construct_mil_factory
-		x = -3
+		x = 0
 		y = 1
 		relative_position_id = ENG_no_further_appeasement
 		cost = 10

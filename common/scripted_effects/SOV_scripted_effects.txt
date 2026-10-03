@@ -1488,6 +1488,7 @@ SOV_trigger_regular_purge_advisor_accused_effect = {
 					is_character_slot = political_advisor
 					SOV_character_can_be_purged = yes
 					has_character_flag = SOV_potential_target_flag
+                    NOT = { has_character_flag = SOV_never_purge }
 				}
 				set_character_flag = SOV_targeted_for_purge_flag
 				clr_character_flag = SOV_potential_target_flag
@@ -1506,6 +1507,7 @@ SOV_trigger_regular_purge_advisor_accused_effect = {
 				limit = {
 					is_character_slot = political_advisor
 					SOV_character_can_be_purged = yes
+                    NOT = { has_character_flag = SOV_never_purge }
 				}
 				set_character_flag = SOV_targeted_for_purge_flag
 				ROOT = { set_variable = { SOV_purged_character_for_loc = PREV } }
@@ -1677,6 +1679,7 @@ SOV_regular_purge_general_accused_effect = {
 				limit = {
 					has_character_flag = SOV_potential_target_flag
 					SOV_character_can_be_purged = yes
+                    NOT = { has_character_flag = SOV_never_purge }
 				}
 				set_character_flag = SOV_targeted_for_purge_flag
 				clr_character_flag = SOV_potential_target_flag
@@ -1693,6 +1696,7 @@ SOV_regular_purge_general_accused_effect = {
 				limit = {
 					SOV_character_can_be_purged = yes
 					NOT = { has_trait = trait_SOV_stalinist }
+                    NOT = { has_character_flag = SOV_never_purge }
 				}
 				set_character_flag = SOV_targeted_for_purge_flag
 				SOV = {
