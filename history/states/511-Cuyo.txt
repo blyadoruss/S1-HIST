@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		add_core_of = ARG
+		 
 
 		buildings = {
 			infrastructure = 2

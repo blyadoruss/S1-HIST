@@ -1,0 +1,47 @@
+Categories removed: 160 decision definitions disabled: 636 roster files: 47
+common\ai_strategy\FRA.txt {'has_active_mission': 1}
+common\ai_strategy\INS.txt {'has_active_mission': 2}
+common\ai_strategy\SIA.txt {'has_active_mission': 1}
+common\ai_strategy\WTT_china_ai_strategies.txt {'has_completed_focus': 1}
+common\ai_strategy_plans\POR_alternate_strategy_plan.txt {'None': 1}
+common\ai_strategy_plans\PRC_historical_strategy_plan.txt {'None': 2}
+common\bookmarks\blitzkrieg.txt {'None': 1}
+common\bookmarks\the_gathering_storm.txt {'None': 2}
+common\bop\ETH.txt {'decision_category': 1}
+common\bop\PRC.txt {'decision_category': 1}
+common\decisions\anti_japan_infiltration.txt {'has_completed_focus': 1}
+common\ideas\siam.txt {'has_active_mission': 1, 'remove_mission': 1}
+common\national_focus\afghanistan.txt {'activate_mission': 1, 'decision': 1}
+common\national_focus\argentina.txt {'mission': 1}
+common\national_focus\brazil.txt {'unlock_decision_tooltip': 1}
+common\national_focus\chile.txt {'activate_mission': 2, 'remove_mission': 1, 'decision': 4}
+common\national_focus\china_communist.txt {'id': 2, 'unlock_decision_category_tooltip': 2, 'focus': 3, 'decision': 1, 'relative_position_id': 4}
+common\national_focus\china_communist_sea.txt {'unlock_decision_tooltip': 4, 'unlock_decision_category_tooltip': 4, 'activate_mission': 2}
+common\national_focus\china_communist_warlord_TSR.txt {'unlock_decision_category_tooltip': 2, 'decision': 1}
+common\national_focus\china_nationalist.txt {'id': 1, 'focus': 1, 'relative_position_id': 1}
+common\national_focus\indonesia.txt {'unlock_decision_category_tooltip': 3, 'unlock_decision_tooltip': 1, 'activate_mission': 6, 'has_active_mission': 3}
+common\national_focus\indonesia_joint.txt {'unlock_decision_category_tooltip': 3, 'has_active_mission': 1, 'activate_mission_tooltip': 2}
+common\national_focus\iraq.txt {'unlock_decision_category_tooltip': 1}
+common\national_focus\mexico.txt {'unlock_decision_tooltip': 19, 'unlock_decision_category_tooltip': 3}
+common\national_focus\norway.txt {'decision': 23, 'unlock_decision_tooltip': 2}
+common\national_focus\portugal.txt {'unlock_decision_tooltip': 17, 'id': 1, 'focus': 1}
+common\national_focus\siam.txt {'decision': 6, 'unlock_decision_category_tooltip': 1, 'id': 1, 'relative_position_id': 1, 'focus': 1}
+common\on_actions\14_sea_on_actions.txt {'has_active_mission': 1}
+common\on_actions\16_taog_on_actions.txt {'activate_mission': 1, 'has_active_mission': 1}
+common\scripted_effects\INS_scripted_effects.txt {'unlock_decision_tooltip': 1}
+common\scripted_localisation\FR_SCRIPTING_FULL_AUTOMATED.txt {'has_completed_focus': 12}
+common\scripted_localisation\TAOG_SIA_scripted_loc.txt {'localization_key': 21}
+common\scripted_triggers\PRC_scripted_triggers.txt {'has_decision': 16}
+common\decisions\categories\infiltration_decision_categories.txt {'has_completed_focus': 1}
+events\BBA_Ethiopia.txt {'activate_mission': 4}
+events\France.txt {'has_active_mission': 1}
+events\GOE_Afghanistan.txt {'activate_mission': 1}
+events\LaR_Portugal.txt {'activate_decision': 14, 'unlock_decision_tooltip': 6}
+events\LAR_Spain.txt {'focus': 1}
+events\Mexico.txt {'has_active_mission': 5}
+events\SEA_Communist_China.txt {'unlock_decision_tooltip': 4, 'remove_mission': 3, 'activate_mission': 1}
+events\SEA_Japan.txt {'has_active_mission': 3}
+events\TAOG_Indonesia.txt {'mission': 3, 'activate_mission': 3, 'activate_mission_tooltip': 1, 'activate_decision': 10}
+events\TOA_Brazil.txt {'activate_mission': 3}
+events\TOA_Chile.txt {'activate_mission': 1}
+events\WTT_China.txt {'has_completed_focus': 1}

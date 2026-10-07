@@ -1529,8 +1529,8 @@ operation_collaboration_government = { ### 10 2/55
 		support_equipment = 200
 		infantry_equipment = 1000
 		civilian_factories = {
-			amount = 10
-			days = 60
+			amount = 5
+			days = 30
 		}
 	}
 
@@ -1552,7 +1552,7 @@ operation_collaboration_government = { ### 10 2/55
 		ROOT = {
 			add_collaboration = {
 				target = FROM
-				value = 0.3
+				value = 0.50
 			}
 		}
 	}
@@ -1560,7 +1560,7 @@ operation_collaboration_government = { ### 10 2/55
 		ROOT = {
 			add_collaboration = {
 				target = FROM
-				value = 0.45
+				value = 0.50
 			}
 		}
 	}

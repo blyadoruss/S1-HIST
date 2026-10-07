@@ -1,0 +1,75 @@
+african_front_calculate_sum = { 
+	if = { 
+		limit = { 
+			has_global_flag = state_452_axis 
+			NOt = { 
+				has_global_flag = state_452_axis_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = 0.03 }
+		set_global_flag = state_452_axis_calculated
+	}
+	if = { 
+		limit = { 
+			has_global_flag = state_447_axis 
+			NOt = { 
+				has_global_flag = state_447_axis_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = 0.03 }
+		set_global_flag = state_447_axis_calculated
+	}
+	if = { 
+		limit = { 
+			has_global_flag = state_907_axis 
+			NOt = { 
+				has_global_flag = state_907_axis_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = 0.03 }
+		set_global_flag = state_907_axis_calculated
+	}
+	if = { 
+		limit = { 
+			has_global_flag = state_907_allies
+			NOt = { 
+				has_global_flag = state_907_allies_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = -0.03 }
+		set_global_flag = state_907_axis_calculated
+	}
+	if = { 
+		limit = { 
+			has_global_flag = state_447_allies
+			NOt = { 
+				has_global_flag = state_907_allies_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = -0.03 }
+		set_global_flag = state_907_allies_calculated
+	}
+	if = { 
+		limit = { 
+			has_global_flag = state_452_allies
+			NOt = { 
+				has_global_flag = state_452_allies_calculated
+			}
+		}
+		add_to_variable = { am_factor_axis = -0.03 }
+		set_global_flag = state_452_allies_calculated
+	}
+	
+	###########################
+	
+	if = {
+		limit = { 
+			has_global_flag = state_663_allies 
+			NOT = { 
+				has_global_flag = state_663_allies_calculated
+			}
+		}
+		add_to_variable = { am_factor_allies = 0.02 }
+		set_global_flag = state_663_allies_calculated
+	}
+}

@@ -10,7 +10,7 @@ state = {
 	force_link_ownership_to = 938 # Para
 	
 	history = {
-		add_core_of = BRA
+		 
 	}
 
 	provinces = {

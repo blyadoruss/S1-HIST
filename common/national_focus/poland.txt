@@ -1251,6 +1251,9 @@ focus_tree = {
 		x = 23
 		y = 0
 		cost = 5
+        allow_branch = {
+            date > 1956.1.1 
+            }
 
 		ai_will_do = {
 			factor = 5
@@ -2016,6 +2019,7 @@ focus_tree = {
 		}
 		
 		allow_branch = {
+        date > 1956.1.1
 			if = {
 				limit = {
 					has_game_rule = {
@@ -2316,7 +2320,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = POL_consolidate_sanation_government
 		cost = 5
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 10
 		}
@@ -2554,7 +2560,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = POL_consolidate_sanation_government
 		cost = 5
-
+        
 		ai_will_do = {
 			factor = 10
 		}
@@ -2717,7 +2723,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = POL_second_man_of_the_state
 		cost = 10
-		
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		available = {
 			has_government = neutrality
 		}
@@ -4615,6 +4623,7 @@ focus_tree = {
 		cost = 5
 		mutually_exclusive = { focus = POL_polish_revanchism focus = POL_baltic_security }
 		allow_branch = {
+        date > 1956.1.1
 			if = {
 				limit = {
 					has_game_rule = {
@@ -5088,10 +5097,11 @@ focus_tree = {
 		mutually_exclusive = { focus = POL_complete_april_constitution focus = POL_assemble_the_regency_council focus = POL_nationalist_constitution }
 
 		x = 61
-		y = 0
+		y = 0   
 		cost = 10
 		
 		allow_branch = {
+        date > 1956.1.1
 			if = {
 				limit = {
 					has_game_rule = {
@@ -7214,6 +7224,7 @@ focus_tree = {
 		relative_position_id = POL_raise_the_black_madonna
 		mutually_exclusive = { focus = POL_KPP_focus }
 		allow_branch = {
+            date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -7600,27 +7611,11 @@ focus_tree = {
 		x = 77
 		y = 0
 		cost = 5
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 2.5
-		}
-		allow_branch = {
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = POL_complete_april_constitution
-						has_completed_focus = POL_nationalist_constitution
-						has_completed_focus = POL_organize_the_peasants_strike
-						has_completed_focus = POL_restore_the_sejm
-					}
-				}
-			}
 		}
 		
 		offset = {
@@ -9061,30 +9056,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 2.5
 		}
 		
-		allow_branch = {
-			has_dlc = "No Step Back"
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = obsolete_focus_branches_visibility
-						option = HIDE
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = POL_organize_the_peasants_strike
-						has_completed_focus = POL_restore_the_sejm
-						has_completed_focus = POL_complete_april_constitution
-						has_completed_focus = POL_nationalist_constitution
-					}
-				}
-			}
-		}
 
 		available_if_capitulated = no
 		
@@ -9485,6 +9463,7 @@ focus_tree = {
 		relative_position_id = POL_assert_western_claims
 		
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -11469,7 +11448,9 @@ focus_tree = {
 			}
 		}
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 2.5
 		}
@@ -11837,6 +11818,7 @@ focus_tree = {
 		prerequisite = { focus = POL_divide_lit focus = POL_seek_german_alignment }
 		mutually_exclusive = { focus = POL_konfederacja_narodu }
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -11914,6 +11896,7 @@ focus_tree = {
 		prerequisite = { focus = POL_divide_lit focus = POL_seek_german_alignment focus = POL_support_global_falangism }
 		mutually_exclusive = { focus = POL_german_training }
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -13072,6 +13055,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -13123,6 +13107,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		allow_branch = {
+        date > 1956.1.1
 			has_dlc = "No Step Back"
 			if = {
 				limit = {
@@ -13633,7 +13618,9 @@ focus_tree = {
 			}
 		}
 		cost = 10
-
+        allow_branch = {
+            date > 1956.1.1 
+            }
 		ai_will_do = {
 			factor = 10
 			modifier = {

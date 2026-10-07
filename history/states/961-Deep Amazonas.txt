@@ -5,7 +5,7 @@ state={
 		12919 
 	}
 	history={
-		add_core_of = BRA
+		 
 	}
 	manpower=6753
 	impassable = yes

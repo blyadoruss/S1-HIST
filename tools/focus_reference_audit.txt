@@ -1,0 +1,35 @@
+Current focuses: 10834 deleted: 115
+common\achievements.txt 3 {'has_completed_focus': 3}
+common\ai_strategy\BUL.txt 5 {'focus': 4, 'has_completed_focus': 1}
+common\ai_strategy_plans\BUL_alternate_strategy_plan.txt 102 {'None': 102}
+common\ai_strategy_plans\BUL_historical_strategy_plan.txt 9 {'None': 9}
+common\ai_strategy_plans\CAN_alternate_strategy_plan.txt 14 {'None': 14}
+common\ai_strategy_plans\ROM_alternate_strategy_plans.txt 10 {'None': 10}
+common\ai_strategy_plans\ROM_historical_strategy_plan.txt 1 {'None': 1}
+common\ai_strategy_plans\TUR_alternate_strategy_plan.txt 1 {'has_completed_focus': 1}
+common\bookmarks\blitzkrieg.txt 5 {'None': 5}
+common\bookmarks\the_gathering_storm.txt 5 {'None': 5}
+common\decisions\BUL.txt 65 {'has_completed_focus': 51, 'focus': 14}
+common\decisions\GRE.txt 2 {'has_completed_focus': 2}
+common\decisions\political_decisions.txt 4 {'focus': 4}
+common\ideas\bulgaria.txt 34 {'has_completed_focus': 30, 'name': 4}
+common\ideas\uruguay.txt 1 {'name': 1}
+common\ideas\_event.txt 2 {'name': 2}
+common\on_actions\06_bftb_on_actions.txt 3 {'has_completed_focus': 1, 'unlock_national_focus': 2}
+common\scripted_effects\ENG_scripted_effects.txt 3 {'has_completed_focus': 1, 'has_idea': 1, 'remove_ideas': 1}
+common\scripted_localisation\bftb_scripted_localisation.txt 6 {'has_completed_focus': 6}
+common\scripted_localisation\FR_SCRIPTING_FULL_AUTOMATED.txt 72 {'has_completed_focus': 72}
+common\scripted_triggers\BUL_scripted_triggers.txt 3 {'has_completed_focus': 3}
+common\scripted_triggers\diplomacy_scripted_triggers.txt 2 {'has_completed_focus': 2}
+common\technology_sharing\00_tech_sharing_groups.txt 1 {'id': 1}
+common\unit_leader\00_traits.txt 5 {'has_completed_focus': 5}
+common\factions\templates\unique_minor_factions.txt 1 {'name': 1}
+common\decisions\categories\BUL_decision_categories.txt 4 {'has_completed_focus': 4}
+events\BFTB_Bulgaria.txt 16 {'has_completed_focus': 16}
+events\DOD_Hungary.txt 4 {'has_completed_focus': 4}
+events\DOD_Romania.txt 1 {'has_completed_focus': 1}
+events\MTG_Britain.txt 6 {'has_completed_focus': 6}
+events\MUN_Czechoslovakia.txt 1 {'has_completed_focus': 1}
+history\countries\BUL - Bulgaria.txt 4 {'complete_national_focus': 4}
+history\countries\ROM - Romania.txt 1 {'complete_national_focus': 1}
+TOTAL {'has_completed_focus': 210, 'focus': 22, 'None': 146, 'name': 8, 'unlock_national_focus': 2, 'has_idea': 1, 'remove_ideas': 1, 'id': 1, 'complete_national_focus': 5}

@@ -13,7 +13,7 @@ state = {
 	history = {
 
 
-		add_core_of = BRA
+		 
 
 		buildings = {
 			infrastructure = 3 #was: 5
