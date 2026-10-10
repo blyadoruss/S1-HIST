@@ -328,7 +328,9 @@ technologies = {
 			cv_small_plane_naval_bomber_airframe_3
 			cv_small_plane_suicide_airframe_3
 		}
-		
+         allow = {
+            date > 1941.1.1
+            }
 		path = {
 			leads_to_tech = modern_small_airframe
 			research_cost_coeff = 1

@@ -1,0 +1,1078 @@
+HUN_guide = { 
+    wuw_HUN_continue_the_regency_msn1 = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #4
+        
+        fire_only_once = yes
+        
+        modifier = {
+        }
+
+        
+        complete_effect = { 
+            155 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = no
+                }
+            }
+            43 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = no
+                }
+            }
+            154 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1 
+                    instant_build = no
+                }
+            }
+        }
+    }
+    wuw_HUN_strengthen_horthys_reign = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_pass_statute_xix = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_restrict_voting_rights = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_absolute_rule_of_the_national_unity_party = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_the_hungarian_life_and_renewal_party = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_outlaw_the_party_of_national_will = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_spur_on_the_trianon_trauma = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_renounce_the_treaty_of_trianon = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_economic_intervention = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_forcefully_revitalize_the_industries = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_reintigrate_the_imperial_railroads = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_expand_the_ganz_muvek = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_announce_the_gyor_program = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_hold_war_games = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_initiate_army_maneuvers = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_form_the_gyorshadtest = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_enlarge_the_ganz_danubius_division = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_act_of_defense = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_seek_german_contracts = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_invite_german_investors = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_invite_foreign_investors = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_manred_weiss_steel_and_metal_works = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_expand_the_diosgyor_machinery_factory = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_promote_hungarianism = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_reaffirm_territorial_claims = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_proclaim_greater_hungary = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_promote_increased_urbanization = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_invest_in_ludovica_academy = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_doctrinal_studies = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_expand_the_army = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_establish_the_mavag_army_division = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_make_the_magyar_legiero_known = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_joint_air_development = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_extensive_licensing_programs = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_the_turul_association = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_carrying_on_arpads_legacy = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_magyar_kiralyi_csendorseg = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+    wuw_HUN_light_infantry_divisions_doctrine = {
+
+        icon = GFX_decision_eng_trade_unions_demand
+
+        ai_will_do = {
+            base = 20
+        }
+    
+        allowed = { 
+        }
+
+        available = {
+        } 
+
+        visible = {  
+        }
+        #
+        
+        fire_only_once = yes
+        days_remove = 35
+        
+        modifier = {
+        }
+
+        remove_effect = {
+        }
+    }
+}
+
+

@@ -1,0 +1,10 @@
+HUN_guide = {
+    allowed = {
+        original_tag = HUN
+    }
+    visible = {
+        is_debug = yes
+    }
+    priority = 100
+    visible_when_empty = yes
+}
