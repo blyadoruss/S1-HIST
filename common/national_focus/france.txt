@@ -25,7 +25,7 @@
 		
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 10
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -56,7 +56,7 @@
 		prerequisite = { focus = FRA_devalue_the_franc }
 		mutually_exclusive = { }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -143,7 +143,7 @@
 			prerequisite = { focus = FRA_devalue_the_franc }
 			mutually_exclusive = { }
 			relative_position_id = FRA_devalue_the_franc
-			cost = 10
+			cost = 5
 	
 			ai_will_do = {
 				factor = 1
@@ -440,7 +440,7 @@
 		prerequisite = { focus = FRA_devalue_the_franc }
 		mutually_exclusive = { }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -482,7 +482,7 @@
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -514,26 +514,43 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 272
-						state = 780
-						state = 556
-						state = 779
-						state = 778
-						state = 781
-						state = 776
-						state = 777
-					}	
-					OWNER = { is_owned_or_subject_trigger = yes }
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
-					}
+            781 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_colonial_industry_target
-			}
+            }
+            776 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            776 = {
+                    add_resource = {
+                        type = oil
+                        amount = 16
+                        }
+                }
+                539 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+                    }
+                }
+                539 = {
+                    add_resource = {
+                        type = steel
+                        amount = 24
+                        }
+                }
+            
 		}
 	}
 	focus = {
@@ -643,7 +660,7 @@
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -669,48 +686,34 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_state = {
-				limit = { 
-					OR = {
-						state = 677
-						state = 680
-						state = 554
-						state = 553
+                553 = {
+                    add_extra_state_shared_building_slots = 1
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
 					}
-					is_owned_or_subject_trigger = yes 
-					NOT = {
-						has_state_flag = FRA_colonial_industry_target
+                }
+                553 = {
+                     add_resource = {
+                     type = steel
+                     amount = 16
+                     }
+                }
+                554 = {
+                    add_extra_state_shared_building_slots = 2
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
 					}
-				}
-				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_colonial_industry_target
-			}
-			IF = {
-				limit = {
-					SYR = {
-						is_subject_of = ROOT
-					}
-				}
-				SYR = {
-					add_autonomy_score = { 
-						value = -150
-						localization = FRA_invest_in_syria
-					}	
-				}
-			}
-			IF = {
-				limit = {
-					LEB = {
-						is_subject_of = ROOT
-					}
-				}
-				LEB = {
-					add_autonomy_score = { 
-						value = -150
-						localization = FRA_invest_in_syria
-					}	
-				}
-			}
+                }
+                554 = {
+                     add_resource = {
+                     type = tungsten
+                     amount = 16
+                     }
+                }
 		}
 	}
 	focus = {
@@ -1623,7 +1626,7 @@
 
 		prerequisite = {}
 		mutually_exclusive = { focus = FRA_revive_the_national_bloc }
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2241,7 +2244,9 @@
 		}
 		relative_position_id = FRA_reconciliation
 		cost = 10
-
+        allow_branch = {
+        always = no 
+        }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2381,7 +2386,9 @@
 		mutually_exclusive = { focus = FRA_anti_fascist_coalition focus = FRA_loyalty_to_the_cause }
 		relative_position_id = FRA_reconciliation
 		cost = 10
-
+        allow_branch = {
+        always = no 
+        }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2519,7 +2526,9 @@
 		mutually_exclusive = { focus = FRA_reconciliation }
 		relative_position_id = FRA_force_the_issue
 		cost = 10
-
+        allow_branch = {
+        always = no 
+        }
 		ai_will_do = {
 			factor = 1
 		}
@@ -2625,7 +2634,9 @@
 		mutually_exclusive = { focus = FRA_loyalty_to_moscow focus = FRA_anti_fascist_coalition }
 		relative_position_id = FRA_revolution_to_the_utmost
 		cost = 10
-
+        allow_branch = {
+        always = no 
+        }
 		ai_will_do = {
 			factor = 1
 		}
@@ -3326,7 +3337,7 @@
 			focus = FRA_form_the_popular_front
 		}
 		relative_position_id = FRA_form_the_popular_front
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3377,6 +3388,9 @@
 		}
 		relative_position_id = FRA_reform_the_labour_laws
 		cost = 10
+        allow_branch = {
+        always = no 
+        }
 
 		ai_will_do = {
 			factor = 1
@@ -3814,6 +3828,9 @@
 		mutually_exclusive = { focus = FRA_buy_time }
 		relative_position_id = FRA_review_foreign_policy
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 
 		ai_will_do = {
 			factor = 1
@@ -4067,6 +4084,7 @@
 		y = 1
 
 		allow_branch = {
+        always = no
 			has_dlc = "Death or Dishonor"
 			if = {
 				limit = {
@@ -4479,7 +4497,9 @@
 		mutually_exclusive = { focus = FRA_go_with_britain }
 		relative_position_id = FRA_buy_time
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 1
 		}
@@ -4886,7 +4906,7 @@
 			}
 		}
 
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -5213,7 +5233,7 @@
 			focus = FRA_revive_the_national_bloc
 		}
 		relative_position_id = FRA_revive_the_national_bloc
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -5274,6 +5294,7 @@
 		}
 
 		allow_branch = {
+        always = no
 			has_dlc = "La Resistance"
 			if = {
 				limit = {
@@ -5349,6 +5370,7 @@
 		relative_position_id = FRA_utilize_the_leagues
 
 		allow_branch = {
+        always = no
 			has_dlc = "La Resistance"
 			if = {
 				limit = {
@@ -7339,6 +7361,7 @@
 		relative_position_id = FRA_utilize_the_leagues
 
 		allow_branch = {
+        always = no
 			has_dlc = "La Resistance"
 			if = {
 				limit = {

@@ -72,7 +72,7 @@ division_template = {
 division_template = {
    	name = "Finanční Stráž"  #Financial Guard -- garison formations before their merger with State Defense Guard. Precursor to some reservists units
 	division_names_group = CZE_GAR_01
-    is_locked = yes #unlock via focus
+      #unlock via focus
     division_cap = 0 #The formal army unit formation of the financial guard mostly existed on paper at start date. Was filled out into a full blown reservists units between 1936-1938
     priority = 0
 	regiments = {

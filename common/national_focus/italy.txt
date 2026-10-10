@@ -155,7 +155,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		relative_position_id = ITA_ethiopian_war_logistics_bba
-		cost = 5
+		cost = 3
 		available = {
 			OR = {
 				controls_state = 2
@@ -1313,7 +1313,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_litoranea_balbo
-		cost = 10
+		cost = 2
 		available = {
 			451 = {
 				state_is_fully_controlled_by_ROOT_or_subject = yes
@@ -2787,7 +2787,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ITA_italian_highways_bba
-		cost = 10
+		cost = 5
 		available = {
 			has_full_control_of_state = 2
 		}
@@ -2820,7 +2820,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_italian_highways_bba
-		cost = 10
+		cost = 5
 		available = {
 			has_full_control_of_state = 2
 		}
@@ -5855,10 +5855,10 @@ focus_tree = {
 					}
 				}
 				162 = { #TUSCANY (La Spezia)
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -8563,18 +8563,6 @@ focus_tree = {
 		relative_position_id = ITA_servizio_informazione_militare
 		cost = 5
 
-		bypass = {
-			OR = {
-				has_country_flag = ITA_defeat_in_ethiopia_flag
-				ITA_has_peaced_out_eth_on_startup = yes
-			}
-		}
-
-		available = {
-			NOT = { has_global_flag = second_italo_ethiopian_war_flag }
-			NOT = { has_country_flag = ITA_defeat_in_ethiopia_flag }
-		}
-
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_BALANCE_OF_POWER}
 
 		completion_reward = {
@@ -8582,7 +8570,6 @@ focus_tree = {
 			add_stability = 0.05
 			add_political_power = 50
 
-			unlock_decision_category_tooltip = ETH_italian_occupation_category
 
 			hidden_effect = {
 				every_controlled_state = {
@@ -15011,36 +14998,7 @@ focus_tree = {
 			add_state_claim = 103 #DALMATIA
 			add_state_claim = 105 #MONTENEGRO
 
-			if = {
-				limit = {
-					country_exists = CRO
-					OR = {
-						103 = { is_fully_controlled_by = CRO }
-						105 = { is_fully_controlled_by = CRO }
-					}
-				}
-				activate_targeted_decision = { target = CRO decision = ITA_send_ultimatum_to_country_balkan }
-			}
-			if = {
-				limit = {
-					country_exists = MNT
-					OR = {
-						103 = { is_fully_controlled_by = MNT }
-						105 = { is_fully_controlled_by = MNT }
-					}
-				}
-				activate_targeted_decision = { target = MNT decision = ITA_send_ultimatum_to_country_balkan }
-			}
-			if = {
-				limit = {
-					country_exists = YUG
-					OR = {
-						103 = { is_fully_controlled_by = YUG }
-						105 = { is_fully_controlled_by = YUG }
-					}
-				}
-				activate_targeted_decision = { target = YUG decision = ITA_send_ultimatum_to_country_balkan }
-			}	
+			activate_targeted_decision = { target = YUG decision = ITA_demand_dalmatia }	
 		}
 	}
 
@@ -15207,7 +15165,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ITA_albanian_occupation
-		cost = 5
+		cost = 3
 		available = {
 			44 = {
 				state_is_fully_controlled_by_ROOT_or_subject = yes
@@ -15246,6 +15204,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_albanian_occupation
 		cost = 5
+        allow_branch = {
+        always = no
+        }
 		available = {
 			44 = {
 				state_is_fully_controlled_by_ROOT_or_subject = yes
@@ -16190,9 +16151,11 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = ITA_pact_of_steel
-		cost = 10
+		cost = 5
 		available = {
 			is_subject = no
+            date > 1940.1.1
+            controls_state = 103
 		}
 
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
@@ -16221,7 +16184,14 @@ focus_tree = {
 				custom_effect_tooltip = generic_skip_one_line_tt
 			}
 
-
+            annex_country = {
+                target = YUG 
+                transfer_troops = no
+                }
+            BUL = {
+                transfer_state = 970
+                transfer_state = 802
+            }
 			add_political_power = 50
 			add_war_support = 0.03
 			add_popularity = {
@@ -16558,7 +16528,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ITA_italian_irredentism
-		cost = 5
+		cost = 1
 
 		select_effect = {
 			every_country = {
@@ -16586,6 +16556,7 @@ focus_tree = {
 		}
 
 		available = {
+            date > 1940.6.1
 			is_subject = no
 			GRE = { exists = yes }
 			NOT = { is_in_faction_with = GRE }

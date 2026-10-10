@@ -66,6 +66,14 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = CAN_c_d_howe
+            468 = {
+                add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+                    }
+                }
 		}
 		ai_will_do = {
 

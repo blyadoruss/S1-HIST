@@ -34,6 +34,9 @@ focus_tree = {
 		x = 5
 		y = 0
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 0
 			modifier = { 
@@ -1853,6 +1856,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_the_kings_government
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 1
 		}
@@ -2399,6 +2405,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_use_the_military
 		cost = 5
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 0
 			modifier = { 
@@ -2657,6 +2666,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_use_the_military
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 1
 		}
@@ -2797,6 +2809,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_our_traditional_allies_in_the_aegean
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 0
 			modifier = { 
@@ -2852,6 +2867,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_prepare_against_the_mediterranean_threat
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 0
 			modifier = { 
@@ -2958,6 +2976,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GRE_crack_down_on_the_republicans
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 1
 		}
@@ -3723,6 +3744,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_utilize_our_strengths
 		cost = 10
+        
 		ai_will_do = {
 			base = 1
 		}
@@ -4863,6 +4885,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_four_year_plan
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 1
 		}
@@ -5086,6 +5111,9 @@ focus_tree = {
 		x = 46
 		y = 0
 		cost = 10
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			base = 1
 		}

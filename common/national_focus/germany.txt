@@ -11037,7 +11037,7 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id = GER_integrate_czechoslovakia
-		cost = 5
+		cost = 1
 
 		bypass = {
 			OR = {
@@ -13427,7 +13427,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_anschluss
 		cost = 10
-		
+        allow_branch = {
+        always = no
+        }
 		bypass = {
 			OR = {
 				NOT = {

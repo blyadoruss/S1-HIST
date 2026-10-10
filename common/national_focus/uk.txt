@@ -869,6 +869,10 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}	
 		completion_reward = {
 			add_ideas = british_austerity_idea
+            add_offsite_building = {
+			type = industrial_complex
+			level = 2
+		}
 		}
 	}
 
@@ -2069,8 +2073,7 @@ focus_tree = {
 		id = uk_empire_focus 
 		mutually_exclusive = { focus = ENG_revisit_colonial_policy }
 		available = {
-			NOT = { has_government = communism }
-			num_subjects > 0
+
 		} 
 
 		allow_branch = {
@@ -2119,7 +2122,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			add_stability = 0.1
-			custom_effect_tooltip = ENG_concessions_to_the_trade_unions_tt_2
 			hidden_effect = {
 				if = {
 					limit = {

@@ -7970,38 +7970,16 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SOV_the_military_conspiracy
-		cost = 5
+		cost = 1
 
 		available = {
 			has_government = communism
-			NOT = { has_global_flag = AAT_trotsky_sent_to_stalin }
-			has_global_flag = AAT_trotsky_in_mexico
 		}
 		
 		search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				custom_effect_tooltip = SOV_behead_the_snake_lar_tt
-				create_operative_leader = {
-					name = "Ramón Mercader"
-					GFX = GFX_portrait_SOV_ramon_mercader
-					traits = { operative_tough operative_infiltrator }
-					bypass_recruitment = no
-					available_to_spy_master = yes
-					nationalities = { SOV SPR MEX }
-				}
-
-				#Extra operative slot
-				set_variable = { SOV_the_politburo_operative_slot = 1 }
-				custom_effect_tooltip = SOV_behead_the_snake_ns_tt
-			}
-			else = {
-				custom_effect_tooltip = SOV_behead_the_snake_no_lar_tt
-			}
+			remove_ideas = trotskyite_plot_nsb
 
 			SOV_paranoia_high_decrease_effect = yes
 		}
@@ -12417,6 +12395,8 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
+            add_political_power = -25
+            add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }
 			add_timed_idea = { idea = SOV_military_advisors_in_spain days = 1095 }
 			
 			if = {

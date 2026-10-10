@@ -63,7 +63,9 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 200
 		}
@@ -3486,7 +3488,9 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -4350,7 +4354,7 @@ focus_tree = {
 		x = 20
 		y = 0
 
-		cost = 10
+		cost = 7
 
 		ai_will_do = {
 			factor = 80
@@ -5522,7 +5526,9 @@ focus_tree = {
 		relative_position_id = YUG_modernize_the_air_force
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 60
 		}
@@ -5937,7 +5943,9 @@ focus_tree = {
 		relative_position_id = YUG_purchase_foreign
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 50
 		}
@@ -6142,7 +6150,9 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 70
 			modifier = {
@@ -6864,8 +6874,8 @@ focus_tree = {
 		cost = 10
 		
 		allow_branch = {
-			has_dlc = "By Blood Alone"
-		}
+        always = no
+        }
 		
 		ai_will_do = {
 			factor = 70
@@ -6904,7 +6914,7 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
+        
 		ai_will_do = {
 			factor = 40
 		}
@@ -6953,7 +6963,9 @@ focus_tree = {
 		relative_position_id = YUG_expand_the_split_shipyards
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 20
 		}
@@ -7153,7 +7165,9 @@ focus_tree = {
 		relative_position_id = YUG_expand_the_split_shipyards
 
 		cost = 10
-
+        allow_branch = {
+        always = no
+        }
 		ai_will_do = {
 			factor = 40
 		}
