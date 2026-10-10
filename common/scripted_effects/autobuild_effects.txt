@@ -1,0 +1,418 @@
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤. 
+AUTOBUILD_PLANNED_RUNTIME = { 
+
+    # On core things idk bro
+
+    if = { 
+        limit = { 
+            has_country_flag = picked_oncoreterritories
+            ROOT = {
+                num_of_civilian_factories < planned_civs_value
+            }
+        }
+        every_core_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = {
+            has_country_flag = picked_oncoreterritories
+            ROOT = {
+                NOT = { num_of_civilian_factories < planned_civs_value }
+            }
+        }
+        every_core_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+
+    # On core things idk bro
+
+    # Just infrastructure 
+
+    if = { 
+        limit = {
+            NOT = { 
+                has_country_flag = picked_oncoreterritories
+            }
+            NOT = { 
+                has_country_flag = picked_oncompliance
+            }
+            ROOT = {
+                num_of_civilian_factories < planned_civs_value
+            }
+        }
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = {
+        limit = {
+            NOT = { 
+                has_country_flag = picked_oncoreterritories
+            }
+            NOT = { 
+                has_country_flag = picked_oncompliance
+            }
+            ROOT = {
+                NOT = { num_of_civilian_factories < planned_civs_value }
+            }
+        }
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+
+    # Just infrastructure 
+
+    # Compliance stuff fwck this is so stupid
+
+    if = { 
+        limit = {
+            has_country_flag = picked_oncompliance
+            ROOT = {
+                num_of_civilian_factories < planned_civs_value
+            }
+        }
+        every_owned_state = { 
+            limit = { 
+                check_variable = {
+                    var = compliance
+                    value = ROOT.compliance_chosen_value
+                    compare = greater_than_or_equals
+                }
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = {
+            has_country_flag = picked_oncompliance
+            ROOT = {
+                NOT = { num_of_civilian_factories < planned_civs_value }
+            }
+        }
+        every_owned_state = { 
+            limit = { 
+                check_variable = {
+                    var = compliance
+                    value = ROOT.compliance_chosen_value
+                    compare = greater_than_or_equals
+                }
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+
+    # Compliance stuff fwck this is so stupid
+    
+}
+AUTOBUILD_RUNTIME = {
+    if = { 
+        limit = { 
+            has_country_flag = picked_oncoreterritories 
+            has_country_flag = picked_civs 
+        } 
+        every_core_state = { 
+            limit = { 
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            has_country_flag = picked_oncoreterritories 
+            has_country_flag = picked_civs
+            has_country_flag = picked_mils 
+        } 
+        every_core_state = { 
+            limit = { 
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            has_country_flag = picked_oncoreterritories 
+            has_country_flag = picked_mils 
+        } 
+        every_core_state = { 
+            limit = { 
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+
+    ###### WITHOUT FWCKING ONCORETHING
+
+    if = { 
+        limit = { 
+            NOT = { 
+                has_country_flag = picked_oncompliance
+            }
+            NOT = { 
+                has_country_flag = picked_oncoreterritories
+            }           
+            has_country_flag = picked_civs 
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            NOT = { 
+                has_country_flag = picked_oncompliance
+            }
+            NOT = { 
+                has_country_flag = picked_oncoreterritories
+            }            
+            has_country_flag = picked_civs
+            has_country_flag = picked_mils 
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            NOT = { 
+                has_country_flag = picked_oncompliance
+            }
+            NOT = { 
+                has_country_flag = picked_oncoreterritories
+            }            
+            has_country_flag = picked_mils 
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    
+    ###### WITH COMPLIANCE FWCK FWCK FWCK I HATE THIS STUPID SH#T
+    
+    if = { 
+        limit = { 
+            has_country_flag = picked_civs
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+                check_variable = {
+                    var = compliance
+                    value = ROOT.compliance_chosen_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            has_country_flag = picked_mils 
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+                check_variable = {
+                    var = compliance
+                    value = ROOT.compliance_chosen_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+    if = { 
+        limit = { 
+            has_country_flag = picked_civs
+            has_country_flag = picked_mils 
+        } 
+        every_owned_state = { 
+            limit = { 
+                is_controlled_by = ROOT
+                check_variable = {
+                    var = building_level@infrastructure
+                    value = ROOT.infrastructure_value
+                    compare = greater_than_or_equals
+                }
+                check_variable = {
+                    var = compliance
+                    value = ROOT.compliance_chosen_value
+                    compare = greater_than_or_equals
+                }
+            }
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = no
+            }
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = no
+            }
+        }
+    }
+}
+

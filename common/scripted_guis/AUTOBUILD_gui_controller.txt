@@ -1,0 +1,263 @@
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤. 
+scripted_gui = {
+    autobuild_gui = {
+        context_type = national_focus_context
+        window_name = AUTOBUILD_MAIN
+        visible = { 
+        }       
+        effects = {
+
+            S1_PLANNED_AUTOBUILD_BUTTON_click = {
+                AUTOBUILD_PLANNED_RUNTIME = yes
+                set_country_flag = S1_planned_autobuild_enabled
+            }
+
+            S1_PLANNED_AUTOBUILD_BUTTON_DISABLE_click = {
+                clr_country_flag = S1_planned_autobuild_enabled
+            }
+
+            planned_civs_add_button_click ={ 
+                add_to_variable = { 
+                    planned_civs_value = 1
+                }
+            }
+
+            planned_civs_decrease_button_click = {
+                subtract_from_variable = { 
+                    planned_civs_value = 1
+                }
+            }
+
+            planned_civs_add_button_shift_click ={ 
+                add_to_variable = { 
+                    planned_civs_value = 5
+                }
+            }
+
+            planned_civs_decrease_button_shift_click = {
+                subtract_from_variable = { 
+                    planned_civs_value = 5
+                }
+            }
+
+            industrial_complex_for_s1core_click = {
+                if = {
+                    limit = { has_country_flag = picked_civs }
+                    clr_country_flag = picked_civs
+                    set_variable = { industrial_complex_for_s1core_frame = 1 }
+                }
+                else = {
+                    set_country_flag = picked_civs
+                    set_variable = { industrial_complex_for_s1core_frame = 2 }
+                }
+            }
+
+            arms_factory_icon_discord_gg_sicorum_click = {
+                if = {
+                    limit = { has_country_flag = picked_mils }
+                    clr_country_flag = picked_mils
+                    set_variable = { arms_factory_icon_for_s1core_frame = 2 }
+                }
+                else = {
+                    set_country_flag = picked_mils
+                    set_variable = { arms_factory_icon_for_s1core_frame = 1 }
+                }
+            }
+
+            runtime_activate_button_click = { 
+                AUTOBUILD_RUNTIME = yes
+            }
+        
+            # TANDEM of COMPLIANCE buttons 
+
+            compliance_add_button_click = { 
+                clamp_variable = {
+                    var = compliance_chosen_value 
+                    min = 10
+                    max = 90
+                }
+                add_to_variable = { 
+                    compliance_chosen_value = 10
+                }
+            }
+
+            compliance_decrease_button_click = {
+                clamp_variable = {
+                    var = compliance_chosen_value 
+                    min = 10
+                    max = 90
+                } 
+                subtract_from_variable = { 
+                    compliance_chosen_value = 10
+                }
+            }
+            EnableOnComplianceButton_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            EnableOnComplianceButton_frame = 2
+                        }
+                    }
+                    clr_country_flag = picked_oncompliance
+                    clr_country_flag = picked_basic
+                    set_variable = { 
+                        EnableOnComplianceButton_frame = 1
+                    }
+                    set_variable = {
+                        EnableBasicButton_frame = 1
+                    }
+                    else = {
+                        clr_country_flag = picked_basic
+                        set_variable = { 
+                            EnableBasicButton_frame = 1
+                        }
+                        clr_country_flag = picked_basic
+                        set_variable = {
+                            EnableOnComplianceButton_frame = 2
+                        }
+                    }
+                }
+            }
+
+            EnableBasicButton_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            EnableBasicButton_frame = 2
+                        }
+                    }
+                    set_variable = {
+                        EnableOnComplianceButton_frame = 1
+                    }
+                    set_variable = {
+                        EnableOnCoreTerritoriesButton_frame = 1
+                    }
+                    clr_country_flag = picked_oncompliance
+                    clr_country_flag = picked_oncoreterritories
+                    clr_country_flag = picked_basic
+                    set_variable = {
+                        EnableBasicButton_frame = 1
+                    }
+                    else = {
+                    set_variable = {
+                        EnableOnComplianceButton_frame = 1
+                    }
+                    set_variable = {
+                        EnableOnCoreTerritoriesButton_frame = 1
+                    }
+                    clr_country_flag = picked_oncompliance
+                    clr_country_flag = picked_oncoreterritories
+                    clr_country_flag = picked_basic
+                    set_country_flag = picked_basic
+                        set_variable = {
+                            EnableBasicButton_frame = 2
+                        }
+                    }
+                }
+            }
+
+            # TANDEM of COMPLIANCE buttons
+            
+            EnableOnCoreTerritoriesButton_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            EnableOnCoreTerritoriesButton_frame = 2
+                        }
+                    }
+                    clr_country_flag = picked_basic
+                    set_variable = { 
+                        EnableBasicButton_frame = 1
+                    }
+                    clr_country_flag = picked_oncoreterritories
+                    set_variable = {
+                        EnableOnCoreTerritoriesButton_frame = 1
+                    }
+                    else = {
+                        clr_country_flag = picked_basic
+                        set_variable = { 
+                            EnableBasicButton_frame = 1
+                        }
+                        set_country_flag = picked_oncoreterritories
+                        set_variable = {
+                            EnableOnCoreTerritoriesButton_frame = 2
+                        }
+                    }
+                }
+            }
+
+            EnableAutobuildButton_click = {
+                if = {
+                    limit = {
+                        check_variable = {
+                            onoffbutton_frame_TUMBLER = 2
+                        }
+                    }
+                    set_variable = {
+                        onoffbutton_frame_TUMBLER = 1
+                    }
+                    else = {
+                        set_variable = {
+                            onoffbutton_frame_TUMBLER = 2
+                        }
+                    }
+                }
+            }
+            
+            # TANDEM of INFRASTRUCTURE buttons
+
+            infrastructure_add_button_click = { 
+                clamp_variable = {
+                    var = infrastructure_value 
+                    min = 2
+                    max = 4
+                }
+                add_to_variable = { 
+                    infrastructure_value = 1
+                }
+            }
+
+            infrastructure_decrease_button_click = {
+                clamp_variable = {
+                    var = infrastructure_value 
+                    min = 2
+                    max = 4
+                } 
+                subtract_from_variable = { 
+                    infrastructure_value = 1
+                }
+            }
+            
+            # TANDEM of INFRASTRUCTURE buttons
+        }
+        triggers = {
+            S1_PLANNED_AUTOBUILD_BUTTON_DISABLE_visible = {
+                has_country_flag = S1_planned_autobuild_enabled
+            }
+            S1_PLANNED_AUTOBUILD_BUTTON_visible = {
+                NOT = { has_country_flag = S1_planned_autobuild_enabled }
+            }
+        }
+        properties = {
+            industrial_complex_for_s1core = {
+                frame = industrial_complex_for_s1core_frame
+            }
+            arms_factory_icon_discord_gg_sicorum = {
+                frame = arms_factory_icon_for_s1core_frame
+            }
+            EnableBasicButton = { 
+                frame = EnableBasicButton_frame
+            }
+            EnableOnComplianceButton = {
+                frame = EnableOnComplianceButton_frame
+            }
+            EnableOnCoreTerritoriesButton = {
+                frame = EnableOnCoreTerritoriesButton_frame
+            }
+            EnableAutobuildButton = { 
+                frame = onoffbutton_frame_TUMBLER
+            }
+        }
+    }
+}
