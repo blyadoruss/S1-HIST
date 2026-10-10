@@ -1,6 +1,6 @@
 on_actions = {
     on_startup = {
-        effect = { african_front_update_control_flags = yes }
+        effect = { ENG = { african_front_update_control_flags = yes } }
     }
     on_state_control_changed = {
         effect = { african_front_update_control_flags = yes }
@@ -11,8 +11,8 @@ on_actions = {
                 limit = {
                     OR = {
                         tag = ENG
-                        AND = { tag = ITA NOT = { exists = ENG } }
-                        AND = { tag = GER NOT = { exists = ENG } NOT = { exists = ITA } }
+                        AND = { tag = ITA NOT = { country_exists = ENG } }
+                        AND = { tag = GER NOT = { country_exists = ENG } NOT = { country_exists = ITA } }
                     }
                 }
                 african_front_update_control_flags = yes

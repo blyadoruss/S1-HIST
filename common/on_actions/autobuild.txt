@@ -1,0 +1,23 @@
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤.
+on_actions = {
+    on_monthly = { 
+        effect = {  
+            if = {
+                limit = {
+                    has_country_flag = S1_planned_autobuild_enabled
+                }
+                AUTOBUILD_PLANNED_RUNTIME = yes
+            }
+        }
+    }
+
+    on_startup = {
+        effect = {
+            every_country = {
+                set_variable = { industrial_complex_for_s1core_frame = 1 }
+                set_variable = { arms_factory_icon_for_s1core_frame = 2 }
+            }
+        }
+    }
+}

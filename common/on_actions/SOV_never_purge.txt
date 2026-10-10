@@ -1,0 +1,14 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            SOV = {
+                SOV_georgy_zhukov = { set_character_flag = SOV_never_purge }
+                SOV_konstantin_rokossovsky = { set_character_flag = SOV_never_purge }
+                SOV_aleksandr_vasilevsky = { set_character_flag = SOV_never_purge }
+                SOV_boris_shaposhnikov = { set_character_flag = SOV_never_purge }
+                SOV_nikolay_vatutin = { set_character_flag = SOV_never_purge }
+                SOV_nikolay_voznesensky = { set_character_flag = SOV_never_purge }
+            }
+        }
+    }
+}
