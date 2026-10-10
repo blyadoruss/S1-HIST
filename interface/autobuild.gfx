@@ -1,0 +1,19 @@
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤. 
+spriteTypes = {
+    spriteType = {
+        name = "TUMBLER"        
+        texturefile = "gfx/interface/TUMBLER.png"
+        noofframes = 2      
+    }
+    spriteType = { 
+        name = "arms_factory_icon_for_s1core"   
+        texturefile = "gfx/interface/arms_factory_icon_for_s1core.png"
+        noofframes = 2
+    }   
+    spriteType = { 
+        name = "industrial_complex_for_s1core"
+        texturefile = "gfx/interface/industrial_complex_for_s1core.dds"
+        noofframes = 2
+    }   
+}

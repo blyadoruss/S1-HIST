@@ -1,0 +1,252 @@
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤.
+guiTypes = {
+    containerWindowType = {
+        name = AUTOBUILD_MAIN
+        orientation = center
+        position = { x = -250 y = -100 }
+        size = { width = 850 height = 400 }
+        moveable = yes
+
+        background = { 
+            name = Background 
+            quadTextureSprite = GFX_tiled_window 
+        }        
+            
+        instantTextBoxType = { 
+            name = "ABTAUTOMATICBUILDRUNTIME"
+            text = ABTAUTOMATICBUILDRUNTIME
+            position = { x = 420 y = 50 }
+            maxWidth = 400
+            format = center   
+            font = hoi_18                       
+            font = hoi_18
+        }
+
+        containerWindowType = {
+            name = AUTOBUILD_SUBMAIN_CHOOSE_SIDE
+            orientation = center
+            position = { x = -330 y = -170 }
+            size = { width = 220 height = 100 }
+            moveable = no
+
+            background = { 
+                name = Background 
+                quadTextureSprite = GFX_tiled_window 
+            }
+
+            buttonType = {
+                name = "arms_factory_icon_discord_gg_sicorum"
+                quadTextureSprite = "arms_factory_icon_for_s1core"
+                position = { x = 180 y = 60 }
+                tooltip = "EnableAutobuildButton_Tooltip"
+                clicksound = click_default
+            }
+
+            buttonType = {
+                name = "industrial_complex_for_s1core"
+                quadTextureSprite = "industrial_complex_for_s1core"
+                position = { x = 20 y = 60 }
+                tooltip = "EnableAutobuildButton_Tooltip"
+                clicksound = click_default
+            }
+            
+            instantTextBoxType = { 
+                name = "DISCORDGGSICORUM"
+                text = DISCORDGGSICORUM
+                position = { x = 20 y = 13 }
+                maxWidth = 180
+                format = center   
+                font = hoi_18    
+            }
+        
+        }
+        
+        containerWindowType = {
+            name = AUTOBUILD_PLANNING_MAIN
+            orientation = center
+            position = { x = -0 y = 120 }
+            size = { width = 370 height = 80 }
+            moveable = no
+            background = { 
+                name = Background 
+                quadTextureSprite = GFX_tiled_window 
+            }     
+            buttonType = {
+                name = "planned_civs_add_button"
+                spriteType = "GFX_scroll_right"
+                position = { x = 230 y = 30 }
+                clicksound = click_default
+            }
+            buttonType = {
+                name = "planned_civs_decrease_button"
+                spriteType = "GFX_scroll_left"
+                position = { x = 125 y = 30 }
+                clicksound = click_default
+            }
+            instantTextBoxType = { 
+                name = "planned_civs_value_text_var"
+                text = planned_civs_value_text_var
+                position = { x = 175 y = 28 }
+                maxWidth = 180  
+                font = hoi14_mbs    
+            }
+            buttonType = {
+                name = "S1_PLANNED_AUTOBUILD_BUTTON"
+                quadTextureSprite = "GFX_construction_button"
+                position = { x = 300 y = 20 }
+                buttonText = S1_PLANNED_AUTOBUILD_BUTTON1 
+                clicksound = click_default
+            } 
+            buttonType = {
+                name = "S1_PLANNED_AUTOBUILD_BUTTON_DISABLE"
+                quadTextureSprite = "GFX_construction_button"
+                position = { x = 15 y = 20 }
+                buttonText = S1_PLANNED_AUTOBUILD_BUTTON1 
+                clicksound = click_default
+            } 
+        }
+
+        containerWindowType = {
+            name = AUTOBUILD_SUBMAIN_MODIFIERS_N_VARIABLES
+            orientation = center
+            position = { x = -240 y = -60 }
+            size = { width = 220 height = 260 }
+            moveable = no
+            background = { 
+                name = Background 
+                quadTextureSprite = GFX_tiled_window 
+            }
+            
+            instantTextBoxType = { 
+                name = "COMPLIANCEBUTTONSTEXTABT"
+                text = COMPLIANCEBUTTONSTEXTABT
+                position = { x = 20 y = 13 }
+                maxWidth = 180
+                format = center   
+                font = hoi_18    
+            }
+
+            buttonType = {
+                name = "compliance_add_button"
+                spriteType = "GFX_scroll_right"
+                position = { x = 120 y = 60 }
+                tooltip = "compliance_add_button_Tooltip"   
+                clicksound = click_default
+            }
+
+            buttonType = {
+                name = "compliance_decrease_button"
+                spriteType = "GFX_scroll_left"
+                position = { x = 80 y = 60 }
+                tooltip = "compliance_decrease_button_Tooltip"
+                clicksound = click_default
+            }
+            
+            instantTextBoxType = { 
+                name = "INFRASTRUCTUREBUTTONSTEXTABT"
+                text = INFRASTRUCTUREBUTTONSTEXTABT
+                position = { x = 15 y = 130 }
+                maxWidth = 180
+                format = center  
+                font = hoi_18    
+            }
+                
+            instantTextBoxType = { 
+                name = "infrastructure_value_text_var"
+                text = infrastructure_value_text_var
+                position = { x = 100 y = 198 }
+                maxWidth = 180  
+                font = hoi14_mbs    
+            }
+
+            buttonType = {
+                name = "infrastructure_add_button"
+                spriteType = "GFX_scroll_right"
+                position = { x = 120 y = 200 }
+                tooltip = "infrastructure_add_button_Tooltip"
+                clicksound = click_default
+            }
+
+            buttonType = {
+                name = "infrastructure_decrease_button"
+                spriteType = "GFX_scroll_left"
+                position = { x = 80 y = 200 }
+                tooltip = "infrastructure_decrease_button_Tooltip"
+                clicksound = click_default
+            }
+
+            instantTextBoxType = {  
+                name = "compliance_textbox"
+                text = compliance_text_var
+                position = { x = 100 y = 58 }
+                maxWidth = 180
+                font = hoi14_mbs
+            }
+        }
+
+        containerWindowType = {
+            name = AUTOBUILD_SUBMAIN_TUMBLERS
+            orientation = center
+            position = { x = -400 y = -60 }
+            size = { width = 160 height = 260 }
+            moveable = no
+            background = { 
+                name = Background   
+                quadTextureSprite = GFX_tiled_window 
+            }
+            buttonType = {
+                name = "runtime_activate_button"
+                spriteType = "GFX_construction_button"
+                position = { x = 60 y = 200 }
+                tooltip = "runtime_activate_button_Tooltip"
+                clicksound = click_default
+            }
+            buttonType = {
+                name = "EnableBasicButton"
+                spriteType = "GFX_generic_checkbox"
+                position = { x = 20 y = 170 }
+                tooltip = "EnableBasicButton_Tooltip"
+                clicksound = click_default
+            }
+            buttonType = {
+                name = "EnableOnComplianceButton"
+                spriteType = "GFX_generic_checkbox"
+                position = { x = 20 y = 20 }
+                tooltip = "EnableOnComplianceButton_Tooltip"
+                clicksound = click_default
+            }
+            buttonType = {
+                name = "EnableOnCoreTerritoriesButton"
+                spriteType = "GFX_generic_checkbox"
+                position = { x = 20 y = 100 }
+                tooltip = "EnableOnCoreTerritoriesButton_Tooltip"
+                clicksound = click_default
+            }
+            instantTextBoxType = {  
+                name = "compliance_text_abt"
+                text = compliance_text_abt
+                position = { x = 55 y = 20 }
+                font = Arial12  
+                maxWidth = 80
+                format = center
+            }
+            instantTextBoxType = {  
+                name = "s1core_text_abt"
+                text = s1core_text_abt  
+                position = { x = 55 y = 105 }
+                font = Arial12  
+                maxWidth = 80
+                format = center
+            }
+            instantTextBoxType = {  
+                name = "only_infrastructure_text_abt"
+                text = only_infrastructure_text_abt
+                position = { x = 50 y = 170 }
+                font = Arial12  
+                maxWidth = 100
+                format = center
+            }
+        }
+    }
+}
