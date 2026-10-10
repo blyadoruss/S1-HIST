@@ -2,6 +2,23 @@
 ### Made by S1CORE, with love ❤.
 guiTypes = {
     containerWindowType = {
+        name = AUTOBUILD_LAUNCHER
+        position = { x = 205 y = 15 }
+        size = { width = 70 height = 26 }
+        moveable = no
+
+        buttonType = {
+            name = "autobuild_open_button"
+            spriteType = "GFX_generic_box_smallest"
+            position = { x = 0 y = 0 }
+            buttonText = AUTO
+            buttonFont = "hoi_16mbs"
+            tooltip = "AUTOBUILD"
+            clicksound = click_default
+        }
+    }
+
+    containerWindowType = {
         name = AUTOBUILD_MAIN
         orientation = center
         position = { x = -250 y = -100 }
@@ -247,6 +264,14 @@ guiTypes = {
                 maxWidth = 100
                 format = center
             }
+        }
+
+        buttonType = {
+            name = "autobuild_close_button"
+            quadTextureSprite = "GFX_closebutton"
+            position = { x = 815 y = 7 }
+            tooltip = "S1_AUTOBUILD_CLOSE_TOOLTIP"
+            clicksound = click_default
         }
     }
 }

@@ -1,12 +1,37 @@
 ### discord.gg/sicorum
 ### Made by S1CORE, with love ❤. 
 scripted_gui = {
-    autobuild_gui = {
-        context_type = national_focus_context
-        window_name = AUTOBUILD_MAIN
-        visible = { 
-        }       
+    autobuild_launcher_gui = {
+        context_type = player_context
+        window_name = AUTOBUILD_LAUNCHER
+        parent_window_token = construction_tab
+        visible = { always = yes }
+        ai_enabled = { always = no }
         effects = {
+            autobuild_open_button_click = {
+                if = { 
+                    limit = { 
+                        has_country_flag = S1_autobuild_gui_open
+                    }
+                    clr_country_flag = S1_autobuild_gui_open
+                    else = {
+                        set_country_flag = S1_autobuild_gui_open
+                    }
+                }
+            }
+        }
+    }
+
+    autobuild_gui = {
+        context_type = player_context
+        window_name = AUTOBUILD_MAIN
+        visible = { has_country_flag = S1_autobuild_gui_open }
+        ai_enabled = { always = no }
+        effects = {
+
+            autobuild_close_button_click = {
+                clr_country_flag = S1_autobuild_gui_open
+            }
 
             S1_PLANNED_AUTOBUILD_BUTTON_click = {
                 AUTOBUILD_PLANNED_RUNTIME = yes

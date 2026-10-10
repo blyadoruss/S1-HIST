@@ -1,0 +1,17 @@
+﻿l_russian:
+### discord.gg/sicorum
+### Made by S1CORE, with love ❤. 
+ DISCORDGGSICORUM: "Выбери, на чьей ты стороне:"
+ MAINBUTTONTEXT: "Включить Авто-построение"
+ compliance_text_var: "[?ROOT.compliance_chosen_value]"  
+ COMPLIANCEBUTTONSTEXTABT: "Минимальный COMPLIANCE для стройки" 
+ INFRASTRUCTUREBUTTONSTEXTABT: "Минимальный INFRASTRUCTURE для стройки"
+ infrastructure_value_text_var: "[?ROOT.infrastructure_value]" 
+ compliance_text_abt: "Mind COMPLIANCE" 
+ s1core_text_abt: "Mind CORE's"
+ EnableAutobuildButton_Tooltip: "Построить с выбранными параметрами"
+ runtime_activate_button_Tooltip: "Добавить выбранные заводы в очередь строительства в регионах, подходящих под заданные условия."
+ only_infrastructure_text_abt: "Only INFRASTRUCTURE"
+ S1_PLANNED_AUTOBUILD_BUTTON: "Плановое Авто-построение"
+ ABTAUTOMATICBUILDRUNTIME: "§YАвтопостроение§!:\n§YСправа§! - кнопка §Gвключения§! §Yавтостройки§!.\n§YСлева§! - кнопка §Rотключения§! §Yавтостройки§!.\nСтроит ваше желаемое кол-во фабрик, а после них - военные заводы.\n§YВНИМАНИЕ§!:\nАвто-построение будет работать §Yтолько в регионах§!, которые §Yсоответствуют§! выбранным §Yусловиям§!.\n§YВНИМАНИЕ§!:\nАвтостройка будет §Yставить§! новые заводы в линии §Yдо тех пор§!, §Yпока§! не упрется в лимит всех §Yфабрик§! в вашем государстве, ТО ЕСТЬ если уже §Yдостигло Х значения ваших фабрик§!, то в стройке §Yостанутся§! линии строек. Ставьте с запасом.\n\n Поддерживает SHIFT+CLICK = +5."
+ planned_civs_value_text_var: "[?ROOT.planned_civs_value]"
