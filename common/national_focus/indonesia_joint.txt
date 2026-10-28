@@ -36,6 +36,7 @@ joint_focus = {
 	mutually_exclusive = { }
 
     allow_branch = {
+        always = no
 		has_dlc = "Thunder at Our Gates"
     	if = {
 			limit = {
@@ -130,7 +131,8 @@ joint_focus = {
 	prerequisite = { focus = INS_the_jewel_in_the_crown }
 	mutually_exclusive = {  }
 
-    allow_branch = {
+        allow_branch = {
+                always = no
 		has_dlc = "Thunder at Our Gates"
     	if = {
 			limit = {
@@ -6120,6 +6122,7 @@ joint_focus = {
 	}
 
 	allow_branch = {
+    always = no
 		OR = {
 			original_tag = INS
 			original_tag = HOL

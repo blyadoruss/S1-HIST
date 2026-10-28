@@ -11048,7 +11048,7 @@ focus_tree = {
 
 		search_filters = {FOCUS_FILTER_POLITICAL}
 
-		cost = 5
+		cost = 1
 
 		ai_will_do = {
 			factor = 10
@@ -11221,7 +11221,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -11232,7 +11232,6 @@ focus_tree = {
 			976 = {
 				is_owned_and_controlled_by = ROOT
 			}
-			has_tech = excavation1
 		}
 		
 		bypass = {
@@ -11254,10 +11253,10 @@ focus_tree = {
 					type = steel
 					amount = 12
 				}	
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}	
 			}
@@ -11313,7 +11312,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -11366,7 +11365,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -11444,7 +11443,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -11529,14 +11528,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-			has_tech = excavation3
 			975 = {
 				is_owned_and_controlled_by = ROOT
 			}
@@ -11557,14 +11555,14 @@ focus_tree = {
 			975 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 16
 				}	
 			}
 
 			4 = {
 				add_resource = {
 					type = oil
-					amount = 10
+					amount = 24
 				}	
 			}
 
@@ -11583,7 +11581,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH FOCUS_FILTER_POLITICAL_CHARACTER }
 
 		cost = 5
-
+        allow_branch = {
+            always = no
+            }
 		ai_will_do = {
 			factor = 1
 		}
@@ -11979,7 +11979,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		cost = 5
-
+        allow_branch = {
+            always = no
+            }
 		ai_will_do = {
 			factor = 10
 		}
@@ -12208,7 +12210,7 @@ focus_tree = {
 		relative_position_id = AUS_regulate_austrian_finance_sector
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

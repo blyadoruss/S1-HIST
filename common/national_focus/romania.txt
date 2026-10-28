@@ -8,16 +8,13 @@ focus_tree = {
 			tag = ROM
 		}
 	}
-
-	continue_if_always_possible = yes
-
 	# NAME: Preserve Greater Romania
 	focus = {
 		id = ROM_preserve_greater_romania
 		icon = GFX_focus_rom_preserve_romania
 		x = 3
 		y = 0
-		cost = 10
+		cost = 8
 		search_filters = { FILTER_POLITICAL }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -46,7 +43,10 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
+        allow_branch = {
+            always = no
+            }
 		relative_position_id = ROM_preserve_greater_romania
 		prerequisite = { focus = ROM_preserve_greater_romania }
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -86,7 +86,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_a_deal_with_the_devil
 		prerequisite = { focus = ROM_a_deal_with_the_devil }
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_POLITICAL }
@@ -117,7 +117,7 @@ focus_tree = {
 		icon = GFX_focus_generic_soviet_politics
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_a_deal_with_the_devil
 		prerequisite = { focus = ROM_a_deal_with_the_devil }
 		search_filters = { FILTER_POLITICAL }
@@ -160,7 +160,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_sphere
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_basing_rights_for_soviet_union
 		prerequisite = { focus = ROM_basing_rights_for_soviet_union }
 		search_filters = { FILTER_POLITICAL }
@@ -191,7 +191,7 @@ focus_tree = {
 		icon = GFX_focus_generic_join_comintern
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_basing_rights_for_soviet_union
 		prerequisite = { focus = ROM_basing_rights_for_soviet_union }
 		search_filters = { FILTER_POLITICAL }
@@ -240,7 +240,7 @@ focus_tree = {
 		icon = GFX_goal_generic_trade
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_preserve_greater_romania
 		prerequisite = { focus = ROM_preserve_greater_romania }
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -275,7 +275,7 @@ focus_tree = {
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_trade_treaty_with_germany
 		prerequisite = { focus = ROM_trade_treaty_with_germany }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -327,7 +327,7 @@ focus_tree = {
 		icon = GFX_focus_generic_license_production
 		x = 1
 		y = 1
-		cost = 10
+		cost = 2
 		relative_position_id = ROM_invite_german_advisors
 		prerequisite = { focus = ROM_invite_german_advisors }
 		search_filters = { FILTER_POLITICAL }
@@ -366,7 +366,7 @@ focus_tree = {
 		icon = GFX_goal_support_fascism
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_invite_german_advisors
 		prerequisite = { focus = ROM_invite_german_advisors }
 		search_filters = { FILTER_POLITICAL }
@@ -421,7 +421,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_join_axis
 		prerequisite = { focus = ROM_join_axis }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -450,7 +450,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 32
 				}
 			}
 			GER = {
@@ -460,7 +460,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = oil
-						amount = 4
+						amount = 24
 					}
 				}
 			}
@@ -478,7 +478,10 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
+        allow_branch = {
+            always = no
+            }
 		relative_position_id = ROM_join_axis
 		prerequisite = { focus = ROM_join_axis }
 		search_filters = { FILTER_POLITICAL }
@@ -518,7 +521,10 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
+        allow_branch = {
+            always = no
+            }
 		relative_position_id = ROM_preserve_greater_romania
 		prerequisite = { focus = ROM_preserve_greater_romania }
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -557,7 +563,7 @@ focus_tree = {
 		icon = GFX_goal_generic_alliance
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_renew_the_romanian_polish_alliance
 		prerequisite = { focus = ROM_renew_the_romanian_polish_alliance }
 		search_filters = { FILTER_POLITICAL }
@@ -635,7 +641,7 @@ focus_tree = {
 		icon = GFX_goal_generic_defence
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_renew_the_romanian_polish_alliance
 		prerequisite = { focus = ROM_renew_the_romanian_polish_alliance }
 		search_filters = { FILTER_POLITICAL }
@@ -707,7 +713,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_demand_a_western_guarantee
 		prerequisite = { focus = ROM_demand_a_western_guarantee }
 		search_filters = { FILTER_POLITICAL }
@@ -752,7 +758,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_demand_a_western_guarantee
 		prerequisite = { focus = ROM_demand_a_western_guarantee }
 		search_filters = { FILTER_POLITICAL }
@@ -812,7 +818,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_join_allies
 		prerequisite = { focus = ROM_join_allies }
 		prerequisite = { focus = ROM_military_modernization }
@@ -852,7 +858,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		x = 5
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_preserve_greater_romania
 		prerequisite = { focus = ROM_preserve_greater_romania }
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
@@ -888,7 +894,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 7
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_preserve_greater_romania
 		prerequisite = { focus = ROM_preserve_greater_romania }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -952,7 +958,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_national_defense_industry
 		prerequisite = { focus = ROM_civil_works focus = ROM_national_defense_industry }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1066,10 +1072,9 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_danubian_transport_network
 		prerequisite = { focus = ROM_danubian_transport_network }
-		mutually_exclusive = { focus = ROM_invite_foreign_motor_companies }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1115,10 +1120,9 @@ focus_tree = {
 		icon = GFX_goal_generic_army_motorized
 		x = 1
 		y = 1
-		cost = 10
+		cost = 1
 		relative_position_id = ROM_danubian_transport_network
 		prerequisite = { focus = ROM_danubian_transport_network }
-		mutually_exclusive = { focus = ROM_malaxa }
 		search_filters = { FILTER_POLITICAL }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1147,7 +1151,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_invite_foreign_motor_companies
 		prerequisite = { focus = ROM_invite_foreign_motor_companies focus = ROM_malaxa }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1199,7 +1203,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_invite_foreign_motor_companies
 		prerequisite = { focus = ROM_invite_foreign_motor_companies focus = ROM_malaxa }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1262,7 +1266,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_invest_in_the_iar
 		prerequisite = { focus = ROM_invest_in_the_iar }
 		prerequisite = { focus = ROM_hunedoara_steel_works }
@@ -1284,7 +1288,7 @@ focus_tree = {
 			46 = {
 				add_resource = {
 					type = oil
-					amount = 24
+					amount = 32
 				}
 			}
 		}
@@ -1301,7 +1305,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_ploiesti_oil_production
 		prerequisite = { focus = ROM_expand_ploiesti_oil_production }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1334,7 +1338,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_the_university_of_bucharest
 		prerequisite = { focus = ROM_expand_the_university_of_bucharest }
 		search_filters = { FILTER_POLITICAL }
@@ -1365,7 +1369,7 @@ focus_tree = {
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 21
 		y = 0
-		cost = 10
+		cost = 8
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1419,7 +1423,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_institute_royal_dictatorship
 		prerequisite = { focus = ROM_institute_royal_dictatorship }
 		search_filters = { FILTER_POLITICAL }
@@ -1448,10 +1452,10 @@ focus_tree = {
 	focus = {
 		id = ROM_his_majestys_loyal_government
 		icon = GFX_goal_generic_propaganda
-		x = -4
-		y = 1
-		cost = 10
-		relative_position_id = ROM_revise_the_constitution
+		x = 18
+		y = 2
+		cost = 8
+
 		prerequisite = { focus = ROM_fortify_the_borders }
 		prerequisite = { focus = ROM_revise_the_constitution }
 		mutually_exclusive = { focus = ROM_flexible_foreign_policy }
@@ -1504,7 +1508,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_his_majestys_loyal_government
 		prerequisite = { focus = ROM_his_majestys_loyal_government }
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -1544,7 +1548,7 @@ focus_tree = {
 		icon = GFX_focus_rom_parties_end
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_militarize_the_sentinels
 		prerequisite = { focus = ROM_militarize_the_sentinels }
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -1585,7 +1589,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_institute_royal_dictatorship
 		prerequisite = { focus = ROM_institute_royal_dictatorship }
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -1622,7 +1626,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_revise_the_constitution
 		prerequisite = { focus = ROM_revise_the_constitution }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1745,7 +1749,7 @@ focus_tree = {
 		icon = GFX_goal_support_fascism
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_flexible_foreign_policy
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -1908,7 +1912,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_appoint_german_friendly_government
 		prerequisite = { focus = ROM_appoint_german_friendly_government }
 		mutually_exclusive = { focus = ROM_national_christian_party }
@@ -1973,7 +1977,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_appoint_german_friendly_government
 		prerequisite = { focus = ROM_appoint_german_friendly_government }
 		mutually_exclusive = { focus = ROM_iron_guard }
@@ -2042,7 +2046,7 @@ focus_tree = {
 		icon = GFX_focus_rom_abdicate
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_national_christian_party
 		prerequisite = { focus = ROM_iron_guard focus = ROM_national_christian_party }
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
@@ -2133,7 +2137,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		x = 28
 		y = 0
-		cost = 10
+		cost = 8
 		search_filters = { FILTER_POLITICAL }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -2227,7 +2231,7 @@ focus_tree = {
 		icon = GFX_focus_generic_license_production
 		x = -1
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_the_air_force
 		prerequisite = { focus = ROM_expand_the_air_force }
 		mutually_exclusive = { focus = ROM_local_development }
@@ -2259,7 +2263,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_acquire_licenses
 		prerequisite = { focus = ROM_acquire_licenses }
 		mutually_exclusive = { focus = ROM_ground_support }
@@ -2302,7 +2306,7 @@ focus_tree = {
 		icon = GFX_goal_poland_goal
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_acquire_licenses
 		prerequisite = { focus = ROM_acquire_licenses }
 		mutually_exclusive = { focus = ROM_air_defense }
@@ -2345,7 +2349,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_bomber
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_ground_support
 		prerequisite = { focus = ROM_ground_support }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2381,7 +2385,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_air_defense
 		prerequisite = { focus = ROM_air_defense }
 		search_filters = { FILTER_POLITICAL }
@@ -2464,7 +2468,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_production
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_the_air_force
 		prerequisite = { focus = ROM_expand_the_air_force }
 		mutually_exclusive = { focus = ROM_acquire_licenses }
@@ -2496,7 +2500,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter2
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_local_development
 		prerequisite = { focus = ROM_local_development }
 		mutually_exclusive = { focus = ROM_strategic_bomber_force }
@@ -2533,7 +2537,7 @@ focus_tree = {
 		icon = GFX_goal_generic_CAS
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_air_superiority
 		prerequisite = { focus = ROM_air_superiority }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2569,7 +2573,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_air_superiority
 		prerequisite = { focus = ROM_air_superiority }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2663,7 +2667,7 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_start_war
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_local_development
 		prerequisite = { focus = ROM_local_development }
 		mutually_exclusive = { focus = ROM_air_superiority }
@@ -2700,7 +2704,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_bomber
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_strategic_bomber_force
 		prerequisite = { focus = ROM_strategic_bomber_force }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2736,7 +2740,7 @@ focus_tree = {
 		icon = GFX_focus_wonderweapons
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_heavy_bombers
 		prerequisite = { focus = ROM_heavy_bombers }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2776,7 +2780,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_doctrines
 		x = 36
 		y = 0
-		cost = 10
+		cost = 8
 		search_filters = { FILTER_POLITICAL }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -2805,7 +2809,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_army_maneuvers
 		prerequisite = { focus = ROM_army_maneuvers }
 		search_filters = { FILTER_POLITICAL }
@@ -2849,7 +2853,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_army_war_college
 		prerequisite = { focus = ROM_army_war_college }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2885,7 +2889,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_the_zb_53
 		prerequisite = { focus = ROM_the_zb_53 }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2953,7 +2957,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_the_zb_53
 		prerequisite = { focus = ROM_the_zb_53 }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2989,7 +2993,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_artillery_modernization
 		prerequisite = { focus = ROM_artillery_modernization }
 		mutually_exclusive = { focus = ROM_mobile_tank_destroyers }
@@ -3026,7 +3030,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_artillery_modernization
 		prerequisite = { focus = ROM_artillery_modernization }
 		prerequisite = { focus = ROM_vanatori_de_munte }
@@ -3059,7 +3063,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_army_maneuvers
 		prerequisite = { focus = ROM_army_maneuvers }
 		search_filters = { FILTER_POLITICAL }
@@ -3146,7 +3150,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_royal_guards_divisions
 		prerequisite = { focus = ROM_royal_guards_divisions }
 		mutually_exclusive = { focus = ROM_the_armored_division }
@@ -3178,7 +3182,7 @@ focus_tree = {
 		icon = GFX_goal_generic_cavalry
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_royal_guards_divisions
 		prerequisite = { focus = ROM_royal_guards_divisions }
 		mutually_exclusive = { focus = ROM_reserve_divisions }
@@ -3337,7 +3341,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_the_armored_division
 		prerequisite = { focus = ROM_the_armored_division focus = ROM_reserve_divisions }
 		search_filters = { FILTER_POLITICAL }
@@ -3368,7 +3372,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_tank
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_acquire_modern_tanks
 		prerequisite = { focus = ROM_acquire_modern_tanks }
 		prerequisite = { focus = ROM_artillery_modernization }
@@ -3414,7 +3418,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_mobile_tank_destroyers
 		prerequisite = { focus = ROM_mobile_tank_destroyers }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3451,7 +3455,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 44
 		y = 0
-		cost = 10
+		cost = 8
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -3498,7 +3502,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_the_galati_shipyards
 		prerequisite = { focus = ROM_expand_the_galati_shipyards }
 		mutually_exclusive = { focus = ROM_black_sea_dominance }
@@ -3543,7 +3547,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_coastal_defense_navy
 		prerequisite = { focus = ROM_coastal_defense_navy }
 		search_filters = { FILTER_POLITICAL }
@@ -3576,10 +3580,10 @@ focus_tree = {
 	focus = {
 		id = ROM_modern_destroyers
 		icon = GFX_goal_generic_navy_anti_submarine
-		x = -1
-		y = 1
-		cost = 10
-		relative_position_id = ROM_black_sea_dominance
+		x = 44
+		y = 2
+		cost = 8
+
 		prerequisite = { focus = ROM_coastal_defense_navy focus = ROM_black_sea_dominance }
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		cancel_if_invalid = yes
@@ -3614,7 +3618,7 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_start_war
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_coastal_defense_ships
 		prerequisite = { focus = ROM_coastal_defense_ships }
 		search_filters = { FILTER_POLITICAL }
@@ -3648,7 +3652,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_submarine
 		x = -1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_modern_destroyers
 		prerequisite = { focus = ROM_modern_destroyers }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3684,7 +3688,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_navy
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_expand_the_galati_shipyards
 		prerequisite = { focus = ROM_expand_the_galati_shipyards }
 		mutually_exclusive = { focus = ROM_coastal_defense_navy }
@@ -3730,7 +3734,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_battleship
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_black_sea_dominance
 		prerequisite = { focus = ROM_black_sea_dominance }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3768,7 +3772,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_naval_bomber
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_modern_destroyers
 		prerequisite = { focus = ROM_modern_destroyers }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3804,7 +3808,7 @@ focus_tree = {
 		icon = GFX_goal_generic_amphibious_assault
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ROM_capital_ships
 		prerequisite = { focus = ROM_capital_ships }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3842,5 +3846,10 @@ focus_tree = {
 		
 		}
 	}
+
+
+	# Compatibility IDs for focuses removed from this tree but still referenced by game scripts.
+	focus = { id = ROM_appoint_soviet_friendly_government icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 8 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = ROM_balkans_dominance icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 8 allow_branch = { always = no } available = { always = no } completion_reward = { } }
 
 }

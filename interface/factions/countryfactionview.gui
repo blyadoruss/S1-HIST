@@ -69,6 +69,13 @@ guiTypes = {
 			}
 
 
+			#buttonType = {
+				#name = "leave_faction_button"
+				#quadTextureSprite = "GFX_dismantle_faction_button"
+				#orientation = UPPER_RIGHT
+				#position = { x = -92 y = 20 }
+			#}
+
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 120 y = 60 }

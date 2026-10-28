@@ -1,0 +1,137 @@
+
+generic_bonus_1 = {
+	add_tech_bonus = { 
+	name = "Generic 50 Bonus" bonus = 0.5 uses = 1
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
+	category = motorized_equipment   category =	armor 
+	category = electronics	category = nuclear 
+    category = infantry_weapons 
+	category = air_doctrine category = naval_doctrine   
+	category = tp_tech   category = support_tech 
+	}
+}
+
+generic_bonus_3 = {
+	add_tech_bonus = { 
+	name = "Generic 100 Bonus"  bonus = 1 uses = 1
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
+	category = motorized_equipment   category =	armor 
+	category = electronics	category = nuclear 
+    category = infantry_weapons 
+	category = air_doctrine category = naval_doctrine   
+	category = tp_tech   category = support_tech 
+	}
+}
+generic_bonus_2y = {
+	add_tech_bonus = { 
+	name = "Generic 2y Bonus"  ahead_reduction = 2 bonus = 1 uses = 1
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
+	category = motorized_equipment   category =	armor 
+	category = electronics	category = nuclear 
+    category = infantry_weapons 
+	category = air_doctrine category = naval_doctrine   
+	category = tp_tech   category = support_tech
+	}
+}
+
+generic_bonus_999 = {
+	add_tech_bonus = { 
+	name = "Generic 99999 Bonus"  bonus = 999.99 uses = 1 
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
+	category = motorized_equipment   category =	armor 
+	category = electronics	category = nuclear 
+    category = infantry_weapons 
+	category = air_doctrine category = naval_doctrine   
+	category = tp_tech   category = support_tech 
+	}
+}
+
+generic_debuff_1 = {
+	add_timed_idea = { idea = debuff_tanks_idea days = 90 }
+}
+
+generic_debuff_2 = {
+	add_timed_idea = { idea = debuff_aviation_idea days = 90 }
+}
+generic_debuff_3 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool__fyp_consumer_goods_factor = -0.05 }
+	}
+	else= {
+		add_to_variable = { Horst_tool__fyp_consumer_goods_factor = 0.05 }
+	}
+	
+}
+generic_debuff_4 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_consumer_goods_expected_value = -0.01 }
+	}
+	else= {
+		add_to_variable = { Horst_tool_consumer_goods_expected_value = 0.01 }
+	}
+}
+generic_debuff_5 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_production_factory_max_efficiency_factor = 0.02 }
+	}
+	else= {
+		add_to_variable = { Horst_tool_production_factory_max_efficiency_factor = -0.02 }
+	}
+}
+generic_debuff_6 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_production_factory_start_efficiency_factor = 0.02 }
+	}
+	else= {
+		add_to_variable = { Horst_tool_production_factory_start_efficiency_factor = -0.02 }
+	}
+}
+generic_debuff_7 = {
+	if = { 
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_production_factory_efficiency_gain_factor = 0.02 }
+	}
+	else = {
+		add_to_variable = { Horst_tool_production_factory_efficiency_gain_factor = -0.02 }
+	}
+}
+generic_debuff_8 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_army_defence_factor = 0.05 }
+	}
+	else= {
+		add_to_variable = { Horst_tool_army_defence_factor = -0.05 }
+	}
+}
+generic_debuff_9 = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = enabled_debuffing }
+		}
+		add_to_variable = { Horst_tool_army_attack_factor = 0.05 }
+	}
+	else= {
+		add_to_variable = { Horst_tool_army_attack_factor = -0.05 }
+	}
+}

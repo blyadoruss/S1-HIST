@@ -119,6 +119,7 @@ AUTOBUILD_PLANNED_RUNTIME = {
     if = { 
         limit = {
             has_country_flag = picked_oncompliance
+            NOT = { has_country_flag = picked_oncoreterritories }
             ROOT = {
                 num_of_civilian_factories < planned_civs_value
             }
@@ -147,6 +148,7 @@ AUTOBUILD_PLANNED_RUNTIME = {
     if = { 
         limit = {
             has_country_flag = picked_oncompliance
+            NOT = { has_country_flag = picked_oncoreterritories }
             ROOT = {
                 NOT = { num_of_civilian_factories < planned_civs_value }
             }
@@ -181,9 +183,11 @@ AUTOBUILD_RUNTIME = {
         limit = { 
             has_country_flag = picked_oncoreterritories 
             has_country_flag = picked_civs 
+            NOT = { has_country_flag = picked_mils }
         } 
         every_core_state = { 
             limit = { 
+                is_controlled_by = ROOT
                 check_variable = {
                     var = building_level@infrastructure
                     value = ROOT.infrastructure_value
@@ -205,6 +209,7 @@ AUTOBUILD_RUNTIME = {
         } 
         every_core_state = { 
             limit = { 
+                is_controlled_by = ROOT
                 check_variable = {
                     var = building_level@infrastructure
                     value = ROOT.infrastructure_value
@@ -227,9 +232,11 @@ AUTOBUILD_RUNTIME = {
         limit = { 
             has_country_flag = picked_oncoreterritories 
             has_country_flag = picked_mils 
+            NOT = { has_country_flag = picked_civs }
         } 
         every_core_state = { 
             limit = { 
+                is_controlled_by = ROOT
                 check_variable = {
                     var = building_level@infrastructure
                     value = ROOT.infrastructure_value
@@ -255,6 +262,7 @@ AUTOBUILD_RUNTIME = {
                 has_country_flag = picked_oncoreterritories
             }           
             has_country_flag = picked_civs 
+            NOT = { has_country_flag = picked_mils }
         } 
         every_owned_state = { 
             limit = { 
@@ -313,6 +321,7 @@ AUTOBUILD_RUNTIME = {
                 has_country_flag = picked_oncoreterritories
             }            
             has_country_flag = picked_mils 
+            NOT = { has_country_flag = picked_civs }
         } 
         every_owned_state = { 
             limit = { 
@@ -335,7 +344,10 @@ AUTOBUILD_RUNTIME = {
     
     if = { 
         limit = { 
+            has_country_flag = picked_oncompliance
+            NOT = { has_country_flag = picked_oncoreterritories }
             has_country_flag = picked_civs
+            NOT = { has_country_flag = picked_mils }
         } 
         every_owned_state = { 
             limit = { 
@@ -360,7 +372,10 @@ AUTOBUILD_RUNTIME = {
     }
     if = { 
         limit = { 
+            has_country_flag = picked_oncompliance
+            NOT = { has_country_flag = picked_oncoreterritories }
             has_country_flag = picked_mils 
+            NOT = { has_country_flag = picked_civs }
         } 
         every_owned_state = { 
             limit = { 
@@ -385,6 +400,8 @@ AUTOBUILD_RUNTIME = {
     }
     if = { 
         limit = { 
+            has_country_flag = picked_oncompliance
+            NOT = { has_country_flag = picked_oncoreterritories }
             has_country_flag = picked_civs
             has_country_flag = picked_mils 
         } 

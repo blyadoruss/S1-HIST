@@ -1505,6 +1505,7 @@ operation_boost_resistance = { ### 8 2/40
 	}
 }
 
+
 operation_collaboration_government = { ### 10 2/55
 	icon = GFX_operations_collaboration_government
 	map_icon = GFX_operations_collaboration_government_map

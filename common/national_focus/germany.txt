@@ -516,10 +516,11 @@ focus_tree = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_tech_bonus = {
-				name = GER_industrial_expansion
+				name = GER_the_four_year_plan
 				bonus = 1
 				uses = 1
-				category = industry
+				technology = concentrated_industry4
+				technology = dispersed_industry4
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -1669,10 +1670,11 @@ focus_tree = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_tech_bonus = {
-				name = GER_autarky_efforts
+				name = GER_the_four_year_plan
 				bonus = 1
 				uses = 1
-				category = industry
+				technology = concentrated_industry4
+				technology = dispersed_industry4
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -8251,7 +8253,9 @@ focus_tree = {
 		relative_position_id = GER_remilitarize_the_rhineland
 
 		cost = 5
-
+        allow_branch = {
+            always = no
+            }
 		available = {
 			if = {
 				limit = {
@@ -12895,7 +12899,9 @@ focus_tree = {
 		}
 
 		will_lead_to_war_with = IRE
-
+            allow_branch = {
+                always = no
+                }
 		available = {
 			is_subject = no
 			OR = {
@@ -12970,7 +12976,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = GER_operation_sea_lion
 		cost = 10
-
+        allow_branch = {
+            always = no 
+            }
 		cancel_if_invalid = yes
 		
 		available = {
@@ -14563,7 +14571,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = GER_anti_comintern_pact
-		cost = 10
+		cost = 1
 		
 		available = {
 			is_subject = no
@@ -14627,7 +14635,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_anti_soviet_pact
-		cost = 5
+		cost = 2
 		available = {
 			is_subject = no
 			NOT = { is_ally_with = SOV }

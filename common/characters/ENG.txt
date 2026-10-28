@@ -252,12 +252,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits = { inflexible_strategist trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
+			traits = { trickster infantry_leader trickster brilliant_strategist trait_engineer organizer adaptable hill_fighter }
 			skill=6
 			attack_skill=4
 			defense_skill=6
 			planning_skill=4
-			logistics_skill=8
+			logistics_skill=5
 			legacy_id=997
 		}
 	}
@@ -272,11 +272,11 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ inspirational_bagpiper trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter }
+			traits={ inspirational_bagpiper trickster infantry_leader trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter }
 			skill=6
-			attack_skill=7
+			attack_skill=5
 			defense_skill=6
-			planning_skill=7
+			planning_skill=5
 			logistics_skill=5
 		}
 	}
@@ -1513,30 +1513,6 @@ characters={
 			cost = 100
 			ai_will_do = {
 				base = 2
-			}
-		}
-	}
-
-	ENG_sholto_douglas={
-		name=ENG_sholto_douglas
-		portraits={
-			army={
-				small="GFX_idea_sholto_douglas"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = sholto_douglas
-			ledger = air
-			allowed = {
-				original_tag = ENG
-			}
-			traits = {
-				air_air_superiority_2
-			}
-			cost = 100
-			ai_will_do = {
-				base = 1
 			}
 		}
 	}

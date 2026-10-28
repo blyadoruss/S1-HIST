@@ -1,0 +1,1836 @@
+guiTypes = { 
+
+####################### хост тул и окно
+	containerWindowType = {
+		name = "horsttool_open_container"
+		position = { x = -503 y = 4 }
+		Orientation = UPPER_RIGHT
+		buttonType = {
+			name = "tool_open"
+			quadTextureSprite = "GFX_generic_box_96"
+			position = { x = 0 y = 0 }
+			scale=1.1
+			pdx_tooltip = "[ST_TOOLTIP]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}	
+		instantTextboxType = {
+			name = "title"
+			position = {x=3 y=4}
+			font = "hoi_18mbs"
+			text = "[transfer_states_tooltip]"
+			maxWidth = 220
+			maxHeight = 23
+			format = left
+		}
+	}	
+	containerWindowType = { 
+		name = "horsttool_container"
+		position = {x=1200 y=20}
+		size = { width=700 height=750}	
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		background = {
+			name = "Background"
+			#spriteType = "GFX_generic_bg_307x113"
+			spriteType = "GFX_tiled_bg"
+		}
+		iconType = {
+			name = "textbox_bg2"
+			position = { x = 340 y = 420 }
+			spriteType = "GFX_BPT_areadef_conf_bg"
+			#scale=2
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "why use lel lennard"
+			#position = {x=14 y=8}
+			position = {x=420 y=395}
+			font = "hoi_24header"
+			text = "why_use_lel_lennard_tt"
+			maxWidth = 300
+			maxHeight = 25
+			format = centre
+		}	
+####################################################################### Доп окны + передать хост тул
+		iconType = {
+			name = "textbox_bg"
+			position = { x = 14 y = 300 }
+			spriteType = "GFX_unit_stats_list_bg"
+			scale=1.01
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "textbox1_bg"
+			position = { x = 14 y = 20 }
+			spriteType = "GFX_generic_box_96"
+			scale=5
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "change_host_nation"  
+			position = {x=14 y=690}       
+			spriteType = "GFX_change_host_nation"
+            scale = 0.75
+			pdx_tooltip = "CHANGE_HOST_NATION_TT"
+			#pdx_tooltip_delayed = "CHANGE_HOST_NATION_TT_DELAYED"
+		}
+		iconType = {
+			name = "Doctrin_lan_1"
+			position = { x = 300 y = 150 }
+			spriteType = "GFX_doctrine_milestone_infantry_land"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_lan_2"
+			position = { x = 380 y = 150 }
+			spriteType = "GFX_doctrine_milestone_artillery_land"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_lan_3"
+			position = { x = 460 y = 150 }
+			spriteType = "GFX_doctrine_milestone_armored_land"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_lan_4"
+			position = { x = 540 y = 150 }
+			spriteType = "GFX_doctrine_milestone_operations_land"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_naval_1"
+			position = { x = 300 y = 220 }
+			spriteType = "GFX_doctrine_milestone_submarine_naval"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_naval_2"
+			position = { x = 380 y = 220 }
+			spriteType = "GFX_doctrine_milestone_screens_naval"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_naval_3"
+			position = { x = 460 y = 220 }
+			spriteType = "GFX_doctrine_milestone_carriers_naval"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_naval_4"
+			position = { x = 540 y = 220 }
+			spriteType = "GFX_doctrine_milestone_ships_naval"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_air_1"
+			position = { x = 300 y = 290 }
+			spriteType = "GFX_doctrine_milestone_fighter_air"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_air_2"
+			position = { x = 380 y = 290 }
+			spriteType = "GFX_doctrine_milestone_striker_air"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_air_3"
+			position = { x = 460 y = 290 }
+			spriteType = "GFX_doctrine_milestone_medium_air"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_air_4"
+			position = { x = 540 y = 290 }
+			spriteType = "GFX_doctrine_milestone_heavy_air"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Doctrin_spec"
+			position = { x = 615 y = 220 }
+			spriteType = "GFX_doctrine_milestone_special_forces"
+			scale=0.6
+			frame = 0
+			alwaystransparent = yes
+		}
+#################################################### Вкл/Выкл Ивенты
+		instantTextboxType = { 
+			name = "event_translet" 
+			position = {x=360 y=375}     
+			font = "hoi_18mbs"
+			text = "event_translet"    
+			maxWidth = 200
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		containerWindowType = {
+			buttonType = { 
+				name = "event_translet_horst_open" 
+				quadTextureSprite = "GFX_generic_box_96"
+				position = { x = 345 y = 395 }
+				scale=1
+				pdx_tooltip = "[event_translet_horst_TOOLTIP]" 
+				clicksound = click_ok
+				oversound = ui_menu_over
+			}
+			instantTextboxType = {
+				name = "title_event_translet_horst"
+				position = { x = 355 y = 400} 
+				font = "hoi_18mbs"
+				text = "[event_translet_horst_tooltip]"
+				maxWidth = 150
+				maxHeight = 13
+				format = left
+			}
+		}
+######################################################## Ресурсы
+		buttonType = {
+			name = "States_resursed_steel"  
+			position = {x=20 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 5
+            scale = 1.25
+			pdx_tooltip = "States_resursed_steel_TT"
+			#pdx_tooltip_delayed = "States_resursed_steel_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_rubber" 
+			position = {x=70 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 3
+            scale = 1.25
+			pdx_tooltip = "States_resursed_rubber_TT"
+			#pdx_tooltip_delayed = "States_resursed_rubber_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_oil" 
+			position = {x=120 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 1
+            scale = 1.25
+			pdx_tooltip = "States_resursed_oil_TT"
+			#pdx_tooltip_delayed = "States_resursed_oil_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_alu" 
+			position = {x=170 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 2
+            scale = 1.25
+			pdx_tooltip = "States_resursed_alu_TT"
+			#pdx_tooltip_delayed = "States_resursed_alu_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_tungsten" 
+			position = {x=220 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 4
+            scale = 1.25
+			pdx_tooltip = "States_resursed_tungsten_TT"
+			#pdx_tooltip_delayed = "States_resursed_tungsten_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_chromium" 
+			position = {x=270 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 6
+            scale = 1.25
+			pdx_tooltip = "States_resursed_chromium_TT"
+			#pdx_tooltip_delayed = "States_resursed_chromium_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_coal" 
+			position = {x=320 y=30}       
+			spriteType = "GFX_resources_strip"
+			frame = 7
+            scale = 1.25
+			pdx_tooltip = "States_resursed_coal_TT"
+			#pdx_tooltip_delayed = "States_resursed_coal_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_steel1"  
+			position = {x=20 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 5
+            scale = 1.25
+			pdx_tooltip = "States_resursed_steel1_TT"
+			#pdx_tooltip_delayed = "States_resursed_steel_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_rubber1" 
+			position = {x=70 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 3
+            scale = 1.25
+			pdx_tooltip = "States_resursed_rubber1_TT"
+			#pdx_tooltip_delayed = "States_resursed_rubber_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_oil1" 
+			position = {x=120 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 1
+            scale = 1.25
+			pdx_tooltip = "States_resursed_oil1_TT"
+			#pdx_tooltip_delayed = "States_resursed_oil_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_alu1" 
+			position = {x=170 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 2
+            scale = 1.25
+			pdx_tooltip = "States_resursed_alu1_TT"
+			#pdx_tooltip_delayed = "States_resursed_alu_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_tungsten1" 
+			position = {x=220 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 4
+            scale = 1.25
+			pdx_tooltip = "States_resursed_tungsten1_TT"
+			#pdx_tooltip_delayed = "States_resursed_tungsten_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_chromium1" 
+			position = {x=270 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 6
+            scale = 1.25
+			pdx_tooltip = "States_resursed_chromium1_TT"
+			#pdx_tooltip_delayed = "States_resursed_chromium_TT_DELAYED"
+		}
+		buttonType = {
+			name = "States_resursed_coal1" 
+			position = {x=320 y=80}       
+			spriteType = "GFX_resources_strip"
+			frame = 7
+            scale = 1.25
+			pdx_tooltip = "States_resursed_coal1_TT"
+			#pdx_tooltip_delayed = "States_resursed_coal_TT_DELAYED"
+		}
+################################################ Полит кнопки
+		buttonType = {
+			name = "award_states" 
+			position = {x=350 y=500}	
+			spriteType = "GFX_global_diplorequest_icons"
+			scale = 0.9
+           frame = 13
+			pdx_tooltip = "TRANSFER_STATES"
+			pdx_tooltip_delayed = "TRANSFER_STATES_DELAYED"
+		}
+		buttonType = {
+			name = "annex_country" 
+			position = {x=400 y=500}	
+			spriteType = "GFX_global_diplorequest_icons"
+			scale = 0.9
+           frame = 2
+			pdx_tooltip = "ANNEX_COUNTRY"
+			pdx_tooltip_delayed = "ANNEX_COUNTRY_DELAYED"
+		}
+		buttonType = {
+			name = "add_cores" 
+			position = {x=450 y=500}	
+			spriteType = "GFX_global_diplorequest_icons"
+			scale = 0.9 
+           frame = 6
+			pdx_tooltip = "ADD_CORES"
+			pdx_tooltip_delayed = "ADD_CORES_DELAYED"
+		}
+		instantTextBoxType = { 
+			name ="fuhrer_mana_text"
+			position = { x= 445 y = 510 } 
+			font = "hoi_18mbs"
+			text = "Complain_cover1_TT"
+			format = center 
+			maxWidth = 300
+			maxHeight = 24
+			fixedsize = yes
+		}
+############################################################ Идеалогия
+		buttonType = {
+			name = "communism_group_bg"  
+			position = {x=15 y=150}  	  
+			spriteType = "GFX_communism_group"
+            scale=0.8
+			pdx_tooltip = "communism_group_bg_TT" 
+			pdx_tooltip_delayed = "communism_group_bg_TT_DELAYED"
+		}
+		buttonType = {
+			name = "democratic_group_bg"  
+			position = {x=75 y=150}  	  
+			spriteType = "GFX_democratic_group"
+            scale=0.8
+			pdx_tooltip = "democratic_group_bg_TT" 
+			pdx_tooltip_delayed = "democratic_group_bg_TT_DELAYED"
+		}
+		buttonType = {
+			name = "fascism_group_bg"  
+			position = {x=135 y=150}  	  
+			spriteType = "GFX_fascism_group"
+            scale=0.8
+			pdx_tooltip = "fascism_group_bg_TT" 
+			pdx_tooltip_delayed = "fascism_group_bg_TT_DELAYED"
+		}
+		buttonType = {
+			name = "neutrality_group_bg"  
+			position = {x=195 y=150}  	  
+			spriteType = "GFX_neutrality_group"
+            scale=0.8
+			pdx_tooltip = "neutrality_group_bg_TT" 
+			pdx_tooltip_delayed = "neutrality_group_bg_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_5_party_communism_group"  
+			position = {x=30 y=200}  	  
+			spriteType = "GFX_hosttool_add_5"
+			pdx_tooltip = "hosttool_add_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_sub_5_party_communism_group"  
+			position = {x=30 y=230}  	  
+			spriteType = "GFX_hosttool_sub_5"
+			pdx_tooltip = "hosttool_sub_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_5_party_democratic_group"  
+			position = {x=90 y=200}  	  
+			spriteType = "GFX_hosttool_add_5"
+			pdx_tooltip = "hosttool_add_5_party_democratic_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_democratic_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_sub_5_party_democratic_group"  
+			position = {x=90 y=230}  	  
+			spriteType = "GFX_hosttool_sub_5"
+			pdx_tooltip = "hosttool_sub_5_party_democratic_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_democratic_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_5_party_fascism_group"  
+			position = {x=150 y=200}  	  
+			spriteType = "GFX_hosttool_add_5"
+			pdx_tooltip = "hosttool_add_5_party_fascism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_fascism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_sub_5_party_fascism_group"  
+			position = {x=150 y=230}  	  
+			spriteType = "GFX_hosttool_sub_5"
+			pdx_tooltip = "hosttool_sub_5_party_fascism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_fascism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_5_party_neutrality_group"  
+			position = {x=210 y=200}  	  
+			spriteType = "GFX_hosttool_add_5"
+			pdx_tooltip = "hosttool_add_5_party_fascism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_fascism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_sub_5_party_neutrality_group"  
+			position = {x=210 y=230}  	  
+			spriteType = "GFX_hosttool_sub_5"
+			pdx_tooltip = "hosttool_sub_5_party_neutrality_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_neutrality_group_TT_DELAYED"
+		}
+##################################################### подчинение
+		buttonType = {
+			name = "hosttool_add_100_compliance" 
+			position = {x=500 y=530}	
+			spriteType = "GFX_hosttol_add_100"
+			scale = 1
+			pdx_tooltip = "hosttool_add_100_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_add_100_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_75_compliance" 
+			position = {x=500 y=560}	
+			spriteType = "GFX_hosttol_add_75"
+			scale = 1
+			pdx_tooltip = "hosttool_add_75_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_add_75_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_50_compliance" 
+			position = {x=500 y=590}	
+			spriteType = "GFX_hosttol_add_50"
+			scale = 1
+			pdx_tooltip = "hosttool_add_50_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_add_50_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_25_compliance" 
+			position = {x=500 y=620}	
+			spriteType = "GFX_hosttool_add_25"
+			scale = 1
+			pdx_tooltip = "hosttool_add_25_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_add_25_tt_DELAYED"
+		}
+		buttonType = {  
+			name = "hosttool_sub_100_compliance" 
+			position = {x=535 y=530}	
+			spriteType = "GFX_hosttol_sub_100"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_100_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_sub_100_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_75_compliance" 
+			position = {x=535 y=560}	
+			spriteType = "GFX_hosttol_sub_75"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_75_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_sub_75_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_50_compliance" 
+			position = {x=535 y=590}	
+			spriteType = "GFX_hosttol_sub_50"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_50_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_sub_50_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_25_compliance" 
+			position = {x=535 y=620}	
+			spriteType = "GFX_hosttool_sub_25"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_25_compliance_TT"
+			pdx_tooltip_delayed = "hosttool_sub_25_tt_DELAYED"
+		}
+########################################################сопротивление
+		buttonType = {
+			name = "hosttool_add_100_compliance1" 
+			position = {x=595 y=530}	
+			spriteType = "GFX_hosttol_add_100"
+			scale = 1
+			pdx_tooltip = "hosttool_add_100_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_add_100_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_75_compliance1" 
+			position = {x=595 y=560}	
+			spriteType = "GFX_hosttol_add_75"
+			scale = 1
+			pdx_tooltip = "hosttool_add_75_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_add_75_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_50_compliance1" 
+			position = {x=595 y=590}	
+			spriteType = "GFX_hosttol_add_50"
+			scale = 1
+			pdx_tooltip = "hosttool_add_50_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_add_50_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_25_compliance1" 
+			position = {x=595 y=620}	
+			spriteType = "GFX_hosttool_add_25"
+			scale = 1
+			pdx_tooltip = "hosttool_add_25_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_add_25_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_100_compliance1" 
+			position = {x=635 y=530}	
+			spriteType = "GFX_hosttol_sub_100"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_100_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_sub_100_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_75_compliance1" 
+			position = {x=635 y=560}	
+			spriteType = "GFX_hosttol_sub_75"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_75_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_sub_75_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_50_compliance1" 
+			position = {x=635 y=590}	
+			spriteType = "GFX_hosttol_sub_50"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_50_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_sub_50_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_25_compliance1" 
+			position = {x=635 y=620}	
+			spriteType = "GFX_hosttool_sub_25"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_25_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_sub_25_tt_DELAYED"
+		}
+################################################## Все кнопки хоста
+		buttonType = {
+			name = "faction_initiativ_add"  
+			position = {x=110 y=395}  	  
+			spriteType = "GFX_faction_initiativ_add"
+            frame = 0.95
+			pdx_tooltip = "faction_initiativ_add_TT" 
+			pdx_tooltip_delayed = "faction_initiativ_add_TT_DELAYED"
+		}
+		buttonType = {
+			name = "faction_initiative_remove"  
+			position = {x=110 y=345}  	  
+			spriteType = "GFX_faction_initiative_remove"
+            frame = 0.95
+			pdx_tooltip = "faction_initiative_remove_TT" 
+			pdx_tooltip_delayed = "faction_initiative_remove_TT_DELAYED"
+		}
+		buttonType = {
+			name = "war_support_add"  
+			position = {x=12 y=395}  	  
+			spriteType = "GFX_war_support_add"
+            frame = 0.95
+			pdx_tooltip = "war_support_add_TT" 
+			pdx_tooltip_delayed = "war_support_add_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "war_support_remove"  
+			position = {x=62 y=395}  	  
+			spriteType = "GFX_war_support_remove"
+            frame = 0.95
+			pdx_tooltip = "war_support_remove_TT" 
+			pdx_tooltip_delayed = "war_support_remove_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "stability_add"  
+			position = {x=12 y=345}  	  
+			spriteType = "GFX_stability_add"
+            frame = 0.95
+			pdx_tooltip = "stability_add_TT" 
+			pdx_tooltip_delayed = "stability_add_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "stability_remove"  
+			position = {x=62 y=345}  	  
+			spriteType = "GFX_stability_remove"
+            frame = 0.95
+			pdx_tooltip = "stability_remove_TT" 
+			pdx_tooltip_delayed = "stability_remove_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "research_add"  
+			position = {x=12 y=295}  	  
+			spriteType = "GFX_research_add"
+            frame = 0.95
+			pdx_tooltip = "research_add_TT" 
+			pdx_tooltip_delayed = "research_add_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "research_remove"  
+			position = {x=62 y=295}  	  
+			spriteType = "GFX_research_remove"
+            frame = 0.95
+			pdx_tooltip = "research_remove_TT" 
+			pdx_tooltip_delayed = "research_remove_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "fix_production"  
+			position = {x=210 y=645}  	  
+			spriteType = "GFX_topbar_production_horst_tool"
+            frame = 2
+			pdx_tooltip = "FIX_PRODUCTION_TT" 
+			pdx_tooltip_delayed = "FIX_PRODUCTION_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "fix_xp"         
+			position = {x=250 y=457} 	    
+			spriteType = "GFX_fendgame_army_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "FIX_XP_TT" 
+			pdx_tooltip_delayed = "FIX_XP_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "fix_xp2"         
+			position = {x=250 y=502} 	    
+			spriteType = "GFX_fendgame_navy_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "FIX_XP2_TT" 
+			pdx_tooltip_delayed = "FIX_XP2_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "fix_xp3"         
+			position = {x=250 y=547} 	    
+			spriteType = "GFX_fendgame_air_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "FIX_XP3_TT" 
+			pdx_tooltip_delayed = "FIX_XP3_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "convoy48"         
+			position = {x=250 y=590} 	    
+			spriteType = "GFX_fendgame_convoys_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "convoy48" 
+			pdx_tooltip_delayed = "convoy48_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "remove_fix_xp"         
+			position = {x=210 y=457} 	    
+			spriteType = "GFX_remove_endgame_army_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "remove_FIX_XP_TT" 
+			pdx_tooltip_delayed = "FIX_XP_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "remove_fix_xp2"         
+			position = {x=210 y=502} 	    
+			spriteType = "GFX_remove_endgame_navy_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "remove_FIX_XP2_TT" 
+			pdx_tooltip_delayed = "FIX_XP2_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "remove_fix_xp3"         
+			position = {x=210 y=547} 	    
+			spriteType = "GFX_remove_endgame_air_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "remove_FIX_XP3_TT" 
+			pdx_tooltip_delayed = "FIX_XP3_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "remove_convoy48"         
+			position = {x=210 y=590} 	    
+			spriteType = "GFX_remove_endgame_convoys_button"
+			scale = 0.85
+            #frame = 2    
+			pdx_tooltip = "remove_convoy48" 
+			pdx_tooltip_delayed = "convoy48_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "manpower_add"         
+			position = {x=20 y=500} 	    
+			spriteType = "GFX_fendgame_manpower_button"
+			scale = 0.9
+            #frame = 2    
+			pdx_tooltip = "manpower_add" 
+			pdx_tooltip_delayed = "manpower_add_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "manpower_NO_add"         
+			position = {x=70 y=500} 	    
+			spriteType = "GFX_remove_endgame_manpower_button"
+			scale = 0.9
+            #frame = 2    
+			pdx_tooltip = "manpower_NO_add" 
+			pdx_tooltip_delayed = "manpower_NO_add_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "add_autonomy_ratio"         
+			position = {x=20 y=450} 	    
+			spriteType = "GFX_fendgame_score_button"
+			scale = 0.9
+            #frame = 2    
+			pdx_tooltip = "add_autonomy_ratio" 
+			pdx_tooltip_delayed = "add_autonomy_ratio_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "add_NO_autonomy_ratio"         
+			position = {x=70 y=450} 	    
+			spriteType = "GFX_remove_endgame_score_button"
+			scale = 0.9
+            #frame = 2    
+			pdx_tooltip = "add_NO_autonomy_ratio" 
+			pdx_tooltip_delayed = "add_NO_autonomy_ratio_TT_DELAYED"
+		}
+		buttonType = { 
+			name = "add_autonomy_free"         
+			position = {x=113 y=450} 	    
+			spriteType = "GFX_goal_continuous_boost_freedom"
+			scale = 0.55
+            #frame = 2    
+			pdx_tooltip = "add_autonomy_free" 
+			pdx_tooltip_delayed = "add_autonomy_freeTT_DELAYED"
+		}
+		buttonType = {
+			name = "mill_add"	
+			position = {x=165 y=500}
+			spriteType = "GFX_horst_civ_plus"
+			pdx_tooltip = "MILADD"
+			pdx_tooltip_delayed = "MILADD_DELAYED"
+			scale = 0.9
+		}
+		buttonType = { 
+			name = "civ_add"	
+			position = {x=165 y=545}
+			spriteType = "GFX_horst_civ_pluss"
+			pdx_tooltip = "CIVADD"
+			pdx_tooltip_delayed = "CIVADD_DELAYED"
+			scale = 0.9
+		}
+		buttonType = {
+			name = "pingtool"	
+			position = {x=165 y=590}
+			spriteType = "GFX_horst_naval_pluss"
+			scale = 0.9
+			pdx_tooltip = "PINGTOOL"
+			pdx_tooltip_delayed = "PINGTOOL_DELAYED"
+		} 
+		buttonType = {
+			name = "remove_mill_add"	
+			position = {x=118 y=500}
+			spriteType = "GFX_horst_remove_civ_plus"
+			pdx_tooltip = "remove_MILADD"
+			pdx_tooltip_delayed = "remove_MILADD_DELAYED"
+			scale = 0.9
+		}
+		buttonType = { 
+			name = "remove_civ_add"	
+			position = {x=118 y=545}
+			spriteType = "GFX_horst_remove_civ_pluss"
+			pdx_tooltip = "remove_CIVADD"
+			pdx_tooltip_delayed = "remove_CIVADD_DELAYED"
+			scale = 0.9
+		}
+		buttonType = {
+			name = "remove_pingtool"	
+			position = {x=118 y=590}
+			spriteType = "GFX_horst_remove_naval_pluss"
+			scale = 0.9
+			pdx_tooltip = "remove_PINGTOOL"
+			pdx_tooltip_delayed = "remove_PINGTOOL_DELAYED"
+		} 
+		buttonType = { 
+			name = "wt_add"	
+			position = {x=70 y=545}
+			spriteType = "GFX_horst_increase_wt"
+			pdx_tooltip = "WTADD"
+			pdx_tooltip_delayed = "WTADD_DELAYED"
+			scale = 0.9
+		}
+		buttonType = { 
+			name = "wt_remove"	
+			position = {x=20 y=545}
+			spriteType = "GFX_horst_decrease_wt"
+			pdx_tooltip = "WTREMOVE"
+			pdx_tooltip_delayed = "WTREMOVE_DELAYED"
+			scale = 0.9
+		}
+		buttonType = {
+			name = "addpp"	
+			position = {x=12 y=585}
+			spriteType = "GFX_horst_addpp"
+            scale=0.95
+			pdx_tooltip = "ADDPP"
+			pdx_tooltip_delayed = "ADDPP_DELAYED"
+		}
+		buttonType = {
+			name = "remove_addpp"	
+			position = {x=62 y=585} 
+			spriteType = "GFX_horst_remove_addpp"
+            scale=0.95
+			pdx_tooltip = "remove_ADDPP"
+			pdx_tooltip_delayed = "remove_ADDPP_DELAYED"
+		}
+		buttonType = {
+			name = "observer" 
+			position = {x=20 y=640}
+			spriteType = "GFX_observer_button"
+         	pdx_tooltip = "OBSERVER"
+			pdx_tooltip_delayed = "OBSERVER_DELAYED"
+			scale = 0.75
+		}
+		buttonType = {
+			name = "whitepeace"	
+			position = {x=70 y=640}
+			spriteType = "GFX_relation_truce"
+					scale=1.8
+			pdx_tooltip = "WHITEPEACE"
+			pdx_tooltip_delayed = "WHITEPEACE_DELAYED"
+			#scale = 0.95
+		}
+		buttonType = {
+			name = "tpt_war_button"  
+			position = { x = 130 y = 640 }
+			spriteType = "GFX_war_truce"
+			scale = 1.0
+			pdx_tooltip = "TPT_WAR_TT"
+			pdx_tooltip_delayed = "TPT_WAR_DELAYED" 
+			scale = 0.9
+		}
+#################################################################### помощь игроку
+		buttonType = {
+            name = "horsttool_helpbutton" 
+            position = {x=620 y=670}
+           spriteType = "GFX_horst_help"
+            scale = 1.2
+            pdx_tooltip = "HORST_HELP"
+           pdx_tooltip_delayed = "HOST_HELP_DELAYED"
+         }
+#################################################################### Чит на техи
+		buttonType = {
+			name = "add_cheat" 
+			position = {x=500 y=20}
+			spriteType = "GFX_horst_addcheat"
+            scale = 0.3
+			pdx_tooltip = "ADD_CHEAT"
+			pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
+		}
+		buttonType = {
+			name = "cheat1"
+			position = {x=530 y=20}
+			spriteType = "GFX_generic_box_125"
+		}
+		buttonType = {
+			name = "cheat2"
+			position = {x=530 y=45}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		buttonType = {
+			name = "cheat3"
+			position = {x=530 y=70}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		buttonType = {
+			name = "cheat4"
+			position = {x=530 y=95}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+######################################### Паузы	
+		iconType = {
+			name = "pause_blocker_shield"
+			position = {x=575 y=690}
+			spriteType = "GFX_ability_jap_last_stand"
+			pdx_tooltip = "pause_blocker_shield_tt"
+			pdx_tooltip_delayed = "pause_blocker_shield_delayed_tt"
+			scale = 1.4
+		}
+		buttonType = {
+			name = "pause_blocker_major"
+			position = {x=450 y=705}
+			spriteType = "GFX_generic_box_125"
+		}
+		instantTextboxType = {
+			name = "pause_blocker_major_text"
+			position = {x=455 y=710}
+			font = "hoi_18mbs"
+			text = "[pause_selected]"
+			maxWidth = 380
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "pause_blocker_all"
+			position = {x=450 y=680}
+			spriteType = "GFX_generic_box_125"
+		}
+		instantTextboxType = {
+			name = "pause_blocker_all_text"
+			position = {x=455 y=685}
+			font = "hoi_18mbs"
+			text = "PAUSE1"
+			maxWidth = 380
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "pause_blocker_host"
+			position = {x=450 y=655}
+			spriteType = "GFX_generic_box_125"
+		}
+		instantTextboxType = {
+			name = "pause_blocker_host_text"
+			position = {x=455 y=660}
+			font = "hoi_18mbs"
+			text = "PAUSE2"
+			maxWidth = 380
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+############################################ Цвет стран
+		buttonType = {
+			name = "add_color"   
+			position = {x=290 y=700}
+			spriteType = "GFX_air_base_copy_btn" 
+            scale = 0.8
+			pdx_tooltip = "ADD_COLOR"
+			pdx_tooltip_delayed = "ADD_COLOR_DELAYED"
+		}
+		buttonType = {
+			name = "cb_red"
+			position = {x=325 y=705}
+			spriteType = "GFX_generic_box_125"
+		}
+		instantTextboxType = {
+			name = "cb_red_text"
+			position = {x=330 y=710}
+			font = "hoi_18mbs"
+			text = "[color_selected]"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}	
+		buttonType = {
+			name = "cb_orange"
+			position = {x=325 y=505}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_orange_text"
+			position = {x=330 y=510}
+			font = "hoi_18mbs"
+			text = "COLOR2"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_yellow"
+			position = {x=325 y=530}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_yellow_text"
+			position = {x=330 y=535}
+			font = "hoi_18mbs"
+			text = "COLOR3"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_green"
+			position = {x=325 y=555}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_green_text"
+			position = {x=330 y=560}
+			font = "hoi_18mbs"
+			text = "COLOR4"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_blue"
+			position = {x=325 y=580}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_blue_text"
+			position = {x=330 y=585}
+			font = "hoi_18mbs"
+			text = "COLOR5"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_purple"
+			position = {x=325 y=605}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_purple_text"
+			position = {x=330 y=610}
+			font = "hoi_18mbs"
+			text = "COLOR6"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_pink"
+			position = {x=325 y=630}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_pink_text" 
+			position = {x=330 y=635}
+			font = "hoi_18mbs"
+			text = "COLOR7"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "cb_teal"
+			position = {x=325 y=655}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_teal_text"
+			position = {x=330 y=660}
+			font = "hoi_18mbs"
+			text = "COLOR8"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}	
+		buttonType = {
+			name = "cb_remove"
+			position = {x=325 y=680}
+			spriteType = "GFX_generic_box_125"
+			scale= 1
+		}
+		instantTextboxType = {
+			name = "cb_remove_text"
+			position = {x=330 y=685}
+			font = "hoi_18mbs"
+			text = "COLOR9"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}	
+################################################### текст читов
+		instantTextboxType = {
+			name = "cheat1_text"
+			position = {x=535 y=25}
+			font = "hoi_18mbs"
+			text = "[cheat_selected]"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}		
+		instantTextboxType = {
+			name = "cheat2_text"
+			position = {x=535 y=50}
+			font = "hoi_18mbs"
+			text = "CHEAT2"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}		
+		instantTextboxType = {
+			name = "cheat3_text"
+			position = {x=535 y=75}
+			font = "hoi_18mbs"
+			text = "CHEAT3"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}		
+		instantTextboxType = {
+			name = "cheat4_text"
+			position = {x=535 y=100}
+			font = "hoi_18mbs"
+			text = "CHEAT4"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+			alwaystransparent = yes
+		}
+##### Марк #########пьяница который не поверил что спиздил хорст тул у Вади. А ты даже спасибо не говоришь...
+		#buttonType = {
+		#	name = "toogle_mark" 
+		#	position = {x=403 y=35}
+		#	spriteType = "GFX_button_123x34"
+		#	frame = 0
+		#	pdx_tooltip = "ST_STATE_MARK_FOR_TRANSFER"
+		#}
+######################################## Штрафы бафы кнопки
+
+		instantTextboxType = { 
+			name = "S1_text" 
+			position = {x=85 y=490}     
+			font = "hoi_18mbs"
+			text = "S1"    
+			maxWidth = 200
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "S1"
+			position = { x = 75 y = 520 }
+			spriteType = "GFX_S1"
+			#scale=2
+			alwaystransparent = yes
+		}
+		instantTextboxType = { 
+			name = "S2_text"
+			position = {x=85 y=220}     
+			font = "hoi_18mbs"
+			text = "S2"    
+			maxWidth = 200
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "S2"
+			position = { x = 75 y = 250 }
+			spriteType = "GFX_S2"
+			#scale=2
+			alwaystransparent = yes
+		}
+		instantTextboxType = { 
+			name = "S3_text" 
+			position = {x=85 y=25}     
+			font = "hoi_18mbs"
+			text = "S3"    
+			maxWidth = 200
+			maxHeight = 23
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "S3"
+			position = { x = 75 y = 50 }
+			spriteType = "GFX_S3"
+			#scale=2
+			alwaystransparent = yes
+		}
+########################################################### Доктрины lan
+		buttonType = {
+			name = "hosttool_add_lan_doctrin_infantry" 
+			position = {x=305 y=190}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_lan_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_add_lan_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_lan_doctrin_infantry" 
+			position = {x=335 y=190}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_lan_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_sub_lan_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_lan_doctrin_artirellia" 
+			position = {x=385 y=190}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_lan_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_add_lan_doctrin_artirellia_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_lan_doctrin_artirellia" 
+			position = {x=415 y=190}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_lan_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_sub_lan_doctrin_artirellia_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_lan_doctrin_armor" 
+			position = {x=465 y=190}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_lan_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_add_lan_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_lan_doctrin_armor" 
+			position = {x=495 y=190}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_lan_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_sub_lan_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_lan_doctrin_operations" 
+			position = {x=545 y=190}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_lan_doctrin_operations_TT"
+			pdx_tooltip_delayed = "hosttool_add_lan_doctrin_operations_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_lan_doctrin_operations" 
+			position = {x=575 y=190}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_lan_doctrin_operations_compliance1_TT"
+			pdx_tooltip_delayed = "hosttool_sub_lan_doctrin_operations_tt_DELAYED"
+		}
+########################################################### Доктрины naval
+		buttonType = {
+			name = "hosttool_add_naval_doctrin_infantry" 
+			position = {x=305 y=260}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_naval_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_add_naval_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_naval_doctrin_infantry" 
+			position = {x=335 y=260}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_naval_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_sub_naval_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_naval_doctrin_artirellia" 
+			position = {x=385 y=260}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_naval_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_add_naval_doctrin_artirellia_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_naval_doctrin_artirellia" 
+			position = {x=415 y=260}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_naval_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_sub_naval_doctrin_artirellia_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_naval_doctrin_armor" 
+			position = {x=465 y=260}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_naval_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_add_naval_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_naval_doctrin_armor" 
+			position = {x=495 y=260}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_naval_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_sub_naval_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_naval_doctrin_operations" 
+			position = {x=545 y=260}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_naval_doctrin_operations_TT"
+			pdx_tooltip_delayed = "hosttool_add_naval_doctrin_operations_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_naval_doctrin_operations" 
+			position = {x=575 y=260}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_naval_doctrin_operations_TT"
+			pdx_tooltip_delayed = "hosttool_sub_naval_doctrin_operations_tt_DELAYED"
+		}
+########################################################### Спец Доктрины spec
+		buttonType = {
+			name = "hosttool_add_spec" 
+			position = {x=620 y=260}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_spec_TT"
+			pdx_tooltip_delayed = "hosttool_add_spec_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_spec" 
+			position = {x=650 y=260}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_spec_TT"
+			pdx_tooltip_delayed = "hosttool_sub_spec1_tt_DELAYED"
+		}
+########################################################### Доктрины air
+		buttonType = {
+			name = "hosttool_add_air_doctrin_infantry" 
+			position = {x=305 y=330}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_air_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_add_air_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_air_doctrin_infantry" 
+			position = {x=335 y=330}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_air_doctrin_infantry_TT"
+			pdx_tooltip_delayed = "hosttool_sub_air_doctrin_infantry_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_air_doctrin_artirellia" 
+			position = {x=385 y=330}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_air_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_add_air_doctrin_artirellia_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_air_doctrin_artirellia" 
+			position = {x=415 y=330}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_air_doctrin_artirellia_TT"
+			pdx_tooltip_delayed = "hosttool_sub_air_doctrin_artirellia_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_air_doctrin_armor" 
+			position = {x=465 y=330}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_air_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_add_air_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_air_doctrin_armor" 
+			position = {x=495 y=330}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_air_doctrin_armor_TT"
+			pdx_tooltip_delayed = "hosttool_sub_air_doctrin_armor_tt_DELAYED"
+		}
+		buttonType = {
+			name = "hosttool_add_air_doctrin_operations" 
+			position = {x=545 y=330}	
+			spriteType = "GFX_hosttool_add_1"
+			scale = 1
+			pdx_tooltip = "hosttool_add_air_doctrin_operations_TT"
+			pdx_tooltip_delayed = "hosttool_add_air_doctrin_operations_tt_DELAYED"
+		}
+		buttonType = { 
+			name = "hosttool_sub_air_doctrin_operations" 
+			position = {x=575 y=330}	
+			spriteType = "GFX_hosttool_sub_1"
+			scale = 1
+			pdx_tooltip = "hosttool_sub_air_doctrin_operations_TT"
+			pdx_tooltip_delayed = "hosttool_sub_air_doctrin_operations_tt_DELAYED"
+		}
+##################################################################### Плюсы и минусы бафов категорий
+		buttonType = {
+			name = "debuf_industrial_plus"  
+			position = {x=20 y=90}  	  
+			spriteType = "GFX_plus"
+			pdx_tooltip = "debuf_industrial_plus_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_plus_TT_DELAYED"
+		}		
+		buttonType = {
+			name = "debuf_industrial_minys"  
+			position = {x=20 y=90}  	  
+			spriteType = "GFX_minys"
+			pdx_tooltip = "debuf_industrial_minys_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_minys_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_politic_plus"  
+			position = {x=20 y=280}  	  
+			spriteType = "GFX_plus"
+			pdx_tooltip = "hosttool_add_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_politic_minys"  
+			position = {x=20 y=280}  	  
+			spriteType = "GFX_minys"
+			pdx_tooltip = "hosttool_add_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_plus"  
+			position = {x=20 y=570}  	  
+			spriteType = "GFX_plus"
+			pdx_tooltip = "hosttool_add_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_minys"  
+			position = {x=20 y=570}  	  
+			spriteType = "GFX_minys"
+			pdx_tooltip = "hosttool_add_5_party_communism_group_TT" 
+			pdx_tooltip_delayed = "hosttool_add_5_party_communism_group_TT_DELAYED"
+		}
+############################################################ Штрафы бафы идеи
+		buttonType = {
+			name = "Debuffing_open" 
+			quadTextureSprite = "GFX_browser_forward"
+			position = { x = 250 y = 695 }
+			scale=1
+			pdx_tooltip = "[Debuffing_TOOLTIP]" 
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+		buttonType = {
+			name = "Debuffing_close" 
+			quadTextureSprite = "GFX_browser_back"
+			position = { x = 200 y = 695 }
+			scale=1
+			pdx_tooltip = "[Debuffing_TOOLTIP]" 
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "add_dynamic_Hort_tool" 
+			position = {x=345 y=435}       
+			spriteType = "GFX_focus_focus_fra_liberte_egalite_solidarite"
+            scale = 0.6
+			pdx_tooltip = "add_dynamic_Hort_tool_TT"
+			#pdx_tooltip_delayed = "add_dynamic_Hort_tool_TT_DELAYED"
+		}
+		buttonType = {
+			name = "add_dynamic_Hort_tool1" 
+			position = {x=430 y=435}       
+			spriteType = "GFX_focus_focus_fra_liberte_egalite_solidarite"
+            scale = 0.6
+			pdx_tooltip = "add_dynamic_Hort_tool1_TT"
+			#pdx_tooltip_delayed = "add_dynamic_Hort_tool1_TT_DELAYED"
+		}
+################################################## Промышленная категория дебафов бафов
+		buttonType = {
+			name = "debuf_industrial_1"  
+			position = {x=70 y=50}  	     
+			spriteType = "GFX_horst_civ_factory"
+			pdx_tooltip = "debuf_industrial_1_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_1_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_2"  
+			position = {x=120 y=50}  	     
+			spriteType = "GFX_horst_civ_factory_consumer_texticon"
+			pdx_tooltip = "debuf_industrial_2_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_2_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_3"  
+			position = {x=170 y=50}  	     
+			spriteType = "GFX_horst_construction_speed_texticon"
+			pdx_tooltip = "debuf_industrial_3_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_3_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_4"  
+			position = {x=220 y=50}  	     
+			spriteType = "GFX_horst_construction_speed_texticon_energy"
+			pdx_tooltip = "debuf_industrial_4_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_4_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_5"  
+			position = {x=270 y=50}  	     
+			spriteType = "GFX_horst_consumer_goods_texticon"
+			pdx_tooltip = "debuf_industrial_5_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_5_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_6"  
+			position = {x=320 y=50}  	     
+			spriteType = "GFX_horst_dockyard_texticon"
+			pdx_tooltip = "debuf_industrial_6_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_6_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_7"  
+			position = {x=370 y=50}  	     
+			spriteType = "GFX_horst_dockyard_texticon_energy"
+			pdx_tooltip = "debuf_industrial_7_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_7_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_8"  
+			position = {x=420 y=50}  	     
+			spriteType = "GFX_horst_efficiency_base_texticon"
+			pdx_tooltip = "debuf_industrial_8_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_8_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_9"  
+			position = {x=470 y=50}  	     
+			spriteType = "GFX_horst_efficiency_cap_texticon"
+			pdx_tooltip = "debuf_industrial_9_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_9_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_10"  
+			position = {x=520 y=50}  	     
+			spriteType = "GFX_horst_efficiency_growth_texticon"
+			pdx_tooltip = "debuf_industrial_10_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_10_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_11"  
+			position = {x=570 y=50}  	     
+			spriteType = "GFX_horst_production_efficiency_loss_texticon"
+			pdx_tooltip = "debuf_industrial_11_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_11_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_12"  
+			position = {x=70 y=100}  	     
+			spriteType = "GFX_horst_factory_output_texticon"
+			pdx_tooltip = "debuf_industrial_12_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_12_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_13"  
+			position = {x=120 y=100}  	     
+			spriteType = "GFX_horst_factory_output_texticon_energy"
+			pdx_tooltip = "debuf_industrial_13_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_13_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_14"  
+			position = {x=170 y=100}  	     
+			spriteType = "GFX_horst_rsabotaged_resource_texticon"
+			pdx_tooltip = "debuf_industrial_14_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_14_TT_DELAYED11"
+		}
+		buttonType = {
+			name = "debuf_industrial_15"  
+			position = {x=220 y=100}  	     
+			spriteType = "GFX_horst_sabotaged_resource_energy_texticon"
+			pdx_tooltip = "debuf_industrial_15_TT" 
+			pdx_tooltip_delayed = "debuf_industrial_15_TT_DELAYED11"
+		}
+################################################## Политическая категория дебафов бафов
+		buttonType = {
+			name = "debuf_Politic_1"  
+			position = {x=70 y=250}  	  
+			spriteType = "GFX_horst_manpower_exiles_texticon"
+			pdx_tooltip = "debuf_Politic_1_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_1_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_2"  
+			position = {x=120 y=250}  	  
+			spriteType = "GFX_horst_manpower_noncore_texticon"
+			pdx_tooltip = "debuf_Politic_2_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_2_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_3"  
+			position = {x=170 y=250}  	  
+			spriteType = "GFX_horst_political_power_cost_texticon"
+			pdx_tooltip = "debuf_Politic_3_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_3_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_4"  
+			position = {x=220 y=250}  	  
+			spriteType = "GFX_horst_political_power_texticon"
+			pdx_tooltip = "debuf_Politic_4_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_4_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_5"  
+			position = {x=270 y=250}  	  
+			spriteType = "GFX_horst_war_support_modifiericons_texticon"
+			pdx_tooltip = "debuf_Politic_5_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_5_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_6"  
+			position = {x=320 y=250}  	  
+			spriteType = "GFX_horst_rstability_texticon"
+			pdx_tooltip = "debuf_Politic_6_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_6_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_7"  
+			position = {x=370 y=250}  	  
+			spriteType = "GFX_horst_surrender_texticon"
+			pdx_tooltip = "debuf_Politic_7_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_7_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_8"  
+			position = {x=420 y=250}  	  
+			spriteType = "GFX_horst_trade_texticon"
+			pdx_tooltip = "debuf_Politic_8_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_8_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_9"  
+			position = {x=470 y=250}  	  
+			spriteType = "GFX_horst_traded_goods_texticon"
+			pdx_tooltip = "debuf_Politic_9_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_9_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_10"  
+			position = {x=520 y=250}  	  
+			spriteType = "GFX_horst_manpower_exiles_texticon"
+			pdx_tooltip = "debuf_Politic_10_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_10_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_Politic_11"  
+			position = {x=570 y=250}  	  
+			spriteType = "GFX_horst_political_power_texticon"
+			pdx_tooltip = "debuf_Politic_11_TT" 
+			pdx_tooltip_delayed = "debuf_Politic_11_TT_DELAYED"
+		}
+################################################## Армейская категория дебафов бафов
+		buttonType = {
+			name = "debuf_army_1"  
+			position = {x=70 y=520}  	  
+			spriteType = "GFX_horst_army_morale_texticon"
+			pdx_tooltip = "debuf_army_1_TT" 
+			pdx_tooltip_delayed = "debuf_army_1_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_2"  
+			position = {x=120 y=520}  	  
+			spriteType = "GFX_horst_attack_core_texticon"
+			pdx_tooltip = "debuf_army_2_TT" 
+			pdx_tooltip_delayed = "debuf_army_2_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_3"  
+			position = {x=170 y=520}  	  
+			spriteType = "GFX_horst_defence_core_texticon"
+			pdx_tooltip = "debuf_army_3_TT" 
+			pdx_tooltip_delayed = "debuf_army_3_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_4"  
+			position = {x=220 y=520}  	  
+			spriteType = "GFX_horst_attack_no_core_texticon"
+			pdx_tooltip = "debuf_army_4_TT" 
+			pdx_tooltip_delayed = "debuf_army_4_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_5"  
+			position = {x=270 y=520}  	  
+			spriteType = "GFX_horst_defence_no_core_texticon"
+			pdx_tooltip = "debuf_army_5_TT" 
+			pdx_tooltip_delayed = "debuf_army_5_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_6"  
+			position = {x=320 y=520}  	  
+			spriteType = "GFX_horst_rattack_disputed_territories_texticon"
+			pdx_tooltip = "debuf_army_6_TT" 
+			pdx_tooltip_delayed = "debuf_army_6_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_7"  
+			position = {x=370 y=520}  	  
+			spriteType = "GFX_horst_defence_disputed_territories_texticon"
+			pdx_tooltip = "debuf_army_7_TT" 
+			pdx_tooltip_delayed = "debuf_army_7_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_8"  
+			position = {x=420 y=520}  	  
+			spriteType = "GFX_horst_attack_texticon"
+			pdx_tooltip = "debuf_army_8_TT" 
+			pdx_tooltip_delayed = "debuf_army_8_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_9"  
+			position = {x=470 y=520}  	  
+			spriteType = "GFX_horst_defence_texticon"
+			pdx_tooltip = "debuf_army_9_TT" 
+			pdx_tooltip_delayed = "debuf_army_9_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_10"  
+			position = {x=520 y=520}  	  
+			spriteType = "GFX_horst_attacker_speed_texticon"
+			pdx_tooltip = "debuf_army_10_TT" 
+			pdx_tooltip_delayed = "debuf_army_10_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_11"  
+			position = {x=570 y=520}  	  
+			spriteType = "GFX_horst_organization_texticon"
+			pdx_tooltip = "debuf_army_11_TT" 
+			pdx_tooltip_delayed = "debuf_army_11_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_12"  
+			position = {x=620 y=520}  	  
+			spriteType = "GFX_horst_planning_max_texticon"
+			pdx_tooltip = "debuf_army_12_TT" 
+			pdx_tooltip_delayed = "debuf_army_12_TT_DELAYED"
+		}
+		buttonType = {
+			name = "debuf_army_13"  
+			position = {x=70 y=570}  	  
+			spriteType = "GFX_horst_dig_in_max_texticon"
+			pdx_tooltip = "debuf_army_13_TT"  
+			pdx_tooltip_delayed = "debuf_army_13_TT_DELAYED"
+		}
+#################################################################### Окно марка
+
+		instantTextboxType = {
+			name = "title"  
+			position = {x=310 y=425}
+			Orientation = "Centre" 
+			font = "hoi_24header"
+			text = "st_state_id_tt"
+			maxWidth = 250
+			maxHeight = 23
+			format = centre
+		}
+		buttonType = {
+			name = "toogle_mark" 
+			position = {x=360 y=455}
+			text = "Mark"
+			font = "hoi_24header"
+			spriteType = "GFX_sort_button_100x29"
+			pdx_tooltip = "ST_STATE_MARK_FOR_TRANSFER"
+		}
+		buttonType = {
+			name = "clear_all_markings" 
+			position = {x=480 y=450}
+			spriteType = "GFX_global_alert_icons"
+            frame = 38
+			pdx_tooltip = "CLEAR_ALL_MARKINGS"
+			pdx_tooltip_delayed = "CLEAR_ALL_MARKINGS_DELAYED"
+			scale = 0.85
+		}
+	}
+}

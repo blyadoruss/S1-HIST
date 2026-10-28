@@ -1,5 +1,20 @@
 ﻿l_russian:
  #Opinion modifiers
+ STRATEGICREGION_305: "Матрух"
+ ENG_imperial_conference_defense_1: "Имперская Конферениция"
+ donnaya_economy: "Донная Мощь"
+ start_efficiency: "Разгон"
+ NO_asia: "Без Азии"
+ AI_optimized: "РаКошка"
+ AI_optimized2: "Дидило"
+ 1Game_mode: "Режим"
+ #Ita
+ ITA_resurs_integration:0 "Освоение балканских месторождений"
+ ITA_resurs_integration_desc:0 "Освоение Югославских месторождений позволит нам увеличить добычу стратегических ресурсов и укрепить промышленность для дальнейшего ведения войны."
+ ITA_resurs_integration2:0 "Разработка ресурсов"
+ ITA_industrial_space:0 "Промышленное пространство"
+ ITA_industrial_space_desc:0 "Объединение промышленности"
+ ITA_industrial_space2:0 "Промышленное пространство"
  LIT_anti_soviet_opinion: "Антисоветская дипломатия"
  LIT_arrested_party_members: "Арестованные члены партии"
  LIT_appease_opinion: "Умиротворение"

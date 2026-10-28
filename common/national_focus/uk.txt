@@ -332,7 +332,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = limited_rearmament_focus
 
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -862,7 +862,7 @@ focus_tree = {
 		x = 5
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1336,7 +1336,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = air_rearmament_focus
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}	
@@ -1356,7 +1356,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = air_rearmament_focus
-		cost = 10
+		cost = 8
 		ai_will_do = {
 			factor = 3
 		}
@@ -1405,7 +1405,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = air_rearmament_focus
-		cost = 10
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1454,7 +1454,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = air_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2163,7 +2163,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = uk_empire_focus
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = yes
 
@@ -2193,7 +2193,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = uk_service_focus
-		cost = 10
+		cost = 4
 		completion_reward = {
 			if = {
 				limit = {
@@ -2281,7 +2281,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 		completion_reward = {
 			118 = {
 				IF = {
@@ -2471,7 +2471,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2899,7 +2899,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -5806,7 +5806,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_service_focus
-		cost = 10
+		cost = 6
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -8388,17 +8388,17 @@ focus_tree = {
 					}
 				}
 				every_state = { limit = { has_state_flag = ENG_uk_south_africa_focus_1IC }
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
 				every_state = { limit = { has_state_flag = ENG_uk_south_africa_focus_1dockyard }
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = dockyard
+						type = arms_factory
 						level = 1
 						instant_build = yes
 					}
@@ -8437,10 +8437,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_south_africa_focus_1IC
@@ -8449,14 +8449,14 @@ focus_tree = {
 					limit = {
 						is_coastal = yes
 						free_building_slots = {
-							building = dockyard
+							building = arms_factory
 							size > 0
 							include_locked = yes
 						}
 					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-						type = dockyard
+						type = arms_factory
 						level = 1
 						instant_build = yes
 					}
@@ -8545,8 +8545,8 @@ focus_tree = {
 		prerequisite = { focus = uk_canada_focus }
 		prerequisite = { focus = uk_new_zealand_focus }
 		prerequisite = { focus = uk_south_africa_focus }
-
-		allow_branch = {
+        
+        allow_branch = {
 			has_dlc = "Man the Guns"
 			if = {
 				limit = {
@@ -8560,105 +8560,7 @@ focus_tree = {
 				}
 			}
 		}
-
-		available = {
-			CAN = {
-				OR = {
-					AND = {
-						is_subject_of = ENG
-						has_government = ROOT
-					}
-					exists = no
-				}
-			}
-			SAF = {
-				OR = {
-					AND = {
-						is_subject_of = ENG
-						has_government = ROOT
-					}
-					exists = no
-				}
-			}
-			AST = {
-				OR = {
-					AND = {
-						is_subject_of = ENG
-						has_government = ROOT
-					}
-					exists = no
-				}
-			}
-			NZL = {
-				OR = {
-					AND = {
-						is_subject_of = ENG
-						has_government = ROOT
-					}
-					exists = no
-				}
-			}
-			NOT = {
-				any_state = {
-					OR = {
-						is_core_of = ENG
-						is_core_of = CAN
-						is_core_of = SAF
-						is_core_of = AST
-						is_core_of = NZL
-					}
-					NOT = { state = 331 }
-					OWNER = {
-						NOT = {
-							OR = {
-								tag = ENG
-								tag = CAN
-								tag = SAF
-								tag = AST
-								tag = NZL
-							}
-						}
-					}
-				}
-			}
-
-		}
-
-		bypass = {
-			CAN = {
-				exists = no
-			}
-			SAF = {
-				exists = no
-			}
-			RAJ = {
-				OR = {
-					exists = no
-					NOT = { is_subject_of = ENG }
-				}
-			}
-			AST = {
-				exists = no
-			}
-			NZL = {
-				exists = no
-			}
-			NOT = {
-				any_state = {
-					OR = {
-						is_core_of = ENG
-						is_core_of = CAN
-						is_core_of = SAF
-						is_core_of = AST
-						is_core_of = NZL
-					}
-					OWNER = {
-						NOT = { tag = ENG }
-					}
-				}
-			}
-		}
-
+        
 		continue_if_invalid = no
 
 		icon = GFX_goal_generic_national_unity
@@ -8675,42 +8577,37 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_POLITICAL}	
 		completion_reward = {
-			add_political_power = 120
+			add_political_power = -150
 			custom_effect_tooltip = generic_skip_one_line_tt
 			every_country = {
 				limit = {
 					OR = {
 						tag = ENG
-						AND = {
-							is_subject_of = ENG
-							tag = CAN
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = SAF
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = RAJ
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = AST
-						}
-						AND = {
-							is_subject_of = ENG
-							tag = NZL
-						}
-					}
+						tag = CAN
+						tag = SAF
+						tag = RAJ
+						tag = AST
+                        }
+                }
+				add_timed_idea = {
+					idea = ENG_imperial_conference_defense_1
+					days = 365
 				}
-				country_event = { id = mtg_britain.82 hours = 6 }
-			}
-			hidden_effect = { news_event = { id = mtg_news.13 days = 1 } }
-			custom_effect_tooltip = ENG_imperial_conference_tt
-			custom_effect_tooltip = ENG_indian_autonomy_tt
-		}
-	}
-
+				add_timed_idea = {
+					idea = ENG_imperial_conference_economy_1
+					days = 365
+                    }
+                add_timed_idea = {
+					idea = ENG_imperial_conference_defense_1
+					days = 365
+                    }
+				add_timed_idea = {
+					idea = ENG_imperial_conference_economy_1
+					days = 365
+                    }
+                }
+        }
+}
 	focus = {
 		id = ENG_imperial_federation
 		prerequisite = { focus = ENG_imperial_conference }
@@ -9662,6 +9559,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_global_defense
 		cost = 10
+        allow_branch = {
+            always = no
+            }
 		ai_will_do = {
 			factor = 1
 		}

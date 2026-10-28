@@ -66,6 +66,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+        always = no
 			if = {
 				limit ={
 					has_hide_rule = yes 
@@ -119,6 +120,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+            always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 
@@ -333,6 +335,7 @@ focus_tree = {
 
 
 		allow_branch = {
+        always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 
@@ -432,6 +435,7 @@ focus_tree = {
 		relative_position_id = NOR_a_resurgent_labor_movement
 		
 		allow_branch = {	
+        always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 
@@ -3961,6 +3965,7 @@ focus_tree = {
 		relative_position_id = NOR_continue_nygaardsvold_government
 
 		allow_branch = {
+        always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 
@@ -4051,6 +4056,7 @@ focus_tree = {
 		relative_position_id = NOR_the_stumbling_storting
 		
 		allow_branch = {
+        always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 
@@ -4107,6 +4113,7 @@ focus_tree = {
 		relative_position_id = NOR_the_stumbling_storting
 		
 		allow_branch = {
+        always = no
 			if = {
 				limit = {
 					has_hide_rule = yes 		
@@ -4496,6 +4503,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+            always = no
 			if = {
 				limit ={
 					has_hide_rule = yes 

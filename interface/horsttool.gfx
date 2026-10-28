@@ -1,0 +1,441 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_horst_army_morale_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_army_morale_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_attack_core_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_attack_core_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_attack_no_core_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_attack_no_core_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_attack_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_attack_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_attacker_speed_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_attacker_speed_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_civ_factory"
+		texturefile = "gfx/horst_gui/horsttool/horst_civ_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_civ_factory_consumer_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_civ_factory_consumer_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_construction_speed_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_construction_speed_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_construction_speed_texticon_energy"
+		texturefile = "gfx/horst_gui/horsttool/horst_construction_speed_texticon_energy.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_consumer_goods_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_consumer_goods_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_defence_core_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_defence_core_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_defence_disputed_territories_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_defence_disputed_territories_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_defence_no_core_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_defence_no_core_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_defence_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_defence_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_dig_in_max_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_dig_in_max_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_dockyard_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_dockyard_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_dockyard_texticon_energy"
+		texturefile = "gfx/horst_gui/horsttool/horst_dockyard_texticon_energy.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_efficiency_base_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_efficiency_base_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_efficiency_cap_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_efficiency_cap_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_efficiency_growth_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_efficiency_growth_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_factory_output_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_factory_output_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_factory_output_texticon_energy"
+		texturefile = "gfx/horst_gui/horsttool/horst_factory_output_texticon_energy.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_manpower_exiles_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_manpower_exiles_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_manpower_noncore_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_manpower_noncore_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_organization_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_organization_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_planning_max_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_planning_max_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_political_power_cost_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_political_power_cost_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_political_power_texticon" 
+		texturefile = "gfx/horst_gui/horsttool/horst_political_power_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_production_efficiency_loss_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_production_efficiency_loss_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_rattack_disputed_territories_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_rattack_disputed_territories_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_rsabotaged_resource_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_rsabotaged_resource_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_rstability_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_rstability_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_sabotaged_resource_energy_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_sabotaged_resource_energy_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_surrender_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_surrender_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_trade_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_trade_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_traded_goods_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_traded_goods_texticon.dds"
+	}
+	spriteType = {
+		name = "GFX_horst_war_support_modifiericons_texticon"
+		texturefile = "gfx/horst_gui/horsttool/horst_war_support_modifiericons_texticon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_hosttool_add_1"
+		texturefile = "gfx/horst_gui/horsttool/add_one.dds"
+	}
+	spriteType = {
+		name = "GFX_hosttool_sub_1"
+		texturefile = "gfx/horst_gui/horsttool/subtract_one.dds"
+	}
+
+
+
+	#########################################	
+	spriteType = {
+		name = "GFX_S1"
+		texturefile = "gfx/horst_gui/horsttool/S1.dds"
+	}
+	spriteType = {
+		name = "GFX_S2"
+		texturefile = "gfx/horst_gui/horsttool/S2.dds"
+	}
+	spriteType = {
+		name = "GFX_S3"
+		texturefile = "gfx/horst_gui/horsttool/S3.dds"
+	}
+  spriteType = {
+		name = "GFX_plus"
+		texturefile = "gfx/horst_gui/horsttool/plus.dds"
+	}
+	spriteType = {
+		name = "GFX_minys"
+		texturefile = "gfx/horst_gui/horsttool/minys.dds"
+	}
+  spriteType = {
+		name = "GFX_communism_group"
+		texturefile = "gfx/horst_gui/horsttool/communism_group.dds"
+	}
+  spriteType = {
+		name = "GFX_democratic_group"
+		texturefile = "gfx/horst_gui/horsttool/democratic_group.dds"
+	}
+  spriteType = {
+		name = "GFX_fascism_group"
+		texturefile = "gfx/horst_gui/horsttool/fascism_group.dds"
+	}
+  spriteType = {
+		name = "GFX_neutrality_group"
+		texturefile = "gfx/horst_gui/horsttool/neutrality_group.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttool_add_5"
+		texturefile = "gfx/horst_gui/horsttool/hosttool_add_5.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttool_sub_5"
+		texturefile = "gfx/horst_gui/horsttool/hosttool_sub_5.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttool_add_25"
+		texturefile = "gfx/horst_gui/horsttool/hosttool_add_25.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttool_sub_25"
+		texturefile = "gfx/horst_gui/horsttool/hosttool_sub_25.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_add_50"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_add_50.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_sub_50"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_sub_50.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_add_75"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_add_75.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_sub_75"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_sub_75.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_add_100"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_add_100.dds"
+	}
+  spriteType = {
+		name = "GFX_hosttol_sub_100"
+		texturefile = "gfx/horst_gui/horsttool/hosttol_sub_100.dds"
+	}
+  spriteType = {
+		name = "GFX_Complain_cover"
+		texturefile = "gfx/horst_gui/horsttool/Complain_cover.dds"
+	}
+  spriteType = {
+		name = "GFX_faction_initiativ_add"
+		texturefile = "gfx/horst_gui/horsttool/faction_initiativ_add.dds"
+	}
+  spriteType = {
+		name = "GFX_faction_initiative_remove"
+		texturefile = "gfx/horst_gui/horsttool/faction_initiative_remove.dds"
+	}
+  spriteType = {
+		name = "GFX_war_support_remove"
+		texturefile = "gfx/horst_gui/horsttool/war_support_remove.dds"
+	}
+  spriteType = {
+		name = "GFX_war_support_add"
+		texturefile = "gfx/horst_gui/horsttool/war_support_add.dds"
+	}
+  spriteType = {
+		name = "GFX_stability_remove"
+		texturefile = "gfx/horst_gui/horsttool/stability_remove.dds"
+	}
+  spriteType = {
+		name = "GFX_stability_add"
+		texturefile = "gfx/horst_gui/horsttool/stability_add.dds"
+	}
+  spriteType = {
+		name = "GFX_research_remove"
+		texturefile = "gfx/horst_gui/horsttool/research_remove.dds"
+	}
+  spriteType = {
+		name = "GFX_research_add"
+		texturefile = "gfx/horst_gui/horsttool/research_add.dds"
+	}
+	spriteType = {
+		name = "GFX_fuel_progress_bar"
+		texturefile = "gfx/interface/navalrepairview/repair_progress_bar.dds"
+	}
+	spriteType = {
+		name = "GFX_fuel_progress_bar_bg"
+		texturefile = "gfx/interface/navalrepairview/repair_progress_bar_bg.dds"
+	}
+    spriteType = {
+        name = "GFX_horst_help2"
+        texturefile = "gfx/horst_gui/horsttool/horst_help.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+	spriteType = {
+        name = "GFX_horst_civ_plus"
+        texturefile = "gfx/horst_gui/horsttool/horst_civ_plus.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+		spriteType = {
+        name = "GFX_horst_civ_pluss"
+        texturefile = "gfx/horst_gui/horsttool/horst_civ_pluss.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+
+    spriteType = {
+        name = "GFX_horst_remove_civ_pluss"
+        texturefile = "gfx/horst_gui/horsttool/horst_remove_civ_pluss.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+     spriteType = {
+        name = "GFX_horst_remove_civ_plus"
+        texturefile = "gfx/horst_gui/horsttool/horst_remove_civ_plus.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+     spriteType = {
+        name = "GFX_horst_remove_naval_pluss"
+        texturefile = "gfx/horst_gui/horsttool/horst_remove_naval_pluss.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+    spriteType = {
+        name = "GFX_war_truce"
+        texturefile = "gfx/horst_gui/horsttool/war_truce.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+     spriteType = {
+        name = "GFX_horst_naval_pluss"
+        texturefile = "gfx/horst_gui/horsttool/horst_naval_pluss.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+		spriteType = {
+        name = "GFX_annex_override" 
+        texturefile = "gfx/interface/playerlobby_kick.dds"
+       effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
+	    spriteType = {
+        name = "GFX_horst_increase_wt"
+        texturefile = "gfx/horst_gui/horsttool/horst_increase_wt.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	 
+    spriteType = {
+        name = "GFX_horst_decrease_wt"
+        texturefile = "gfx/horst_gui/horsttool/horst_decrease_wt.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+	spriteType = {
+        name = "GFX_horst_addcheat"
+        texturefile = "gfx/horst_gui/horsttool/horst_addcheat.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+        name = "GFX_horst_help"
+        texturefile = "gfx/horst_gui/horsttool/horst_help.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+	spriteType = {
+        name = "GFX_horst_addpp" 
+        texturefile = "gfx/horst_gui/horsttool/horst_addpp.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+        name = "GFX_horst_remove_addpp"
+        texturefile = "gfx/horst_gui/horsttool/horst_remove_addpp.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+	spriteType = {
+		name = "GFX_horst_pingtool"
+		texturefile = "gfx/horst_gui/horsttool/horst_pingtool.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+
+    spriteType = {
+		name = "GFX_fendgame_air_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_air_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_fendgame_army_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_army_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_fendgame_convoys_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_convoys_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_fendgame_manpower_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_manpower_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_fendgame_navy_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_navy_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_fendgame_score_button"
+		texturefile = "gfx/horst_gui/horsttool/fendgame_score_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+
+    spriteType = {
+		name = "GFX_remove_endgame_air_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_air_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_remove_endgame_army_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_army_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_remove_endgame_convoys_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_convoys_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_remove_endgame_manpower_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_manpower_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_remove_endgame_navy_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_navy_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+    spriteType = {
+		name = "GFX_remove_endgame_score_button"
+		texturefile = "gfx/horst_gui/horsttool/remove_endgame_score_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }
+	
+	
+	
+	spriteType = {
+		name = "GFX_change_host_nation"
+		texturefile = "gfx/interface/lobby_country_mapmode_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_topbar_production_horst_tool"
+		texturefile = "gfx/interface/topbar/toolbar/production_button.dds"
+		noOfFrames = 2
+	
+	}
+}

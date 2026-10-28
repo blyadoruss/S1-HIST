@@ -8,9 +8,6 @@ focus_tree = {
 			tag = CAN
 		}
 	}
-
-	continue_if_always_possible = yes
-
 	# NAME: Rowell Sirois Commission
 	focus = {
 		id = CAN_rowell_sirois_commission
@@ -328,10 +325,10 @@ focus_tree = {
 	focus = {
 		id = CAN_retool_angus_shops
 		icon = GFX_goal_generic_construct_mil_factory
-		x = -2
-		y = 1
+		x = 2
+		y = 3
 		cost = 10
-		relative_position_id = CAN_bits_and_pieces_program
+
 		prerequisite = { focus = CAN_canada_pacific_railway }
 		prerequisite = { focus = CAN_bits_and_pieces_program }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1473,10 +1470,10 @@ focus_tree = {
 	focus = {
 		id = CAN_independent_command
 		icon = GFX_goal_generic_army_doctrines
-		x = -1
-		y = 1
+		x = 12
+		y = 5
 		cost = 10
-		relative_position_id = CAN_red_deer_training_camp
+
 		prerequisite = { focus = CAN_send_in_the_zombies }
 		prerequisite = { focus = CAN_red_deer_training_camp }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1956,10 +1953,10 @@ focus_tree = {
 	focus = {
 		id = CAN_1st_canadian_parachute_battalion
 		icon = GFX_goal_generic_special_forces
-		x = -2
-		y = 2
+		x = 17
+		y = 4
 		cost = 10
-		relative_position_id = CAN_the_plan
+
 		prerequisite = { focus = CAN_the_plan focus = CAN_a_motorized_army }
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		cancel_if_invalid = yes
@@ -3000,10 +2997,10 @@ focus_tree = {
 	focus = {
 		id = CAN_the_sabre_project
 		icon = GFX_focus_rocketry
-		x = 1
-		y = 1
+		x = 26
+		y = 4
 		cost = 10
-		relative_position_id = CAN_fund_fairchilds_development
+
 		prerequisite = { focus = CAN_cookie_carriers }
 		prerequisite = { focus = CAN_fund_fairchilds_development }
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3527,5 +3524,11 @@ focus_tree = {
 		
 		}
 	}
+
+
+	# Compatibility IDs for focuses removed from this tree but still referenced by game scripts.
+	focus = { id = CAN_burn_the_royal_portraits icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = CAN_permanent_joint_defense_board icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = CAN_swastika_clubs icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
 
 }

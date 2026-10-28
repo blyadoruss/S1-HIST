@@ -95,10 +95,10 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ media_personality trickster war_hero brilliant_strategist infantry_leader organizer adaptable trait_mountaineer desert_fox trait_engineer }
+			traits={ trickster infantry_leader organizer adaptable trait_mountaineer desert_fox trait_engineer panzer_leader }
 			skill=7
-			attack_skill=6
-			defense_skill=8
+			attack_skill=7
+			defense_skill=4
 			planning_skill=6
 			logistics_skill=6
 			legacy_id=-1

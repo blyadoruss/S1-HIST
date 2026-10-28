@@ -1958,7 +1958,9 @@ focus_tree = {
 		y = 1
 	
 		cost = 10
-
+        allow_branch = {
+            always = no
+            }
 		available = {
 		}
 	
@@ -2182,7 +2184,9 @@ focus_tree = {
 		y = 0
 	
 		cost = 10
-
+        allow_branch = {
+            always = no
+            }
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
 
 		available = {
@@ -2224,7 +2228,9 @@ focus_tree = {
 		y = 1
 	
 		cost = 0
-
+        allow_branch = {
+            always = no
+            }
 		allow_branch = {
 			IF = {
 				limit = {
@@ -2364,6 +2370,7 @@ focus_tree = {
 		cost = 0
 
 		allow_branch = {
+            always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -2812,6 +2819,7 @@ focus_tree = {
 		cost = 0
 
 		allow_branch = {
+        always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -2922,6 +2930,7 @@ focus_tree = {
 		cost = 5
 
 		allow_branch = {
+        always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -3768,6 +3777,7 @@ focus = {
 		cost = 5
 
 		allow_branch = {
+        always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -4305,6 +4315,7 @@ focus = {
 		cost = 5
 
 		allow_branch = {
+        always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -5433,8 +5444,9 @@ focus = {
 		y = 1
 	
 		cost = 0
-
+        
 		allow_branch = {
+            always = no
 			IF = {
 				limit = {
 					has_game_rule = {
@@ -6357,7 +6369,9 @@ focus = {
 		y = 11
 	
 		cost = 0
-
+        allow_branch = {
+            always = no
+            }
 		available = {
 			always = no
 		}

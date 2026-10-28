@@ -44,9 +44,9 @@ mountaineers_1 = {
 	rangers_support = {
 		acclimatization_cold_climate_gain_factor = 0.25
 		snow = {
-			attack = 0.15
-			defence = 0.15
-			movement = 0.15
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
 		}
 	}
     
@@ -75,10 +75,7 @@ mountaineers_1 = {
 			}	  		
 		}
 		reward_4 = {
-			mastery = 60
-			category_mountaineers = {
-				max_organisation = 10
-			}	    	
+			mastery = 60	    	
 		}
 		reward_5 = {
 			mastery = 60
@@ -190,7 +187,6 @@ mountaineers_2 = {
 			mountaineers_special_forces_contribution_factor = -0.25
 			category_mountaineers = {
 				supply_consumption = -0.02
-				max_organisation = 10
 			}
 		}
 		reward_5 = {
@@ -267,9 +263,6 @@ marines_1 = {
 		reward_2 = {
 			mastery = 60
 			unit_marine_design_cost_factor = -0.50
-			marine = {
-				max_organisation = 5
-			}
 		}
 		reward_3 = {			
 			mastery = 60
@@ -402,7 +395,7 @@ marines_2 = {
 		reward_3 = {
 			mastery = 60
 			marine = {
-				max_organisation = 5
+				max_organisation = 2
 				soft_attack = 0.05
 			}
 			extra_marine_supply_grace = 36			
@@ -492,7 +485,6 @@ paratroopers_1 = {
 		reward_3 = {
 			mastery = 60
 			category_special_forces = {
-				max_organisation = 10
 				soft_attack = 0.05
 			}			
 		}
@@ -589,7 +581,7 @@ paratroopers_2 = {
 			field_hospital = {
 				battalion_mult = {
 					category = category_paratroopers
-					max_organisation = 5
+					max_organisation = 2
 					add = yes
 				}
 			}
@@ -672,7 +664,6 @@ rangers_1 = {
 			mastery = 60
 			category_special_forces = {
 				soft_attack = 0.05
-				max_organisation = 5
 			}
 	    	rangers_special_forces_contribution_factor = -0.25
 		}
@@ -711,7 +702,6 @@ rangers_1 = {
 	reward_5 = {
 	    mastery = 60
 	    ranger_battalion = {
-			max_organisation = 10
 			soft_attack = 0.1
 			breakthrough = 0.1
 		}
@@ -792,7 +782,7 @@ rangers_2 = {
 		    category_rangers = {
 				soft_attack = 0.1
 				defense = 0.1
-				max_organisation = 5
+				max_organisation = 2
 			}
 		}
 		reward_3 = {

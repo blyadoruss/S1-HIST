@@ -8,9 +8,6 @@ focus_tree = {
 			tag = BUL
 		}
 	}
-
-	continue_if_always_possible = yes
-
 	# NAME: Acquire Modern Tools
 	focus = {
 		id = BUL_acquire_modern_tools
@@ -3166,10 +3163,10 @@ focus_tree = {
 	focus = {
 		id = BUL_promote_bulgarian_nationalism
 		icon = GFX_focus_BUL_promote_bulgarian_nationalism
-		x = -2
-		y = 1
+		x = 31
+		y = 2
 		cost = 10
-		relative_position_id = BUL_appoint_right_wing_ministers
+
 		prerequisite = { focus = BUL_appoint_right_wing_ministers }
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 		cancel_if_invalid = yes
@@ -3197,10 +3194,10 @@ focus_tree = {
 	focus = {
 		id = BUL_crush_the_communists
 		icon = GFX_focus_spr_crush_the_revolution
-		x = -4
-		y = 1
+		x = 29
+		y = 2
 		cost = 5
-		relative_position_id = BUL_appoint_right_wing_ministers
+
 		prerequisite = { focus = BUL_appoint_right_wing_ministers }
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INTERNAL_AFFAIRS }
 		cancel_if_invalid = yes
@@ -3740,10 +3737,10 @@ focus_tree = {
 	focus = {
 		id = BUL_corporatism
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 2
-		y = 1
+		x = 37
+		y = 7
 		cost = 10
-		relative_position_id = BUL_cooperation_with_italy
+
 		prerequisite = { focus = BUL_industrial_autarky }
 		prerequisite = { focus = BUL_cooperation_with_italy }
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INTERNAL_AFFAIRS }
@@ -4837,5 +4834,27 @@ focus_tree = {
 			factor = 1
 		}
 	}
+
+
+	# Compatibility IDs for focuses removed from this tree but still referenced by game scripts.
+	focus = { id = BUL_a_balkan_confederation icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_appoint_communist_ministers icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_approach_the_united_kingdom icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_balkan_federation_of_socialist_republics icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_ban_far_right_organizations icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_democratic_principles icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_dissolve_the_military_union icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_freedom_of_press icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_full_voting_rights_for_women icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_legalize_the_agrarian_party icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_oppose_the_royal_dictatorship icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_plot_against_boris icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_restrained_paramilitary_organizations icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_soviet_bulgarian_treaty_of_mutual_assistance icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_support_macedonian_organizations icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_the_fate_of_the_balkans icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_the_fatherland_front icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_the_unification_of_the_balkans icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
+	focus = { id = BUL_treaty_of_perpetual_friendship icon = GFX_goal_generic_national_unity x = 0 y = 0 cost = 10 allow_branch = { always = no } available = { always = no } completion_reward = { } }
 
 }

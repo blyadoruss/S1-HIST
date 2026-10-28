@@ -106,7 +106,7 @@ guiTypes = {
                 text = planned_civs_value_text_var
                 position = { x = 175 y = 28 }
                 maxWidth = 180  
-                font = hoi14_mbs    
+                font = hoi_18    
             }
             buttonType = {
                 name = "S1_PLANNED_AUTOBUILD_BUTTON"
@@ -174,7 +174,7 @@ guiTypes = {
                 text = infrastructure_value_text_var
                 position = { x = 100 y = 198 }
                 maxWidth = 180  
-                font = hoi14_mbs    
+                font = hoi_18    
             }
 
             buttonType = {
@@ -198,7 +198,7 @@ guiTypes = {
                 text = compliance_text_var
                 position = { x = 100 y = 58 }
                 maxWidth = 180
-                font = hoi14_mbs
+                font = hoi_18
             }
         }
 

@@ -1,0 +1,15 @@
+Game_mode = {
+	name = "1Game_mode"
+	group = "Game_mode"
+	icon = "GFX_volunteers"
+    default = {
+        name = Full_game
+        text = "Full_game"
+        desc = 
+    }
+    option = {
+        name = NO_asia
+        text = "NO_asia"
+        desc = 
+    }
+}

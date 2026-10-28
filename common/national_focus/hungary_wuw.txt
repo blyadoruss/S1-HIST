@@ -471,7 +471,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_subvert_gombos_troops
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -507,7 +507,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_reach_out_to_candidates
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -649,7 +649,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_reach_out_to_candidates
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -1142,7 +1142,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_old_habsburg_king
 
-		cost = 10
+		cost = 8
 
 		offset = {
 			x = 2
@@ -1218,7 +1218,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_attempt_economic_independence
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -1268,7 +1268,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_invite_otto_to_the_throne
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -1343,7 +1343,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_lands_of_the_crown_of_saint_stephen
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 25
@@ -1459,7 +1459,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_demand_austrian_restoration
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -1905,7 +1905,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_grand_habsburg_alliance
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -2207,7 +2207,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_grand_habsburg_alliance
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -2353,7 +2353,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_a_grand_habsburg_alliance
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -2452,7 +2452,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_reenlist_the_sich_riflemen
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -2877,7 +2877,7 @@ focus_tree = {
 		will_lead_to_war_with = ROM
 		will_lead_to_war_with = TRA
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -3123,7 +3123,7 @@ focus_tree = {
 		will_lead_to_war_with = POL
 		will_lead_to_war_with = SIL
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -3245,7 +3245,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_reclaim_transylvania
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -3378,7 +3378,7 @@ focus_tree = {
 		will_lead_to_war_with = YUG
 		will_lead_to_war_with = CRO
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -3677,7 +3677,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_triple_kingdom
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -3960,7 +3960,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restore_the_lombardo_venetian_kingdom
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 50
@@ -4457,7 +4457,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_reclaim_the_holy_city
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -4735,7 +4735,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_hungarian_galicia
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -4892,7 +4892,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_hungarian_galicia
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -4931,7 +4931,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_multi_ethnic_empire
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 50
@@ -4984,7 +4984,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_old_habsburg_king
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -5128,7 +5128,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_old_habsburg_king
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -5178,7 +5178,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_secure_army_loyalty
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -5333,7 +5333,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_honor_the_great_war_veterans
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -5382,7 +5382,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_legacy_of_the_isonzo_front
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -5436,7 +5436,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = wuw_HUN_enact_agrarian_reform
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -5730,7 +5730,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_elect_a_democratic_king
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -5949,7 +5949,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_elect_a_fascist_king
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -6045,7 +6045,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_establishing_a_new_dynasty
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -6251,7 +6251,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_establishing_a_royal_guard
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -6300,7 +6300,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_magyar_cserkeszszovetseg
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -6350,7 +6350,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_dissolve_the_volksbund
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -6492,7 +6492,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_royalist_education_initiative
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -6753,7 +6753,7 @@ focus_tree = {
 
 		will_lead_to_war_with = YUG
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -6817,7 +6817,7 @@ focus_tree = {
 		will_lead_to_war_with = CZE
 		will_lead_to_war_with = SLO
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -6881,7 +6881,7 @@ focus_tree = {
 		will_lead_to_war_with = ROM
 		will_lead_to_war_with = TRA
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -6963,7 +6963,7 @@ focus_tree = {
 		will_lead_to_war_with = JOR
 		will_lead_to_war_with = SUD
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -7180,7 +7180,7 @@ focus_tree = {
 
 		will_lead_to_war_with = SOV
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -7292,7 +7292,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_elect_a_democratic_king
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 25
@@ -7392,7 +7392,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_responsible_government
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 25
@@ -7458,7 +7458,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_guarantee_religious_liberties
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -7632,7 +7632,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_join_the_allies
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -7685,7 +7685,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_the_balkan_pact
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -7729,7 +7729,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_continue_the_regency
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 15
@@ -7828,7 +7828,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_continue_the_regency
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 5
@@ -7920,7 +7920,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_strengthen_horthys_reign
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -8045,7 +8045,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_strengthen_horthys_reign
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -8091,7 +8091,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_strengthen_horthys_reign
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -8188,7 +8188,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restrict_voting_rights
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -8289,7 +8289,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_outlaw_the_party_of_national_will
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -8548,7 +8548,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_hungarian_life_and_renewal_party
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -8609,7 +8609,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_undermine_the_admiral
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -8664,7 +8664,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_undermine_the_admiral
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -8914,7 +8914,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_the_turul_association
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -8952,7 +8952,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_government_of_national_unity
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -9034,7 +9034,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_government_of_national_unity
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -9068,7 +9068,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_roman_catholic_state
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -9225,7 +9225,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_heirs_of_the_huns
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -9270,7 +9270,7 @@ focus_tree = {
 
 		will_lead_to_war_with = SOV
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -9408,7 +9408,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -9460,7 +9460,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_promote_hungarianism
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -9558,7 +9558,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_strengthen_the_turani_vadaszok
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -9647,7 +9647,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_promote_hungarianism
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -9715,7 +9715,7 @@ focus_tree = {
 		will_lead_to_war_with = YUG
 		will_lead_to_war_with = CRO
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -10278,7 +10278,7 @@ focus_tree = {
 
 		will_lead_to_war_with = AUS
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -10354,7 +10354,7 @@ focus_tree = {
 
 		will_lead_to_war_with = SLO
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -10482,7 +10482,7 @@ focus_tree = {
 		will_lead_to_war_with = SLO
 		will_lead_to_war_with = CZE
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -10590,7 +10590,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_demand_carpathian_ruthenia
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 40
@@ -10670,7 +10670,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_act_of_defense
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -11038,7 +11038,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_seek_german_contracts
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -11534,7 +11534,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_parade_istvan_bethlens_platform
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -11577,7 +11577,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_parade_istvan_bethlens_platform
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -11620,7 +11620,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_salami_slicing_tactics
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -12513,7 +12513,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_establish_the_second_republic
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -12579,7 +12579,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_establish_the_second_republic
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -12623,7 +12623,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_spirit_of_the_aster_revolution
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -12657,7 +12657,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_reverse_the_brain_drain
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -12903,7 +12903,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_danubian_federation
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -12955,7 +12955,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_approach_the_diasporas
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -13144,7 +13144,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_approach_the_diasporas
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -13226,7 +13226,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_reclaim_the_pannonian_steppe
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -13282,7 +13282,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_the_cult_of_arpad
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -13425,7 +13425,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_join_the_comintern
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -13472,7 +13472,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_join_the_comintern
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -13512,7 +13512,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_goulash_communism
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -13566,7 +13566,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_join_the_comintern
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -13605,7 +13605,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_joint_hungarian_soviet_research_effort
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -13689,7 +13689,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_soviet_hungarian_war_indsutry
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -13733,7 +13733,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_restore_the_hungarian_red_army
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -13783,7 +13783,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restore_the_hungarian_red_army
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -13826,7 +13826,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_soviet_hungarian_military_academy
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -13982,7 +13982,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_pressure_romania
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -14017,7 +14017,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restore_the_hungarian_red_army
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -14110,7 +14110,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restore_the_socialist_federative_republic
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -14172,7 +14172,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_instate_a_socialist_economy
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -14222,7 +14222,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_nationalize_key_industries
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -14261,7 +14261,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_restore_the_socialist_federative_republic
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -14375,7 +14375,7 @@ focus_tree = {
 		will_lead_to_war_with = CZE
 		will_lead_to_war_with = SLO
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -14469,7 +14469,7 @@ focus_tree = {
 		will_lead_to_war_with = TRA
 		will_lead_to_war_with = ROM
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -14565,7 +14565,7 @@ focus_tree = {
 		will_lead_to_war_with = TRA
 		will_lead_to_war_with = SER
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -14648,7 +14648,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_march_south
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 25
@@ -14809,7 +14809,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_a_revolutionary_greater_hungary
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -14913,7 +14913,7 @@ focus_tree = {
 
 		will_lead_to_war_with = SOV
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -15137,7 +15137,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -15348,7 +15348,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -15382,7 +15382,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -15653,7 +15653,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 10
@@ -15844,7 +15844,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -15991,7 +15991,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = wuw_HUN_reintigrate_the_imperial_railroads
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -16045,7 +16045,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		dynamic = yes
 
@@ -16120,7 +16120,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -16501,7 +16501,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL FOCUS_FILTER_WAR_SUPPORT }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -16899,7 +16899,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -16991,7 +16991,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -17055,7 +17055,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -17099,7 +17099,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -17144,7 +17144,7 @@ focus_tree = {
 					}				
 					add_resource = {
 						type = coal
-						amount = 8 
+						amount = 24
 					}
 				}
 			}
@@ -17161,7 +17161,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_expand_the_lignite_industry
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -17197,20 +17197,20 @@ focus_tree = {
 			155 = {
 				add_resource = {
 					type = oil
-					amount = 5
+					amount = 10
 				}
 			}
 			974 = {
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 12
 				}
 			}
 
 			973 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 24
 				}
 			}
 
@@ -17247,7 +17247,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 2
@@ -17291,7 +17291,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -17336,7 +17336,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_expand_the_lignite_industry
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -17452,7 +17452,7 @@ focus_tree = {
 			43 = {
 				add_resource = {
 					type = aluminium
-					amount = 14
+					amount = 34
 				}
 			}
 		}
@@ -17469,7 +17469,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 25
@@ -17581,7 +17581,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 3
@@ -17621,7 +17621,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 3
@@ -17670,7 +17670,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 3
@@ -17789,7 +17789,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_AIR_XP FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -17835,7 +17835,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -17869,7 +17869,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -17919,7 +17919,7 @@ focus_tree = {
 #
 	#	search_filters = { FOCUS_FILTER_AIR_XP FOCUS_FILTER_INDUSTRY }
 #
-	#	cost = 10
+	#	cost = 8
 #
 	#	ai_will_do = {
 	#		factor = 1
@@ -17976,7 +17976,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -18031,7 +18031,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -18074,7 +18074,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_joint_air_development
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -18179,7 +18179,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -18254,7 +18254,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL_CHARACTER FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -18506,7 +18506,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -18638,7 +18638,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -18736,7 +18736,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = wuw_HUN_magyar_kiralyi_csendorseg
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 3
@@ -18775,7 +18775,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -18972,7 +18972,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 15
@@ -19020,7 +19020,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_MANPOWER }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -19112,7 +19112,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 20
@@ -19291,7 +19291,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -19441,7 +19441,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 5
@@ -19543,7 +19543,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 3
@@ -19604,7 +19604,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_HISTORICAL }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -20385,7 +20385,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 10
@@ -20480,7 +20480,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20530,7 +20530,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20584,7 +20584,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20627,7 +20627,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20670,7 +20670,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20713,7 +20713,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20756,7 +20756,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1
@@ -20876,7 +20876,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
-		cost = 10
+		cost = 8
 
 		ai_will_do = {
 			factor = 1

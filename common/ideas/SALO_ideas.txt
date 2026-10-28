@@ -1,0 +1,95 @@
+ideas = {
+	country = {
+            start_efficiency = {	
+			allowed = {
+				always = no
+			}
+			picture = SOV_third_five_year_plan_civilian
+			removal_cost = -1
+			modifier = {
+				production_factory_start_efficiency_factor = 0.5
+			}
+		}
+        AI_optimized = {
+			allowed = { always = no }
+			picture = SOV_third_five_year_plan_civilian
+			cancel = {
+			}
+			modifier = {
+				political_power_gain = -3
+				conscription = -1
+				conscription_factor -1
+				consumer_goods_factor = 1
+				consumer_goods_expected_value = 0.75
+				industrial_capacity_factory = -1
+				research_speed_factor = -1
+				production_factory_start_efficiency_factor = -1
+				ai_get_ally_desire_factor = -999
+                ai_join_ally_desire_factor = -999
+				research_speed_factor = -1.2
+                join_faction_tension = 2
+				lend_lease_tension = 2
+				resistance_growth = -1
+				resistance_damage_to_garrison = -1
+				required_garrison_factor = -1
+			}
+		}
+        AI_optimized2 = {
+			allowed = { always = no }
+			picture = SOV_third_five_year_plan_civilian
+			cancel = {
+			}
+			modifier = {
+				political_power_gain = -3
+				conscription = -1
+				conscription_factor -1
+				consumer_goods_factor = 1
+				consumer_goods_expected_value = 0.75
+				industrial_capacity_factory = -1
+				research_speed_factor = -1
+				production_factory_start_efficiency_factor = -1
+				research_speed_factor = -1.2
+				lend_lease_tension = 2
+				resistance_growth = -1
+				resistance_damage_to_garrison = -1
+				required_garrison_factor = -1
+			}
+		}
+        ENG_imperial_conference_defense_1 = {
+			allowed = { always = no }
+			picture = SOV_third_five_year_plan_civilian
+			cancel = {
+			}
+			modifier = {
+                production_factory_start_efficiency_factor = 0.1
+                production_speed_buildings_factor = 0.1
+                production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = -0.10
+                industrial_capacity_factory = 0.1
+                }
+            }
+        ITA_resurs_integration2 = {
+			allowed = { always = no }
+			picture = generic_build_infrastructure
+			cancel = {
+			}
+			modifier = {
+                local_resources_factor = 0.10
+                }
+            }
+        ITA_industrial_space2 = {
+			allowed = { always = no }
+			picture = generic_goods_red_bonus
+			cancel = {
+			}
+			modifier = {
+                industrial_capacity_factory = 0.12
+                consumer_goods_factor = 0.05
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_start_efficiency_factor = 0.05
+                resistance_growth = -0.02
+                
+                }
+            }    
+        }
+}

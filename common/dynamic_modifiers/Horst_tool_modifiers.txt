@@ -1,0 +1,50 @@
+Horst_tool_modifiers = {
+    enable = { always = yes }
+
+	icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+    
+    #Армия
+    ARMY_ATTACK_FACTOR = Horst_tool_MODIFIERS_ARMY_ATTACK_FACTOR                        # Атака дивизии    
+    ARMY_DEFENCE_FACTOR = Horst_tool_MODIFIERS_ARMY_DEFENCE_FACTOR                      # Защита дивизии  
+    ARMY_SPEED_FACTOR = Horst_tool_MODIFIER_ARMY_SPEED_FACTOR                            # Скорость дивизии   
+    ARMY_ORG_FACTOR = Horst_tool_MODIFIER_ARMY_ORG_FACTOR                                # Организация дивизии  
+    ARMY_MORALE_FACTOR = Horst_tool_MODIFIER_ARMY_MORALE_FACTOR                          # Скорость восстановления дивизии   
+    ARMY_CORE_ATTACK_FACTOR = Horst_tool_MODIFIERS_ARMY_CORE_ATTACK_FACTOR              # Атака дивизии на национальной территории    
+    ARMY_CORE_DEFENCE_FACTOR = Horst_tool_MODIFIERS_ARMY_CORE_DEFENCE_FACTOR            # Защита дивизии на национальной территории  
+    ARMY_CLAIM_ATTACK_FACTOR = Horst_tool_MODIFIERS_ARMY_CLAIM_ATTACK_FACTOR            # Атака дивизии на оспариваемой территории   
+    ARMY_CLAIM_DEFENCE_FACTOR = Horst_tool_MODIFIERS_ARMY_CLAIM_DEFENCE_FACTOR          # Защита дивизии на оспариваемой территории     
+    ARMY_NON_CORE_ATTACK_FACTOR = Horst_tool_MODIFIERS_ARMY_NON_CORE_ATTACK_FACTOR      # Атака дивизии не на национальной территории     
+    ARMY_NON_CORE_DEFENCE_FACTOR = Horst_tool_MODIFIERS_ARMY_NON_CORE_DEFENCE_FACTOR    # Защита дивизии не на национальной территории   
+    MAX_PLANNING_FACTOR = Horst_tool_MODIFIER_MAX_PLANNING_FACTOR                        # Максимальный фактор планирования     
+    MAX_DIG_IN_FACTOR = Horst_tool_MODIFIER_MAX_DIG_IN_FACTOR                            # Максимальная укрепленность     
+
+    #Политика
+    POLITICAL_POWER_GAIN = Horst_tool_MODIFIER_POLITICAL_POWER_GAIN                                     # Ежедневный прирост политической власти 
+    POLITICAL_POWER_COST = Horst_tool_MODIFIER_POLITICAL_POWER_COST                                     # Ежедневная стоимость политической власти 
+    POLITICAL_POWER_FACTOR = Horst_tool_MODIFIER_POLITICAL_POWER_FACTOR                                 # Прирост политической власти 
+    CONSCRIPTION_FACTOR = Horst_tool_MODIFIER_CONSCRIPTION_FACTOR                                       # Фактор военнообязанного населения  
+    non_core_manpower = Horst_tool_MODIFIER_GLOBAL_NON_CORE_MANPOWER                                    # Людские ресурсы не национальной провинции
+    FORCED_SURRENDER_LIMIT = Horst_tool_MODIFIER_FORCED_SURRENDER_LIMIT                                 # Лимит капитуляции 
+    STABILITY_WEEKLY_FACTOR = Horst_tool_MODIFIER_STABILITY_WEEKLY_FACTOR                               # Еженедельный прирост стабильности 
+    WAR_SUPPORT_WEEKLY_FACTOR = Horst_tool_MODIFIER_WAR_SUPPORT_WEEKLY_FACTOR                           # Еженедельный прирост поддержки войны 
+    RESOURCE_TRADE_COST_BONUS_PER_FACTORY = Horst_tool_MODIFIER_RESOURCE_TRADE_COST_BONUS_PER_FACTORY   # Доп. торговый ресурс за каждую фабрику 
+    min_export = Horst_tool_MODIFIER_MIN_EXPORT_FACTOR                                                  # 1.0  "Ресурсы на продажу"
+    conscription = Horst_tool_MODIFIER_conscription                                                      # 0.01 военнообязанного населения
+
+    #Промышленность
+    GLOBAL_BUILDING_SLOTS_FACTOR = Horst_tool_MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR                                #  Максимум фабрик в регионе #
+    CONSUMER_GOODS_FACTOR = Horst_tool_MODIFIER_CONSUMER_GOODS_FACTOR                                              #  Фактор фабрик, производящих товары народного потребления #
+    CONSUMER_GOODS_EXPECTED_VALUE = Horst_tool_MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE                              #  Ожидаемое количество заводов, перепрофилированных на товары народного потребления #
+    out_of_power_impact_factor = Horst_tool_MODIFIER_OUT_OF_POWER_FACTOR                                             #  Уменьшает штрафы за дефицит энергии #
+    PRODUCTION_SPEED_BUILDINGS_FACTOR = Horst_tool_MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR                      #  Скорость строительства #
+    LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR = Horst_tool_MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR        #  Сохранение эффективности производства #
+    PRODUCTION_SPEED_BUILDINGS_POWERED_FACTOR = Horst_tool_MODIFIER_PRODUCTION_SPEED_BUILDINGS_POWERED_FACTOR      #  Скорость строительства с энергоснабжением #
+    PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR = Horst_tool_MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR        #  £prod_eff_cap  Макс. эффективность производства #
+    PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR = Horst_tool_MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR    #  Базовая эффективность производства #
+    PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR = Horst_tool_MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR      #  £prod_eff  Рост эффективности производства #
+    INDUSTRIAL_CAPACITY_FACTORy = Horst_tool_MODIFIER_INDUSTRIAL_CAPACITY_FACTOR                                    #  Объем заводского производства #
+    industrial_capacity_factory_powered = Horst_tool_MODIFIER_INDUSTRIAL_CAPACITY_POWERED_FACTOR                    #  Объем заводского производства с энергоснабжением #
+    industrial_capacity_dockyard = Horst_tool_MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR                  #  Производительность верфи #
+    industrial_capacity_dockyard_powered = Horst_tool_MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_POWERED_FACTOR  #  Производительность верфи с энергоснабжением #
+    production_lack_of_resource_penalty_factor = Horst_tool_MODIFIER_production_lack_of_resource_penalty_factor # Штраф за нехватку ресурсов
+}

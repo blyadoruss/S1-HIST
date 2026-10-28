@@ -1,0 +1,91 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			CZE = {
+                set_rule = { can_join_factions = no }
+                }
+
+				every_country = {
+					limit = { 
+                        OR = {
+						tag = ITA
+						tag = USA
+						tag = GER
+						tag = SOV
+						tag = JAP
+						tag = ENG
+                        }
+                    }
+				}
+
+			if = {
+				
+                limit = { 
+                    has_game_rule = {
+                        rule = Game_mode
+                        option = NO_asia
+                        } 
+                    }
+
+                SIA = {
+                    SIA = { annex_country = { target = JAP } }
+                    SIA = { annex_country = { target = CHI } }
+                    SIA = { annex_country = { target = USA } }
+                    SIA = { annex_country = { target = AST } }
+                    SIA = { annex_country = { target = PHI } }
+                    SIA = { annex_country = { target = RAJ } }
+                    SIA = { annex_country = { target = MEN } }
+                    SIA = { annex_country = { target = MAN } }
+                    SIA = { annex_country = { target = TUR } }
+                    SIA = { annex_country = { target = NZL } }
+                        every_state = {
+                        limit = { is_owned_by = SIA }
+                        add_compliance = 100
+                        }
+                    }
+                }
+            }
+            effect = {
+                every_country = {
+                limit = { is_ai = NO }
+                add_timed_idea = {
+                    idea = start_efficiency
+                    days = 14
+                }
+            }
+        every_country = {
+                limit = {
+                    OR = {
+                        tag = POR
+                        tag = SWE
+                        tag = SWI
+                        tag = CZE
+                        tag = AUS
+                        tag = SIA
+                        tag = LAT
+                        tag = LIT
+                        tag = EST
+                        tag = ALB
+                        tag = VEN
+                        tag = BEL
+                        tag = HOL
+                        tag = LUX
+                        }
+					}
+                    add_ideas = AI_optimized
+                    }
+            every_country = {
+                limit = {
+                    OR = {
+                        tag = POL
+                        tag = NOR
+                        tag = FIN
+                        tag = GRE
+                        }
+					}
+                    add_ideas = AI_optimized2
+                    }
+                }
+            }
+       }

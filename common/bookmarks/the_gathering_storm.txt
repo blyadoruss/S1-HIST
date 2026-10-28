@@ -213,7 +213,6 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_behead_the_snake
-				SOV_the_supreme_soviet
 				SOV_reconvene_the_zemsky_sobor
 			}	
 		}
@@ -230,7 +229,6 @@ bookmarks = {
 			focuses = {
 				SOV_behead_the_snake
 				SOV_father_of_nations
-				SOV_the_supreme_soviet
 			}	
 		}
 

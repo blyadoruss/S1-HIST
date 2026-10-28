@@ -848,11 +848,11 @@ characters = {
 			}
 
 			corps_commander = {
-			traits = { trickster media_personality war_hero brilliant_strategist trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox }
+			traits = { trickster trait_engineer organizer adaptable panzer_leader cavalry_leader winter_specialist }
 			skill=6
 			attack_skill=7
 			defense_skill=6
-			planning_skill=7
+			planning_skill=5
 			logistics_skill=5
 				legacy_id = -1
 			}
@@ -873,11 +873,11 @@ characters = {
 			}
 			
 			corps_commander = {
-			traits = { trickster media_personality war_hero brilliant_strategist trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox swamp_fox }
+			traits = { trickster war_hero trait_engineer organizer adaptable panzer_leader cavalry_leader desert_fox swamp_fox }
 			skill=6
 			attack_skill=7
 			defense_skill=6
-			planning_skill=7
+			planning_skill=5
 			logistics_skill=5
 				legacy_id = -1
 				visible = {
@@ -1282,11 +1282,11 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { media_personality war_hero trickster brilliant_strategist trickster panzer_leader trickster trait_engineer organizer adaptable cavalry_leader ranger }
+			traits = { trickster trickster panzer_leader trickster trait_engineer organizer adaptable cavalry_leader ranger }
 			skill=6
-			attack_skill=7
+			attack_skill=6
 			defense_skill=6
-			planning_skill=7
+			planning_skill=3
 			logistics_skill=5
 			legacy_id = -1
 			visible = {

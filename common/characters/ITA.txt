@@ -180,9 +180,9 @@ characters = {
 		field_marshal = {
 			traits={ brilliant_strategist trickster panzer_leader trickster trait_engineer organizer adaptable cavalry_leader ranger desert_fox }
 			skill=6
-			attack_skill=7
-			defense_skill=6
-			planning_skill=7
+			attack_skill=6
+			defense_skill=5
+			planning_skill=4
 			logistics_skill=5
 			legacy_id = 0
 			visible = { has_government = fascism }
@@ -214,13 +214,13 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
+			traits = { trickster infantry_leader war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter}
 			skill=6
-			attack_skill=7
+			attack_skill=6
 			defense_skill=6
-			planning_skill=7
+			planning_skill=5
 			logistics_skill=5
-			legacy_id = 9
+			legacy_id = 0
 		}
 	}
 

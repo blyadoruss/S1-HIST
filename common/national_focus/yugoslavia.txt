@@ -4483,7 +4483,7 @@ focus_tree = {
 				105 = {
 					add_resource = {
 						type = tungsten
-						amount = 8
+						amount = 12
 					}
 				}
 			}
@@ -4492,7 +4492,7 @@ focus_tree = {
 					prioritize = { 105 802 }
 					add_resource = {
 						type = tungsten
-						amount = 8
+						amount = 12
 					}
 				}
 			}
@@ -4516,7 +4516,7 @@ focus_tree = {
 				109 = {
 					add_resource = {
 						type = chromium
-						amount = 8
+						amount = 12
 					}
 				}
 			}
@@ -4525,7 +4525,7 @@ focus_tree = {
 					prioritize = { 109 103 }
 					add_resource = {
 						type = chromium
-						amount = 8
+						amount = 12
 					}
 				}
 			}
@@ -4602,12 +4602,11 @@ focus_tree = {
 		id = YUG_develop_civilian_industry
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = YUG_expand_the_mining_industry }
-		mutually_exclusive = { focus = YUG_develop_military_industry }
 		x = -1
 		y = 1
 		relative_position_id = YUG_expand_the_mining_industry
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 60
@@ -4718,12 +4717,11 @@ focus_tree = {
 		id = YUG_integrated_rail_network
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = YUG_expand_the_university_of_zagreb }
-		mutually_exclusive = { focus = YUG_improve_serbian_rail_network }
 		x = 0
 		y = 2
 		relative_position_id = YUG_develop_civilian_industry
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 60
@@ -4754,48 +4752,22 @@ focus_tree = {
 
 
 		completion_reward = {
-			every_owned_state = {
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-					is_core_of = ROOT
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			every_state = {
-				limit = {
-					owner = {
-						NOT = { tag = ROOT }
-						OR = {
-							original_tag = SER
-							original_tag = SLV
-							original_tag = CRO
-							original_tag = MNT
-							original_tag = KOS
-							original_tag = BOS
-							original_tag = HRZ
-							original_tag = MAC
-							original_tag = TRA
-							original_tag = HUN
-							original_tag = BUL
-						}
-						OR = {
-							is_subject_of = ROOT
-							is_in_faction_with = ROOT
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
+                105 = {
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                        }
+                    }  
+                103 = {
+                    add_building_construction = {
+                        type = infrastructure
+                        level = 1
+                        instant_build = yes
+                        }
+                    }
+                }
+            }
 
 	focus = {
 		id = YUG_improve_light_industry
@@ -5069,12 +5041,11 @@ focus_tree = {
 		id = YUG_develop_military_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = YUG_expand_the_mining_industry }
-		mutually_exclusive = { focus = YUG_develop_civilian_industry }
 		x = 1
 		y = 1
 		relative_position_id = YUG_expand_the_mining_industry
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 40
@@ -5121,12 +5092,11 @@ focus_tree = {
 		id = YUG_improve_serbian_rail_network
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = YUG_expand_the_university_of_zagreb }
-		mutually_exclusive = { focus = YUG_integrated_rail_network }
 		x = 0
 		y = 2
 		relative_position_id = YUG_develop_military_industry
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 40

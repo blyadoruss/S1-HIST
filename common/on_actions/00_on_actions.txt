@@ -2,14 +2,14 @@ on_actions = {
 	on_startup = {
 
 		# Add Canals
-        every_country = {
-				limit = { is_ai = NO }
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
 				add_timed_idea = {
 					idea = start_efficiency
 					days = 14
 				}
 			}
-		effect = {
 			IF = {
 				limit = {
 					has_dlc = "Gotterdammerung" 

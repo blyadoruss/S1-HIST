@@ -162,7 +162,6 @@ characters = {
 
 	SOV_georgy_zhukov = {
 		name = SOV_georgy_zhukov
-        set_character_flag = SOV_never_purge
 
 		portraits = {
 			army = {
@@ -172,12 +171,12 @@ characters = {
 		}
 
 		field_marshal = {
-			traits = { media_personality trickster war_hero brilliant_strategist panzer_leader organizer adaptable cavalry_leader winter_specialist ranger }
+			traits = { trickster war_hero brilliant_strategist panzer_leader organizer adaptable cavalry_leader winter_specialist ranger }
 			skill = 9
-			attack_skill = 8
+			attack_skill = 6
 			defense_skill = 7
-			planning_skill = 7
-			logistics_skill = 7
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 410
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -210,7 +209,6 @@ characters = {
 
 	SOV_konstantin_rokossovsky = {
 		name = SOV_konstantin_rokossovsky
-        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_konstantin_rokossovsky"
@@ -219,12 +217,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { media_personality trickster war_hero brilliant_strategist panzer_leader organizer adaptable cavalry_leader winter_specialist ranger }
-			skill = 9
+			traits = { trickster brilliant_strategist panzer_leader organizer adaptable cavalry_leader winter_specialist ranger }
+			skill = 7
 			attack_skill = 7
-			defense_skill = 7
-			planning_skill = 7
-			logistics_skill = 7
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id = 402
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -266,7 +264,6 @@ characters = {
 
 	SOV_aleksandr_vasilevsky = {
 		name = SOV_aleksandr_vasilevsky
-        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_aleksandr_vasilevsky"
@@ -274,11 +271,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { media_personality trickster war_hero brilliant_strategist infantry_leader organizer adaptable cavalry_leader urban_assault_specialist trait_engineer }
-			skill = 8
-			attack_skill = 8
-			defense_skill = 7
-			planning_skill = 8
+			traits = { trickster war_hero brilliant_strategist infantry_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
 			logistics_skill = 6
 			legacy_id = 407
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
@@ -320,7 +317,6 @@ characters = {
 
 	SOV_boris_shaposhnikov = {
 		name = SOV_boris_shaposhnikov
-        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_boris_shaposhnikov"
@@ -344,7 +340,7 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { trickster infantry_leader media_personality war_hero trickster brilliant_strategist trait_engineer organizer adaptable  hill_fighter winter_specialist }
+			traits = { trickster infantry_leader trickster brilliant_strategist trait_engineer organizer adaptable hill_fighter ranger }
 			skill = 7
 			attack_skill = 7
 			defense_skill = 9
@@ -357,7 +353,6 @@ characters = {
 
 	SOV_nikolay_vatutin = {
 		name = SOV_nikolay_vatutin
-        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				large = GFX_portrait_SOV_nikolay_vatutin
@@ -367,7 +362,7 @@ characters = {
 		corps_commander = {
 			traits = { trickster war_hero brilliant_strategist panzer_leader organizer adaptable cavalry_leader winter_specialist ranger }
 			skill = 7
-			attack_skill = 6
+			attack_skill = 4
 			defense_skill = 6
 			planning_skill = 6
 			logistics_skill = 6
@@ -2232,7 +2227,6 @@ characters = {
 
 	SOV_nikolay_voznesensky = {
 		name = SOV_nikolay_voznesensky
-        set_character_flag = SOV_never_purge
 		portraits = {
 			army = {
 				small = "GFX_idea_SOV_nikolay_voznesensky"

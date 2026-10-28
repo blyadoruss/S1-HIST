@@ -108,7 +108,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.3
 				production_speed_arms_factory_factor = -0.3
 				conversion_cost_civ_to_mil_factor= 0.3
-				conversion_cost_mil_to_civ_factor = ы0.3
+				conversion_cost_mil_to_civ_factor = 0.3
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
 				factory_energy_consumption = -0.50
@@ -1344,7 +1344,7 @@ ideas = {
    			}
 		}
 
-		Command_economy = {
+		donnaya_economy = {
 			picture = isolation
 			visible = {
 				OR = {

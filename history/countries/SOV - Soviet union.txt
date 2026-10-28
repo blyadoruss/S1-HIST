@@ -757,7 +757,7 @@ if = {
 	}
 }
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.5
 set_war_support = 0.3
 
@@ -868,7 +868,7 @@ add_ideas = {
 	home_of_revolution
 	trotskyite_plot_nsb
 	SOV_politicized_military
-    Command_economy
+    donnaya_economy
 	SOV_genrikh_yagoda #NKVD Chief (political advisor)
 }
 

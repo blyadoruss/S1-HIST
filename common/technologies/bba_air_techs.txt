@@ -640,6 +640,9 @@ technologies = {
 			medium_plane_fighter_airframe_3
 			medium_plane_scout_plane_airframe_3
 		}
+         allow = {
+            date > 1941.1.1
+            }
 		
 		path = {
 			leads_to_tech = modern_medium_airframe
@@ -704,7 +707,9 @@ technologies = {
 			medium_plane_airframe_4
 			medium_plane_fighter_airframe_4
 			medium_plane_scout_plane_airframe_4
-		}
+            }
+        }
+    
 		
 		research_cost = 2
 		start_year = 1945

@@ -14,9 +14,9 @@ scripted_gui = {
                         has_country_flag = S1_autobuild_gui_open
                     }
                     clr_country_flag = S1_autobuild_gui_open
-                    else = {
-                        set_country_flag = S1_autobuild_gui_open
-                    }
+                }
+                else = {
+                    set_country_flag = S1_autobuild_gui_open
                 }
             }
         }
@@ -132,15 +132,19 @@ scripted_gui = {
                     set_variable = {
                         EnableBasicButton_frame = 1
                     }
-                    else = {
-                        clr_country_flag = picked_basic
-                        set_variable = { 
-                            EnableBasicButton_frame = 1
-                        }
-                        clr_country_flag = picked_basic
-                        set_variable = {
-                            EnableOnComplianceButton_frame = 2
-                        }
+                }
+                else = {
+                    clr_country_flag = picked_basic
+                    clr_country_flag = picked_oncoreterritories
+                    set_variable = { 
+                        EnableBasicButton_frame = 1
+                    }
+                    set_variable = {
+                        EnableOnCoreTerritoriesButton_frame = 1
+                    }
+                    set_country_flag = picked_oncompliance
+                    set_variable = {
+                        EnableOnComplianceButton_frame = 2
                     }
                 }
             }
@@ -164,7 +168,8 @@ scripted_gui = {
                     set_variable = {
                         EnableBasicButton_frame = 1
                     }
-                    else = {
+                }
+                else = {
                     set_variable = {
                         EnableOnComplianceButton_frame = 1
                     }
@@ -175,9 +180,8 @@ scripted_gui = {
                     clr_country_flag = picked_oncoreterritories
                     clr_country_flag = picked_basic
                     set_country_flag = picked_basic
-                        set_variable = {
-                            EnableBasicButton_frame = 2
-                        }
+                    set_variable = {
+                        EnableBasicButton_frame = 2
                     }
                 }
             }
@@ -199,15 +203,19 @@ scripted_gui = {
                     set_variable = {
                         EnableOnCoreTerritoriesButton_frame = 1
                     }
-                    else = {
-                        clr_country_flag = picked_basic
-                        set_variable = { 
-                            EnableBasicButton_frame = 1
-                        }
-                        set_country_flag = picked_oncoreterritories
-                        set_variable = {
-                            EnableOnCoreTerritoriesButton_frame = 2
-                        }
+                }
+                else = {
+                    clr_country_flag = picked_basic
+                    clr_country_flag = picked_oncompliance
+                    set_variable = { 
+                        EnableBasicButton_frame = 1
+                    }
+                    set_variable = {
+                        EnableOnComplianceButton_frame = 1
+                    }
+                    set_country_flag = picked_oncoreterritories
+                    set_variable = {
+                        EnableOnCoreTerritoriesButton_frame = 2
                     }
                 }
             }
@@ -222,10 +230,10 @@ scripted_gui = {
                     set_variable = {
                         onoffbutton_frame_TUMBLER = 1
                     }
-                    else = {
-                        set_variable = {
-                            onoffbutton_frame_TUMBLER = 2
-                        }
+                }
+                else = {
+                    set_variable = {
+                        onoffbutton_frame_TUMBLER = 2
                     }
                 }
             }

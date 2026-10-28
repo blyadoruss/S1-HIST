@@ -308,7 +308,8 @@ is_free_or_subject_of_root = {
 is_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
 		tooltip = is_controlled_by_ROOT_or_ally
-		controller = {
+		any_country = {
+			controls_state = PREV
 			OR = {
 				tag = ROOT
 				is_subject_of = ROOT
@@ -322,11 +323,14 @@ is_controlled_by_ROOT_or_ally = {
 is_not_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
 		tooltip = is_not_controlled_by_ROOT_or_ally
-		controller = {
-			NOT = {
-				tag = ROOT
-				is_subject_of = ROOT
-				is_in_faction_with = ROOT
+		NOT = {
+			any_country = {
+				controls_state = PREV
+				OR = {
+					tag = ROOT
+					is_subject_of = ROOT
+					is_in_faction_with = ROOT
+				}
 			}
 		}
 	}
@@ -1262,10 +1266,10 @@ is_trotsky_valid_for_mexico = {
 	}	
 }
 NOR_trotsky_not_in_sov = {
+	NOT = { has_completed_focus = SOV_the_left_opposition }
 	any_other_country = {
 		original_tag = SOV 
 		has_government = communism 
-		NOT = { has_completed_focus = SOV_the_left_opposition }
 	}
 }
 
