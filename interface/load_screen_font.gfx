@@ -1,4 +1,10 @@
 bitmapfonts = {
+    bitmapfont = {
+        name = "sicorum_vector_header"
+        fontfiles = { "gfx/fonts/sicorum_vector_header" }
+        color = 0xffffffff
+    }
+
 
 	bitmapfont = {
 		name = "loadscreen_header"

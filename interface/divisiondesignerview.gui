@@ -132,7 +132,7 @@ guiTypes = {
 		buttonType = {
 			name = "is_type_allowed_button"
 			position = { x=5 y =4 }
-			quadTextureSprite ="GFX_generic_checkbox3_orange"
+			quadTextureSprite ="GFX_s1hist_stock_generic_checkbox3_orange"
 			clicksound = click_checkbox
 			frame = 1
 			pdx_tooltip = REINFORCE_WITH_EQUIPMENT
@@ -170,7 +170,7 @@ guiTypes = {
 		buttonType = {
 			name = "is_allowed_button"
 			position = { x=24 y =5 }
-			quadTextureSprite ="GFX_generic_checkbox3_orange"
+			quadTextureSprite ="GFX_s1hist_stock_generic_checkbox3_orange"
 			clicksound = click_checkbox
 			frame = 1
 			pdx_tooltip = REINFORCE_WITH_EQUIPMENT
@@ -774,7 +774,7 @@ guiTypes = {
 		ButtonType = {
 			name = "duplicate_button"
 			position = { x=150 y=-100 }
-			quadTextureSprite ="GFX_button_123x34"
+			quadTextureSprite ="GFX_s1hist_stock_button_123x34"
 			buttonText = "DESIGNER_DUPLICATE"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
@@ -784,7 +784,7 @@ guiTypes = {
 		ButtonType = {
 			name = "reset_button"
 			position = { x=20 y=-100 }
-			quadTextureSprite ="GFX_button_reset_123x34"
+			quadTextureSprite ="GFX_s1hist_stock_button_reset_123x34"
 			buttonText = "DESIGNER_RESET"
 			pdx_tooltip = "DESIGNER_RESET_DESC"
 			buttonFont = "hoi_18mbs"
@@ -795,7 +795,7 @@ guiTypes = {
 		ButtonType = {
 			name = "save_button"
 			position = { x=487 y=-53 }
-			quadTextureSprite ="GFX_button_221x34"
+			quadTextureSprite ="GFX_s1hist_stock_button_221x34"
 			buttonText = "DESIGNER_ARMY_SAVE"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
@@ -805,7 +805,7 @@ guiTypes = {
 		ButtonType = {
 			name = "save_and_deploy_button"
 			position = { x=722 y=-53 }
-			quadTextureSprite ="GFX_button_221x34"
+			quadTextureSprite ="GFX_s1hist_stock_button_221x34"
 			buttonText = "DESIGNER_HQ_SAVE_AND_DEPLOY"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_default
@@ -898,7 +898,7 @@ guiTypes = {
 			expandButton = {
 				name = "expand_button"
 				position = { x = -9 y = 6 }
-				quadTextureSprite ="GFX_expand_button"
+				quadTextureSprite ="GFX_s1hist_stock_expand_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -962,7 +962,7 @@ guiTypes = {
 			ButtonType = {
 				name = "cancel_button"
 				position = { x=506 y=2 }
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_s1hist_stock_button_123x34"
 				buttonText = "REGIMENTS_SELECTION_CANCEL"
 				buttonFont = "hoi_18mbs"
 				clicksound = click_default
@@ -982,7 +982,7 @@ guiTypes = {
 		buttonType = {
 			name = "close_button"
 			position = { x = -44 y = 6 }
-			quadTextureSprite ="GFX_closebutton"
+			quadTextureSprite ="GFX_s1hist_stock_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
@@ -1047,7 +1047,7 @@ guiTypes = {
 			buttonType = {
 				name = "close_button"
 				position = {x=-40 y=13}	
-				spriteType = "GFX_closebutton"
+				spriteType = "GFX_s1hist_stock_closebutton"
 				orientation = "UPPER_RIGHT"
 				shortcut = "ESCAPE"
 				clicksound = click_close
@@ -1056,7 +1056,7 @@ guiTypes = {
 			buttonType = {
 				name = "is_allowed_button"
 				position = { x=25 y =65 }
-				quadTextureSprite ="GFX_generic_checkbox"
+				quadTextureSprite ="GFX_s1hist_stock_generic_checkbox"
 				clicksound = click_checkbox
 				frame = 1
 			}
@@ -1075,7 +1075,7 @@ guiTypes = {
 			buttonType = {
 				name = "foreign_equipment_allowed_button"
 				position = { x=265 y =65 }
-				quadTextureSprite ="GFX_generic_checkbox"
+				quadTextureSprite ="GFX_s1hist_stock_generic_checkbox"
 				clicksound = click_checkbox
 				frame = 1
 			}
@@ -1138,7 +1138,7 @@ guiTypes = {
 				size = { x=504 y=23 }
 				font = "hoi_16mbs"				
 				buttontext = "DEFAULT_DIV_TEMPL_SYMBOL"
-				quadTextureSprite = "GFX_button_221x34"
+				quadTextureSprite = "GFX_s1hist_stock_button_221x34"
 				clicksound = click_default
 			}
 			
@@ -1148,7 +1148,7 @@ guiTypes = {
 				size = { x=504 y=23 }
 				font = "hoi_16mbs"				
 				buttontext = "BACK"
-				quadTextureSprite = "GFX_button_123x34"
+				quadTextureSprite = "GFX_s1hist_stock_button_123x34"
 				clicksound = click_default
 			}			
 
@@ -1253,7 +1253,7 @@ guiTypes = {
 				expandButton = {
 					name = "expand_button"	
 					position = { x = -9 y = 6 }
-					quadTextureSprite ="GFX_expand_button"
+					quadTextureSprite ="GFX_s1hist_stock_expand_button"
 					buttonFont = "Main_14_black"
 					Orientation = "UPPER_RIGHT"
 					clicksound = click_default
@@ -1293,7 +1293,7 @@ guiTypes = {
 			buttonType = {
 				name = "reset_equipment_categories_filter_button"
 				position = { x=292 y=286 }
-				quadTextureSprite ="GFX_closebutton_small"
+				quadTextureSprite ="GFX_s1hist_stock_closebutton_small"
 				clicksound = click_close
 				pdx_tooltip = "EQUIPMENT_CATEGORIES_RESET"
 			}		
@@ -1308,7 +1308,7 @@ guiTypes = {
 					name = "best_match_button"
 					position = { x=-11 y=-3 }
 					font = "hoi_16mbs"			
-					quadTextureSprite = "GFX_generic_checkbox"
+					quadTextureSprite = "GFX_s1hist_stock_generic_checkbox"
 					clicksound = click_default
 					pdx_tooltip = "USE_DEFAULT_MODEL_IN_DIVISION_DESIGNER_TOOLTIP"
 				}	
@@ -1329,7 +1329,7 @@ guiTypes = {
 				position = { x=380 y=25 }
 				font = "hoi_16mbs"
 				buttontext = "CLOSE"
-				quadTextureSprite = "GFX_button_123x34"
+				quadTextureSprite = "GFX_s1hist_stock_button_123x34"
 				clicksound = click_default
 			}
 		}
@@ -1348,7 +1348,7 @@ guiTypes = {
 			buttonType = {
 				name = "division_equipment_btn"
 				position = { x = 511 y = 52 }
-				quadTextureSprite = "GFX_button_123x34_alt"
+				quadTextureSprite = "GFX_s1hist_stock_button_123x34_alt"
 				buttonText = "DIVISION_EQUIPMENT"
 				buttonFont = "hoi_16mbs"
 				clicksound = click_close
@@ -1389,21 +1389,21 @@ guiTypes = {
 			buttonType = {
 				name = "priority_button_1"
 				position = { x = 517 y = 110 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
 			buttonType = {
 				name = "priority_button_2"
 				position = { x = 553 y = 110 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
 			buttonType = {
 				name = "priority_button_3"
 				position = { x = 589 y = 109 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
@@ -1470,7 +1470,7 @@ guiTypes = {
 				expandButton = {
 					name = "expand_button"
 					position = { x = -9 y = 4 }
-					quadTextureSprite = "GFX_expand_button"
+					quadTextureSprite = "GFX_s1hist_stock_expand_button"
 					buttonFont = "Main_14_black"
 					Orientation = "UPPER_RIGHT"
 					clicksound = click_default
@@ -1522,7 +1522,7 @@ guiTypes = {
 			buttonType = {
 				name = "division_equipment_btn"
 				position = { x = 492 y = 60 }
-				quadTextureSprite = "GFX_button_123x34_alt"
+				quadTextureSprite = "GFX_s1hist_stock_button_123x34_alt"
 				buttonText = "DIVISION_EQUIPMENT"
 				buttonFont = "hoi_16mbs"
 				clicksound = click_close
@@ -1550,21 +1550,21 @@ guiTypes = {
 			buttonType = {
 				name = "priority_button_1"
 				position = { x = 499 y = 104 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
 			buttonType = {
 				name = "priority_button_2"
 				position = { x = 535 y = 104 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
 			buttonType = {
 				name = "priority_button_3"
 				position = { x = 571 y = 103 }
-				quadTextureSprite = "GFX_div_priority_strip"
+				quadTextureSprite = "GFX_s1hist_stock_div_priority_strip"
 				clicksound = click_default
 			}
 
@@ -1607,7 +1607,7 @@ guiTypes = {
 				expandButton = {
 					name = "expand_button"
 					position = { x = -9 y = 4 }
-					quadTextureSprite = "GFX_expand_button"
+					quadTextureSprite = "GFX_s1hist_stock_expand_button"
 					buttonFont = "Main_14_black"
 					Orientation = "UPPER_RIGHT"
 					clicksound = click_default
@@ -1785,7 +1785,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon_hq_remove"
 			position = { x = 8 y = 16 }
-			spriteType = "GFX_remove_icon"
+			spriteType = "GFX_s1hist_stock_remove_icon"
 			scale = 0.75
 			clicksound = click_default
 		}

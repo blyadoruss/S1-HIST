@@ -1,4 +1,18 @@
-﻿#Hearts of Iron IV: Thunder At Our Gates
+﻿# S1-HIST
+
+S1CORE — Main Dev
+Sally — Dev
+Nickolai — Dev
+Hidenberg — Dev
+Didilo — Creator Adviser
+Kozebolt — Game Designer
+
+# S1-HIST Main Theme
+
+All music composed and produced by Terraria
+(https://www.youtube.com/watch?v=pal7MVRKemQ&list=PLb8uohVWIsOgb_IyI1etiePDABKcgYX_1&index=97)
+
+#Hearts of Iron IV: Thunder At Our Gates
 
 #PDS Gold 
 
@@ -483,7 +497,7 @@ Lady Valentina "Lady Shion" Valentine-Ortiz
 Bennet “Avemew”
 Artemis
 Cruz "Ash" Fantauzzo
-Sir Arthur Wellesley	
+Sir Arthur Wellesley    
 Zi Yao (Terence) Zhang
 
 #Korean Language mod team
@@ -1051,7 +1065,7 @@ Lady Valentina "Lady Shion" Valentine-Ortiz
 Bennet “Avemew”
 Artemis
 Cruz "Ash" Fantauzzo
-Sir Arthur Wellesley	
+Sir Arthur Wellesley    
 Zi Yao (Terence) Zhang
 
 #Korean Language mod team
@@ -1614,7 +1628,7 @@ Lady Valentina "Lady Shion" Valentine-Ortiz
 Bennet “Avemew”
 Artemis
 Cruz "Ash" Fantauzzo
-Sir Arthur Wellesley	  
+Sir Arthur Wellesley      
 Zi Yao (Terence) Zhang
 
 #Korean Language mod team
@@ -1910,7 +1924,7 @@ French - Native Prime SAS
 Simplified Chinese - LangLink Localization Solutions 
 Russian - The Most Games
 German - Native Prime SAS
-Polish - QLOC	
+Polish - QLOC   
 Spanish - QLOC
 Brazilian Portugese - Native Prime SAS
 Japanese - Active Gaming Media, Inc.
@@ -1984,7 +1998,7 @@ Bennet “Avemew”
 Artemis
 Cruz "Ash" Fantauzzo
 Danteee
-Sir Arthur Wellesley	
+Sir Arthur Wellesley    
 Zi Yao (Terence) Zhang
 Julian “TheMcWhiskers” Zea
 
@@ -2286,7 +2300,7 @@ Bennet “Avemew”
 Artemis
 Cruz "Ash" Fantauzzo
 Danteee
-Sir Arthur Wellesley	
+Sir Arthur Wellesley    
 Zi Yao (Terence) Zhang
 Julian “TheMcWhiskers” Zea
 

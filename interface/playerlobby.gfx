@@ -17,11 +17,17 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
+	##ФОН ДЛЯ ЛОББИ###################################################################################################################################################################################################
+	spriteType = {
+		name = "GFX_s1_bg"
+		texturefile = "gfx//interface//s1_bg.png"
+	}
+	##################################################################################################################################################################################################################
 	spriteType = {
 		name = "GFX_genric_mini_bg2"
 		texturefile = "gfx//interface//genric_mini_bg2.dds"
 	}
-
+	
 	spriteType = {
 		name = "GFX_genric_mini_bg1"
 		texturefile = "gfx//interface//genric_mini_bg1.dds"

@@ -177,7 +177,7 @@ guiTypes = {
 			buttonType = {
 				name = "checkbox"
 				position = { x = 18 y = 7 }
-				quadTextureSprite ="GFX_generic_checkbox"
+				quadTextureSprite ="GFX_s1hist_stock_generic_checkbox"
 				clicksound = click_checkbox
 			}
 
@@ -199,7 +199,7 @@ guiTypes = {
 		buttonType = {
 			name = "open_designer_button"
 			position = { x = 188 y = 56 }
-			quadTextureSprite ="GFX_division_designer_button"
+			quadTextureSprite ="GFX_s1hist_stock_division_designer_button"
 			buttonFont = "hoi_18mbs"
 			buttonText = "DEPLOYMENT_DESIGNER"
 			clicksound = click_default
@@ -214,7 +214,7 @@ guiTypes = {
 			expandButton = {
 				name = "expand_button"
 				position = { x = -88 y = 17 }
-				quadTextureSprite ="GFX_foreign_templates_dropdown_button"
+				quadTextureSprite ="GFX_s1hist_stock_foreign_templates_dropdown_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"
 				clicksound = click_default
@@ -421,7 +421,7 @@ guiTypes = {
 		buttonType = {
 			name = "obsolete"
 			position = { x=302 y=22 }
-			spriteType = "GFX_toggle_obsolete_button"
+			spriteType = "GFX_s1hist_stock_toggle_obsolete_button"
 			clicksound = click_default
 		}
 		
@@ -440,7 +440,7 @@ guiTypes = {
 		buttonType = {
 			name = "add_template_button"
 			position = { x = 158 y = 48 }
-			quadTextureSprite ="GFX_small_button_71x26"
+			quadTextureSprite ="GFX_s1hist_stock_small_button_71x26"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DEPLOYMENT_ADD_TEMPLATE"
 			clicksound = click_default
@@ -459,7 +459,7 @@ guiTypes = {
 			position = { x = 228 y = 48 }
 			buttonFont = "hoi_16mbs"
 			buttonText = "EDIT"
-			quadTextureSprite = "GFX_small_button_71x26"
+			quadTextureSprite = "GFX_s1hist_stock_small_button_71x26"
 			clicksound = click_default
 		}
 
@@ -467,7 +467,7 @@ guiTypes = {
 			name = "delete_button"
 			position = { x = 298 y = 48 }
 			buttonFont = "hoi_16mbs"
-			quadTextureSprite = "GFX_delete_template_button"
+			quadTextureSprite = "GFX_s1hist_stock_delete_template_button"
 			clicksound = click_default
 		}
 

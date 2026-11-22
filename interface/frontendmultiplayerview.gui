@@ -285,10 +285,7 @@ guiTypes = {
 		fade_time = 200
 		fade_type = linear
 		
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_bg"
-		}		
+		
 
 		iconType = {
 			name ="diplo_popup_header_bg"

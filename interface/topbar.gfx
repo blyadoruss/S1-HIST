@@ -156,7 +156,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_world_tension_icon_big_strip"
-		texturefile = "gfx/interface/world_tension_icon_big_strip.dds"
+		texturefile = "gfx/interface/s1hist_tension_moon.png"
 		noOfFrames = 10		
 	}
 	
