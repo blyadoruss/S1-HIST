@@ -52,7 +52,7 @@ mountaineers_1 = {
     
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			special_forces_out_of_supply_factor = -0.1
 			acclimatization_cold_climate_gain_factor = 0.1
 			category_special_forces = {
@@ -61,12 +61,12 @@ mountaineers_1 = {
 			}
 		}
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 	    	special_forces_training_time_factor = -0.1
 	    	mountaineers_special_forces_contribution_factor = -0.25
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			category_mountaineers = {
 				defense = 0.10
 			}
@@ -75,10 +75,10 @@ mountaineers_1 = {
 			}	  		
 		}
 		reward_4 = {
-			mastery = 60	    	
+			mastery = 0	    	
 		}
 		reward_5 = {
-			mastery = 60
+			mastery = 0
 	    	category_mountaineers = {
 	    		soft_attack = 0.1
 	    	}
@@ -141,7 +141,7 @@ mountaineers_2 = {
     
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			acclimatization_hot_climate_gain_factor = 0.10
 			acclimatization_cold_climate_gain_factor = 0.10
 			mountaineers = {
@@ -160,7 +160,7 @@ mountaineers_2 = {
 			}		   
 		}
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 		    category_mountaineers = {
 		    	initiative = 0.01
 		    }
@@ -168,7 +168,7 @@ mountaineers_2 = {
 			unit_rangers_support_design_cost_factor = -0.50
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			artillery = {
 				battalion_mult = {
 					category = category_mountaineers
@@ -183,14 +183,14 @@ mountaineers_2 = {
 			}		   
 		}
 		reward_4 = {
-			mastery = 60
+			mastery = 0
 			mountaineers_special_forces_contribution_factor = -0.25
 			category_mountaineers = {
 				supply_consumption = -0.02
 			}
 		}
 		reward_5 = {
-			mastery = 60
+			mastery = 0
 			special_forces_attack_factor = 0.1
 		}
     }
@@ -252,7 +252,7 @@ marines_1 = {
 
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 		    effect = {
 		    	unlock_subunit = marine_commando
 		    	custom_effect_tooltip = SF_MARINES_exfiltration_effect_tt
@@ -261,11 +261,11 @@ marines_1 = {
 		}
 		
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 			unit_marine_design_cost_factor = -0.50
 		}
 		reward_3 = {			
-			mastery = 60
+			mastery = 0
 			marine_commando = {
 				breakthrough = 0.15
 			}
@@ -274,12 +274,12 @@ marines_1 = {
 			}			
 		}
 		reward_4 = {
-			mastery = 60
+			mastery = 0
 			naval_invasion_plan_cap = 2
 			marines_special_forces_contribution_factor = -0.25
 		}
 		reward_5 = {
-			mastery = 60
+			mastery = 0
 			effect = {
 				add_ideas = GEN_cheaper_amphib
 			}
@@ -356,14 +356,14 @@ marines_2 = {
    
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			naval_invasion_prep_days = -5
 			naval_invasion_division_cap = 2
 			naval_invasion_plan_cap = 1
 			marines_special_forces_contribution_factor = -0.25
 		}
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 			pioneer_support = {
 				battalion_mult = {
 					category = category_line_artillery
@@ -393,7 +393,7 @@ marines_2 = {
 			}			
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			marine = {
 				max_organisation = 2
 				soft_attack = 0.05
@@ -401,13 +401,13 @@ marines_2 = {
 			extra_marine_supply_grace = 36			
 		}
 		reward_4 = {
-			mastery = 60
+			mastery = 0
 			naval_invasion_planning_bonus_speed = 0.2
 			shore_bombardment_bonus = 0.15
 			army_bonus_air_superiority_factor = 0.10						
 		}
 		reward_5 = {
-			mastery = 60
+			mastery = 0
 			special_forces_attack_factor = 0.10
 		}
     }
@@ -455,6 +455,14 @@ paratroopers_1 = {
 		unlock_subunit = airborne_light_armor
 	}
 	paratroopers_special_forces_contribution_factor = -0.25
+	paratrooper = {
+		desert = {
+			attack = 0.15
+			defence = 0.15
+			movement = 0.10
+		}
+	}
+	# Armored cars only
 	signal_company = {
 		battalion_mult = {
 			category = category_paratroopers
@@ -464,8 +472,9 @@ paratroopers_1 = {
 	extra_paratrooper_supply_grace = 48
 
     rewards = {
+    
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			transport_plane = {
 				air_defence = 0.20
 			}			
@@ -475,7 +484,7 @@ paratroopers_1 = {
 			}
 		}
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 			category_paratroopers = {
 				supply_consumption = -0.02
 			}
@@ -483,13 +492,14 @@ paratroopers_1 = {
 			acclimatization_cold_climate_gain_factor = 0.10			
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			category_special_forces = {
+                max_organisation = 4
 				soft_attack = 0.05
 			}			
 		}
 		reward_4 = {
-		    mastery = 60
+		    mastery = 0
 		    category_paratroopers = {
 				default_morale = 0.15
 			}
@@ -501,7 +511,7 @@ paratroopers_1 = {
 			}
 		}
 		reward_5 = {
-		    mastery = 60
+		    mastery = 0
 		    paratroopers_special_forces_contribution_factor = -0.25
 		    category_paratroopers = {
 				soft_attack = 0.15
@@ -555,6 +565,19 @@ paratroopers_2 = {
 		unlock_subunit = airborne_light_armor
 	}
 	paratroopers_special_forces_contribution_factor = -0.25
+	paratrooper = {
+		desert = {
+			defence = 0.05
+		}
+	}
+	# All armored vehicles: general attack and speed; defense penalty only in desert
+	armored_car = {
+		soft_attack = 0.10
+		hard_attack = 0.05
+		defense = 0.10
+		maximum_speed = 0.10
+    }
+	army_org = -3
 	field_hospital = {
 		battalion_mult = {
 				category = category_paratroopers
@@ -565,7 +588,7 @@ paratroopers_2 = {
     
     rewards = {
 		reward_1 = {
-	    	mastery = 60
+	    	mastery = 0
 	    	paratroopers_special_forces_contribution_factor = -0.25	
 			effect = {
 				# Display only — real effect fires in on_units_paradropped_in_state (00_on_actions.txt), gated on has_mastery_level of paratroopers_2
@@ -573,11 +596,16 @@ paratroopers_2 = {
 			}
 		}	
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 			special_forces_training_time_factor = -0.1
+            category_special_forces = {
+                max_organisation = 5
+				soft_attack = 0.15
+                hard_attack = 0.05
+			}
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			field_hospital = {
 				battalion_mult = {
 					category = category_paratroopers
@@ -587,12 +615,12 @@ paratroopers_2 = {
 			}
 		}
 		reward_4 = {
-	    	mastery = 60
+	    	mastery = 0
 	    	paratrooper_weight_factor = -0.5
 	    	paratrooper_aa_defense = 0.1
 		}
 	reward_5 = {
-			mastery = 60
+			mastery = 0
 			special_forces_attack_factor = 0.10
 		}
     }
@@ -653,7 +681,7 @@ rangers_1 = {
 
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			category_rangers = {
 				defense = 0.1
 				initiative = 0.01 
@@ -661,14 +689,14 @@ rangers_1 = {
 			}
 		}
 		reward_2 = {
-			mastery = 60
+			mastery = 0
 			category_special_forces = {
 				soft_attack = 0.05
 			}
 	    	rangers_special_forces_contribution_factor = -0.25
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			artillery = {
 				battalion_mult = {
 					category = category_rangers
@@ -685,7 +713,7 @@ rangers_1 = {
 			}
 		}
 	reward_4 = {
-	    mastery = 60
+	    mastery = 0
 	    category_rangers = {
 			default_morale = 0.1
 			supply_consumption = -0.02		
@@ -700,7 +728,7 @@ rangers_1 = {
 		}
 	}
 	reward_5 = {
-	    mastery = 60
+	    mastery = 0
 	    ranger_battalion = {
 			soft_attack = 0.1
 			breakthrough = 0.1
@@ -763,7 +791,7 @@ rangers_2 = {
 
     rewards = {
 		reward_1 = {
-			mastery = 60
+			mastery = 0
 			rangers_support = {
 				jungle = {
 					attack = 0.05
@@ -778,7 +806,7 @@ rangers_2 = {
 			}
 		}
 		reward_2 = {
-		    mastery = 60
+		    mastery = 0
 		    category_rangers = {
 				soft_attack = 0.1
 				defense = 0.1
@@ -786,19 +814,19 @@ rangers_2 = {
 			}
 		}
 		reward_3 = {
-			mastery = 60
+			mastery = 0
 			ranger_battalion = {
 				supply_consumption = -0.03
 			}
 			special_forces_no_supply_grace = 36
 		}
 		reward_4 = {
-			mastery = 60
+			mastery = 0
 			special_forces_training_time_factor = -0.1
 			rangers_special_forces_contribution_factor = -0.25
 		}
 		reward_5 = {
-			mastery = 60
+			mastery = 0
 			special_forces_attack_factor = 0.1
 		}
     }

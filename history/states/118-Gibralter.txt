@@ -6,6 +6,9 @@ state=
 	
 	state_category = enclave
 	history={
+    add_dynamic_modifier = {
+			modifier = ENG_gibra_dynamic_modifier
+		}
 		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {

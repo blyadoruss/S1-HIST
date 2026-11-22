@@ -88,4 +88,30 @@ on_actions = {
                     }
                 }
             }
-       }
+        }
+   on_actions = {
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    ROOT = { tag = ITA }
+
+                    446 = { is_controlled_by = ITA }
+                    454 = { is_controlled_by = ITA }
+                    453 = { is_controlled_by = ITA }
+                    447 = { is_controlled_by = ITA }
+                    907 = { is_controlled_by = ITA }
+                }
+
+                ENG = {
+                    118 = {
+                        remove_dynamic_modifier = {
+                            modifier = ENG_gibra_dynamic_modifier
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+   

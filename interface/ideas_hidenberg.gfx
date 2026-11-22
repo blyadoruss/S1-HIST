@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_battle_in_africa"
+		texturefile = "gfx/interface/ideas/hidenberg/idea_africa_battle.dds"
+	}	
+}

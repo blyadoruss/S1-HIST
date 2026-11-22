@@ -1,0 +1,264 @@
+ideas = {
+	country = {
+        ENG_tank_corp = {
+			allowed = { always = no }
+			picture = generic_acquire_tanks
+			cancel = {
+			}
+			modifier = {
+				army_armor_speed_factor = 0.05
+				army_armor_attack_factor = 0.05		
+			}
+		}
+		ENG_marine_idea = {
+			allowed = { always = no }
+			picture = generic_naval_invasion
+			cancel = {
+			}
+			modifier = {
+				modifier_army_sub_unit_marine_attack_factor = 0.05
+				modifier_army_sub_unit_marine_defence_factor = 0.05
+				modifier_army_sub_unit_marine_max_org_factor = 0.05	
+			}
+		}
+		ENG_marine_idea2 = {
+			allowed = { always = no }
+			picture = generic_naval_invasion
+			cancel = {
+			}
+			modifier = {
+				modifier_army_sub_unit_marine_defence_factor = -0.05
+				modifier_army_sub_unit_marine_attack_factor = 0.1
+				modifier_army_sub_unit_marine_max_org_factor = 0.1
+			}
+		}
+		ENG_paratroopers_idea = {
+			allowed = { always = no }
+			picture = generic_naval_invasion
+			cancel = {
+			}
+			modifier = {
+				modifier_army_sub_unit_paratrooper_attack_factor = 0.05
+				modifier_army_sub_unit_paratrooper_defence_factor = 0.05
+				modifier_army_sub_unit_paratrooper_max_org_factor = 0.05	
+			}
+		}
+		ENG_paratroopers_idea2 = {
+			allowed = { always = no }
+			picture = generic_naval_invasion
+			cancel = {
+			}
+			modifier = {
+				modifier_army_sub_unit_paratrooper_attack_factor = -0.05
+				modifier_army_sub_unit_paratrooper_defence_factor = 0.3
+				modifier_army_sub_unit_paratrooper_max_org_factor = 0.1
+			}
+		}
+		ENG_add_resi = {
+			allowed = { always = no }
+			picture = ARG_resource_extration_focus
+			cancel = {
+			}
+			modifier = {
+				local_resources_factor = 0.1
+			}
+		}
+		ENG_max_eff = {
+			allowed = { always = no }
+			picture = generic_production_bonus
+			cancel = {
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.025
+			}
+		}
+		ENG_max_eff2 = {
+			allowed = { always = no }
+			picture = generic_production_bonus
+			cancel = {
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.035
+				industrial_capacity_factory = 0.025
+			}
+		}
+		ENG_max_eff3 = {
+			allowed = { always = no }
+			picture = generic_production_bonus
+			cancel = {
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.055
+				industrial_capacity_factory = 0.055
+				consumer_goods_factor = -0.025
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		ENG_max_eff4 = {
+			allowed = { always = no }
+			picture = generic_production_bonus
+			cancel = {
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.075
+				industrial_capacity_factory = 0.075
+				consumer_goods_factor = -0.05
+				line_change_production_efficiency_factor = 0.1
+			}
+		}
+		ENG_growth = {
+			allowed = { always = no }
+			picture = generic_license_production
+			cancel = {
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		ENG_growth2 = {
+			allowed = { always = no }
+			picture = generic_license_production
+			cancel = {
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.075
+				industrial_capacity_factory = 0.025
+			}
+		}
+		ENG_growth3 = {
+			allowed = { always = no }
+			picture = generic_license_production
+			cancel = {
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				industrial_capacity_factory = 0.055
+				consumer_goods_factor = -0.025
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		ENG_growth4 = {
+			allowed = { always = no }
+			picture = generic_license_production
+			cancel = {
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				industrial_capacity_factory = 0.075
+				consumer_goods_factor = -0.05
+				line_change_production_efficiency_factor = 0.1
+			}
+		}
+		ENG_improving_conscripts_situation1 = {
+			allowed = { always = no }
+			picture = the_war_to_end_all_wars
+			cancel = {
+			}
+			modifier = {
+				conscription_factor = -0.2
+			}
+		}
+		ENG_improving_conscripts_situation2 = {
+			allowed = { always = no }
+			picture = the_war_to_end_all_wars
+			cancel = {
+			}
+			modifier = {
+				conscription_factor = -0.1
+			}
+		}
+		ENG_chamberlain_rule = {
+			allowed = { always = no }
+			picture = generic_neutrality_drift_bonus
+			cancel = {
+			}
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				industrial_capacity_factory = -0.05
+			}
+		}
+		ENG_churchill_rule = {
+			allowed = { always = no }
+			picture = generic_war_preparation
+			cancel = {
+			}
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				political_power_gain = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		ENG_industry_help = {
+			allowed = { always = no }
+			picture = ARG_civilian_economy_boost
+			cancel = {
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		ENG_war_industry_help = {
+			allowed = { always = no }
+			picture = generic_war_preparation
+			cancel = {
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		ENG_naval_industry_help = {
+			allowed = { always = no }
+			picture = NORDIC_navy_democratic
+			cancel = {
+			}
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+			}
+		}
+		ENG_usa_landleise_weak = {
+			allowed = { always = no }
+			picture = generic_goods_red_bonus
+			cancel = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		ENG_usa_landleise_strong = {
+			allowed = { always = no }
+			picture = generic_goods_red_bonus
+			cancel = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		ENG_trade = {
+			allowed = { always = no }
+			picture = yug_federal_defense_council
+			cancel = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				resource_trade_cost_bonus_per_factory = 2
+				army_defence_factor = 0.1
+			}
+		}
+		
+		ENG_maxeff = {
+			allowed = { always = no }
+			picture = generic_production_bonus
+			cancel = {
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_factory = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+    }
+}

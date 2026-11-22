@@ -34,7 +34,7 @@ mission_type_tactics = {
     # EFFECTS
     command_power_gain = 0.2
     category_all_infantry = {
-        max_organisation = 15
+        max_organisation = 10
     }
 
     
@@ -73,7 +73,7 @@ mission_type_tactics = {
         #5
         
             category_all_infantry = {
-                default_morale = 0.2
+                default_morale = 0.05
             }
             category_tanks = {
                 default_morale = 0.1
@@ -444,7 +444,7 @@ deep_battle = {
             armored_car = {
                 max_organisation = 4
             }
-            land_reinforce_rate = 0.05
+            land_reinforce_rate = 0.015
         }
         maskirovka = {
         #3
@@ -454,9 +454,9 @@ deep_battle = {
         }
         breakthrough_priority = {
         #4
-            org_loss_when_moving = -0.2
+            org_loss_when_moving = -0.1
             category_vehicle_infantry = {
-                max_organisation = 10
+                max_organisation = 5
                 default_morale = 0.1
             }
             category_tanks = {
@@ -475,8 +475,8 @@ deep_battle = {
         }
         operational_depth_control = {
         #5
-            org_loss_when_moving = -0.1
-            land_reinforce_rate = 0.05
+            org_loss_when_moving = -0.05
+            land_reinforce_rate = 0.015
             armored_car_recon = {
                 battalion_mult = {
                     category = category_light_infantry
@@ -575,9 +575,9 @@ deep_battle_no_lar = {
                 max_organisation = 4
             }
             mechanized = {
-                max_organisation = 10
+                max_organisation = 5
             }
-            land_reinforce_rate = 0.05
+            land_reinforce_rate = 0.015
         }
         maskirovka = {
         #3
@@ -589,7 +589,7 @@ deep_battle_no_lar = {
         }
         breakthrough_priority = {
         #4
-            org_loss_when_moving = -0.2
+            org_loss_when_moving = -0.1
             category_vehicle_infantry = {
                 max_organisation = 10
                 default_morale = 0.1
@@ -606,8 +606,8 @@ deep_battle_no_lar = {
         }
         operational_depth_control = {
         #5
-            org_loss_when_moving = -0.1
-            land_reinforce_rate = 0.05
+            org_loss_when_moving = -0.05
+            land_reinforce_rate = 0.015
             recon = {
                 battalion_mult = {
                     category = category_light_infantry
@@ -890,7 +890,7 @@ expeditionary_warfare = {
         }
         landing_operations = {
         #2
-            naval_invasion_prep_speed = 0.2
+            naval_invasion_prep_speed = 0.15
             naval_invasion_penalty = -0.15
             naval_invasion_planning_bonus_speed = 0.2
             category_army = {
@@ -900,7 +900,7 @@ expeditionary_warfare = {
         }
         shore_fire_control_parties = {
         #3
-            shore_bombardment_bonus = 0.25
+            shore_bombardment_bonus = 0.15
         }
         breakout_emphasis = {
         #4

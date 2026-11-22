@@ -90,6 +90,16 @@ ideas = {
                 resistance_growth = -0.02
                 
                 }
-            }    
-        }
+            }
+          ENG_gibra_defens = {
+              allowed = { always = no } 
+                modifier = {
+                air_cas_defense  = 0.50
+                }
+                targeted_modifier = {
+                    tag = GER
+                    attack_bonus_against = 0.40
+                    defense_bonus_against = 0.40
+                }
+            }
 }

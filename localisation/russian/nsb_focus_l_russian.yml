@@ -8,6 +8,8 @@
  AI_optimized: "РаКошка"
  AI_optimized2: "Дидило"
  1Game_mode: "Режим"
+ #State Modifaer
+ ENG_gibra_dynamic_modifier:0 "Оборона Гибралтара"
  #Ita
  ITA_resurs_integration:0 "Освоение балканских месторождений"
  ITA_resurs_integration_desc:0 "Освоение Югославских месторождений позволит нам увеличить добычу стратегических ресурсов и укрепить промышленность для дальнейшего ведения войны."

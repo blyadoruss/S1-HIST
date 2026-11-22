@@ -533,6 +533,7 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.04
+        special_project_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = computing_machine 
@@ -570,6 +571,7 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.05
+        special_project_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = improved_computing_machine 
@@ -622,6 +624,7 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
+        special_project_speed_factor = 0.06
 		enable_equipment_modules = {
 			stabilizer
 			bomb_sights_2
@@ -684,6 +687,7 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
+        special_project_speed_factor = 0.08
 		
 		path = {
 			leads_to_tech = advanced_encryption 

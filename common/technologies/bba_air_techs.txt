@@ -260,7 +260,7 @@ technologies = {
 		}				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 6 }
@@ -328,9 +328,6 @@ technologies = {
 			cv_small_plane_naval_bomber_airframe_3
 			cv_small_plane_suicide_airframe_3
 		}
-         allow = {
-            date > 1941.1.1
-            }
 		path = {
 			leads_to_tech = modern_small_airframe
 			research_cost_coeff = 1
@@ -342,7 +339,7 @@ technologies = {
 			}
 		}		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1945
 
 		folder = {
 			name = bba_air_techs_folder
@@ -413,9 +410,12 @@ technologies = {
 			cv_small_plane_naval_bomber_airframe_4
 			cv_small_plane_suicide_airframe_4
 		}
+        allow = {
+            date > 1940.1.1
+            }
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1946
 
 		folder = {
 			name = bba_air_techs_folder
@@ -457,6 +457,9 @@ technologies = {
 		enable_equipments = {
 			small_plane_airframe_5
 		}
+        allow = {
+            date > 1942.1.1
+            }
 		
 		research_cost = 2
 		start_year = 1950
@@ -589,7 +592,7 @@ technologies = {
 			}
 		}		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 2 y = 6 }
@@ -640,9 +643,6 @@ technologies = {
 			medium_plane_fighter_airframe_3
 			medium_plane_scout_plane_airframe_3
 		}
-         allow = {
-            date > 1941.1.1
-            }
 		
 		path = {
 			leads_to_tech = modern_medium_airframe
@@ -655,7 +655,7 @@ technologies = {
 			}
 		}
 		research_cost = 2
-		start_year = 1944
+		start_year = 1945
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 2 y = 8 }
@@ -695,12 +695,6 @@ technologies = {
 	
 	modern_medium_airframe = {
 
-		allow = { 	 		
-			ROOT = {
-				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
-		}
-
 		is_special_project_tech = yes
 
 		enable_equipments = {
@@ -708,11 +702,13 @@ technologies = {
 			medium_plane_fighter_airframe_4
 			medium_plane_scout_plane_airframe_4
             }
-        }
+             allow = {
+                date > 1940.1.1
+            }
     
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 1946
 		
 		folder = {
 			name = bba_air_techs_folder
@@ -860,7 +856,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1941
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 6 }
@@ -903,7 +899,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1945
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 8 }
@@ -949,7 +945,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 1946
 
 		folder = {
 			name = bba_air_techs_folder

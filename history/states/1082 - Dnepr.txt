@@ -1,0 +1,23 @@
+
+state={
+	id=1082
+	name="STATE_1082" # Dnipropertovsk
+	manpower = 2391047
+	
+	state_category = town
+
+	history={
+		owner = SOV
+		victory_points = {
+			11437 10 
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		472 486 453 11452 9479 9463 9433 11437 11422
+	}
+
+	local_supplies=0.0 
+}

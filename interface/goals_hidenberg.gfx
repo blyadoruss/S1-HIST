@@ -1,0 +1,47 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_uk_new_visionn"
+	texturefile = "gfx/interface/goals/hidenberg/uk_new_visionn.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_british_army"
+	texturefile = "gfx/interface/goals/hidenberg/uk_british_army.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_british_infantry"
+	texturefile = "gfx/interface/goals/hidenberg/uk_british_infantry.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_support_equip"
+	texturefile = "gfx/interface/goals/hidenberg/uk_support_equip.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_ENG_paratroopers_defence"
+	texturefile = "gfx/interface/goals/hidenberg/ENG_paratroopers_defence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_shadow_scheme"
+	texturefile = "gfx/interface/goals/hidenberg/uk_shadow_scheme.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_british_dream"
+	texturefile = "gfx/interface/goals/hidenberg/uk_british_dream.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_imperial_conference"
+	texturefile = "gfx/interface/goals/hidenberg/uk_imperial_conference.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_uk_winston_churchill"
+	texturefile = "gfx/interface/goals/hidenberg/uk_winston_churchill.dds"			
+	}
+}
