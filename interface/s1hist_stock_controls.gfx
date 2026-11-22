@@ -1,0 +1,97 @@
+spriteTypes = {
+spriteType = {
+		name = "GFX_s1hist_stock_generic_checkbox"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/generic_checkbox.dds"
+		noOfFrames = 2
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_division_designer_button"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/government_in_exile/division_designer_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+SpriteType = {
+		name = "GFX_s1hist_stock_foreign_templates_dropdown_button"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/foreign_templates_dropdown_button.dds"
+		noOfFrames = 3
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_toggle_obsolete_button"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/toggle_obsolete_button.dds"
+		noOfFrames = 2			
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_small_button_71x26"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/small_button_71x26.dds"
+	}
+SpriteType = {
+		name = "GFX_s1hist_stock_delete_template_button"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/delete_template_button.dds"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_generic_checkbox3_orange"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/division_equipment/generic_checkbox3_orange.dds"
+		noOfFrames = 2
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_button_123x34"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/button_123x34.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_button_reset_123x34"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/button_reset_123x34.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_button_221x34"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/button_221x34.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_expand_button"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/expand_button.dds"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_closebutton"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/closebutton.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_closebutton_small"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/closebutton_small.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_button_123x34_alt"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/button_123x34_alt.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_div_priority_strip"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/div_priority_strip.dds"
+		noOfFrames = 6		
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_remove_icon"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/remove_icon.dds"
+	}
+spriteType = {
+		name = "GFX_s1hist_stock_add_national_goal_button"
+		textureFile = "gfx/interface/s1hist_vanilla_controls/add_national_goal_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
+	}
+textSpriteType = {
+		name = "GFX_s1hist_stock_government_button"
+		texturefile = "gfx/interface/s1hist_vanilla_controls/government_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
